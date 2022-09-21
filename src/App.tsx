@@ -1,34 +1,19 @@
-import { useQuery, gql } from '@apollo/client';
-import './App.css'
-
-const GET_LOCATIONS = gql`
-  query GetLocations {
-    locations {
-      id
-      name
-      description
-      photo
-    }
-  }
-`;
+import { useFetchJobsQuery } from "./generated/graphql";
+import "./App.css";
 
 function App() {
-  const { loading, error, data } = useQuery(GET_LOCATIONS);
-
+  const { loading, error, data } = useFetchJobsQuery();
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error :(</p>;
 
-  return data.locations.map(({ id, name, description, photo }: any) => (
-    <div key={id}>
-      <h3>{name}</h3>
-      <img width="400" height="250" alt="location-reference" src={`${photo}`} />
-      <br />
-      <b>About this location:</b>
-      <p>{description}</p>
-      <br />
-    </div>
-  ));
+  return (
+    <>
+      {data?.jobs.edges.map(({ node }) => (
+       <p key={node.UID}>{node.Name}</p> 
+      ))}
+    </>
+  );
 }
 
-export default App
+export default App;

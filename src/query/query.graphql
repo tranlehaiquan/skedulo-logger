@@ -1,0 +1,10 @@
+query fetchJobs($filter: EQLQueryFilterJobs) {
+  jobs(filter: $filter, orderBy: "CreatedDate DESC") {
+    edges {
+      node {
+        UID
+        Name
+      }
+    }
+  }
+}
