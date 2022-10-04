@@ -1,18 +1,18 @@
-import { useFetchJobsQuery } from "./generated/graphql";
-import "./App.css";
+import { useState } from "react";
+
+import Aside from "./Components/Aside/Aside";
+import Monitor from "./Components/Monitor";
 
 function App() {
-  const { loading, error, data } = useFetchJobsQuery();
-
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error :(</p>;
+  const [selectedMonitor, setSelectedMonitor] = useState("");
 
   return (
-    <>
-      {data?.jobs.edges.map(({ node }) => (
-       <p key={node.UID}>{node.Name}</p> 
-      ))}
-    </>
+    <div className="min-h-screen">
+      <div className="min-h-screen flex p-2">
+        <Aside className="w-80 p-4" onSelect={setSelectedMonitor} />
+        {selectedMonitor && <Monitor monitorId={selectedMonitor} />}
+      </div>
+    </div>
   );
 }
 

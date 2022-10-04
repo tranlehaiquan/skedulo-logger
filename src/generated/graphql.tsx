@@ -24,7 +24,9 @@ export type Scalars = {
   EQLOrderByClauseAccounts: any;
   EQLOrderByClauseActivities: any;
   EQLOrderByClauseActivityResources: any;
-  EQLOrderByClauseAdminSetting: any;
+  EQLOrderByClauseArcadeGames: any;
+  EQLOrderByClauseAttendee: any;
+  EQLOrderByClauseAttendee1: any;
   EQLOrderByClauseAttendees: any;
   EQLOrderByClauseAvailabilities: any;
   EQLOrderByClauseAvailabilityPatternResources: any;
@@ -32,14 +34,13 @@ export type Scalars = {
   EQLOrderByClauseAvailabilityTemplateEntries: any;
   EQLOrderByClauseAvailabilityTemplateResources: any;
   EQLOrderByClauseAvailabilityTemplates: any;
-  EQLOrderByClauseClientAuthorization: any;
-  EQLOrderByClauseClientAuthorizationServices: any;
+  EQLOrderByClauseClass: any;
   EQLOrderByClauseClientAvailabilities: any;
-  EQLOrderByClauseClientAvailabilityTemplate: any;
   EQLOrderByClauseContactTags: any;
   EQLOrderByClauseContacts: any;
-  EQLOrderByClauseExceptionRecord: any;
-  EQLOrderByClauseExceptionType: any;
+  EQLOrderByClauseDefaultAutoOffer: any;
+  EQLOrderByClauseGroupEvent: any;
+  EQLOrderByClauseGroupEvent1: any;
   EQLOrderByClauseHolidayRegions: any;
   EQLOrderByClauseHolidays: any;
   EQLOrderByClauseJobAllocations: any;
@@ -53,7 +54,14 @@ export type Scalars = {
   EQLOrderByClauseLocationResourceScores: any;
   EQLOrderByClauseLocations: any;
   EQLOrderByClauseLogger: any;
+  EQLOrderByClauseMonitorLogs: any;
+  EQLOrderByClauseMonitors: any;
+  EQLOrderByClausePatients: any;
   EQLOrderByClauseProducts: any;
+  EQLOrderByClauseProjects: any;
+  EQLOrderByClausePublicPageSetting: any;
+  EQLOrderByClausePublicPageTemplate: any;
+  EQLOrderByClausePublicSchedule: any;
   EQLOrderByClauseRecurringSchedules: any;
   EQLOrderByClauseRegions: any;
   EQLOrderByClauseResourceJobOffers: any;
@@ -72,7 +80,6 @@ export type Scalars = {
   EQLOrderByClauseShiftOffers: any;
   EQLOrderByClauseShiftTags: any;
   EQLOrderByClauseShifts: any;
-  EQLOrderByClauseStarterTest: any;
   EQLOrderByClauseTagManagerSettings: any;
   EQLOrderByClauseTagRequest: any;
   EQLOrderByClauseTags: any;
@@ -91,18 +98,24 @@ export type Scalars = {
   EQLOrderByClauseTemplatedResourceShifts: any;
   EQLOrderByClauseTemplatedShiftTags: any;
   EQLOrderByClauseTemplatedShifts: any;
+  EQLOrderByClauseTestPerObj: any;
+  EQLOrderByClauseTestPerObject2: any;
+  EQLOrderByClauseTimesheet: any;
+  EQLOrderByClauseTimesheetEntry: any;
+  EQLOrderByClauseTraining: any;
+  EQLOrderByClauseTuanTest: any;
   EQLOrderByClauseUserRegions: any;
-  EQLOrderByClauseUser_Ext: any;
   EQLOrderByClauseUsers: any;
-  EQLOrderByClauseclientAvailabilityTemplateEntry: any;
-  EQLOrderByClausesked_BroadcastRecipients: any;
-  EQLOrderByClausesked_Broadcasts: any;
+  EQLOrderByClauseVendorTag: any;
+  EQLOrderByClauseVendors: any;
   EQLQueryFilterAccountResourceScores: any;
   EQLQueryFilterAccountTags: any;
   EQLQueryFilterAccounts: any;
   EQLQueryFilterActivities: any;
   EQLQueryFilterActivityResources: any;
-  EQLQueryFilterAdminSetting: any;
+  EQLQueryFilterArcadeGames: any;
+  EQLQueryFilterAttendee: any;
+  EQLQueryFilterAttendee1: any;
   EQLQueryFilterAttendees: any;
   EQLQueryFilterAvailabilities: any;
   EQLQueryFilterAvailabilityPatternResources: any;
@@ -110,14 +123,13 @@ export type Scalars = {
   EQLQueryFilterAvailabilityTemplateEntries: any;
   EQLQueryFilterAvailabilityTemplateResources: any;
   EQLQueryFilterAvailabilityTemplates: any;
-  EQLQueryFilterClientAuthorization: any;
-  EQLQueryFilterClientAuthorizationServices: any;
+  EQLQueryFilterClass: any;
   EQLQueryFilterClientAvailabilities: any;
-  EQLQueryFilterClientAvailabilityTemplate: any;
   EQLQueryFilterContactTags: any;
   EQLQueryFilterContacts: any;
-  EQLQueryFilterExceptionRecord: any;
-  EQLQueryFilterExceptionType: any;
+  EQLQueryFilterDefaultAutoOffer: any;
+  EQLQueryFilterGroupEvent: any;
+  EQLQueryFilterGroupEvent1: any;
   EQLQueryFilterHolidayRegions: any;
   EQLQueryFilterHolidays: any;
   EQLQueryFilterJobAllocations: any;
@@ -131,7 +143,14 @@ export type Scalars = {
   EQLQueryFilterLocationResourceScores: any;
   EQLQueryFilterLocations: any;
   EQLQueryFilterLogger: any;
+  EQLQueryFilterMonitorLogs: any;
+  EQLQueryFilterMonitors: any;
+  EQLQueryFilterPatients: any;
   EQLQueryFilterProducts: any;
+  EQLQueryFilterProjects: any;
+  EQLQueryFilterPublicPageSetting: any;
+  EQLQueryFilterPublicPageTemplate: any;
+  EQLQueryFilterPublicSchedule: any;
   EQLQueryFilterRecurringSchedules: any;
   EQLQueryFilterRegions: any;
   EQLQueryFilterResourceJobOffers: any;
@@ -150,7 +169,6 @@ export type Scalars = {
   EQLQueryFilterShiftOffers: any;
   EQLQueryFilterShiftTags: any;
   EQLQueryFilterShifts: any;
-  EQLQueryFilterStarterTest: any;
   EQLQueryFilterTagManagerSettings: any;
   EQLQueryFilterTagRequest: any;
   EQLQueryFilterTags: any;
@@ -169,168 +187,38 @@ export type Scalars = {
   EQLQueryFilterTemplatedResourceShifts: any;
   EQLQueryFilterTemplatedShiftTags: any;
   EQLQueryFilterTemplatedShifts: any;
+  EQLQueryFilterTestPerObj: any;
+  EQLQueryFilterTestPerObject2: any;
+  EQLQueryFilterTimesheet: any;
+  EQLQueryFilterTimesheetEntry: any;
+  EQLQueryFilterTraining: any;
+  EQLQueryFilterTuanTest: any;
   EQLQueryFilterUserRegions: any;
-  EQLQueryFilterUser_Ext: any;
   EQLQueryFilterUsers: any;
-  EQLQueryFilterclientAvailabilityTemplateEntry: any;
-  EQLQueryFiltersked_BroadcastRecipients: any;
-  EQLQueryFiltersked_Broadcasts: any;
-  EQLRecordChangeFilterAccountResourceScores: any;
-  EQLRecordChangeFilterAccountTags: any;
+  EQLQueryFilterVendorTag: any;
+  EQLQueryFilterVendors: any;
   EQLRecordChangeFilterAccounts: any;
   EQLRecordChangeFilterActivities: any;
-  EQLRecordChangeFilterActivityResources: any;
-  EQLRecordChangeFilterAdminSetting: any;
-  EQLRecordChangeFilterAttendees: any;
   EQLRecordChangeFilterAvailabilities: any;
-  EQLRecordChangeFilterAvailabilityPatternResources: any;
-  EQLRecordChangeFilterAvailabilityPatterns: any;
-  EQLRecordChangeFilterAvailabilityTemplateEntries: any;
-  EQLRecordChangeFilterAvailabilityTemplateResources: any;
-  EQLRecordChangeFilterAvailabilityTemplates: any;
-  EQLRecordChangeFilterClientAuthorization: any;
-  EQLRecordChangeFilterClientAuthorizationServices: any;
-  EQLRecordChangeFilterClientAvailabilities: any;
-  EQLRecordChangeFilterClientAvailabilityTemplate: any;
-  EQLRecordChangeFilterContactTags: any;
   EQLRecordChangeFilterContacts: any;
-  EQLRecordChangeFilterExceptionRecord: any;
-  EQLRecordChangeFilterExceptionType: any;
-  EQLRecordChangeFilterHolidayRegions: any;
-  EQLRecordChangeFilterHolidays: any;
   EQLRecordChangeFilterJobAllocations: any;
-  EQLRecordChangeFilterJobDependencies: any;
-  EQLRecordChangeFilterJobOffers: any;
-  EQLRecordChangeFilterJobProducts: any;
-  EQLRecordChangeFilterJobTags: any;
-  EQLRecordChangeFilterJobTasks: any;
-  EQLRecordChangeFilterJobTimeConstraints: any;
   EQLRecordChangeFilterJobs: any;
-  EQLRecordChangeFilterLocationResourceScores: any;
-  EQLRecordChangeFilterLocations: any;
-  EQLRecordChangeFilterLogger: any;
-  EQLRecordChangeFilterProducts: any;
-  EQLRecordChangeFilterRecurringSchedules: any;
-  EQLRecordChangeFilterRegions: any;
-  EQLRecordChangeFilterResourceJobOffers: any;
-  EQLRecordChangeFilterResourceOverrideRegions: any;
-  EQLRecordChangeFilterResourceOverrides: any;
-  EQLRecordChangeFilterResourceRegions: any;
-  EQLRecordChangeFilterResourceRequirementTags: any;
-  EQLRecordChangeFilterResourceRequirements: any;
-  EQLRecordChangeFilterResourceShiftBreaks: any;
-  EQLRecordChangeFilterResourceShiftOffers: any;
-  EQLRecordChangeFilterResourceShifts: any;
-  EQLRecordChangeFilterResourceTags: any;
-  EQLRecordChangeFilterResources: any;
-  EQLRecordChangeFilterScheduleTemplates: any;
-  EQLRecordChangeFilterShiftOfferShifts: any;
-  EQLRecordChangeFilterShiftOffers: any;
-  EQLRecordChangeFilterShiftTags: any;
+  EQLRecordChangeFilterMonitorLogs: any;
   EQLRecordChangeFilterShifts: any;
-  EQLRecordChangeFilterStarterTest: any;
   EQLRecordChangeFilterTagManagerSettings: any;
-  EQLRecordChangeFilterTagRequest: any;
-  EQLRecordChangeFilterTags: any;
-  EQLRecordChangeFilterTemplatedActivities: any;
-  EQLRecordChangeFilterTemplatedActivityResources: any;
-  EQLRecordChangeFilterTemplatedAttendees: any;
-  EQLRecordChangeFilterTemplatedJobAllocations: any;
-  EQLRecordChangeFilterTemplatedJobDependencies: any;
-  EQLRecordChangeFilterTemplatedJobProducts: any;
-  EQLRecordChangeFilterTemplatedJobTags: any;
-  EQLRecordChangeFilterTemplatedJobTasks: any;
-  EQLRecordChangeFilterTemplatedJobTimeConstraints: any;
-  EQLRecordChangeFilterTemplatedJobs: any;
-  EQLRecordChangeFilterTemplatedResourceRequirementTags: any;
-  EQLRecordChangeFilterTemplatedResourceRequirements: any;
-  EQLRecordChangeFilterTemplatedResourceShifts: any;
-  EQLRecordChangeFilterTemplatedShiftTags: any;
-  EQLRecordChangeFilterTemplatedShifts: any;
-  EQLRecordChangeFilterUserRegions: any;
-  EQLRecordChangeFilterUser_Ext: any;
-  EQLRecordChangeFilterUsers: any;
-  EQLRecordChangeFilterclientAvailabilityTemplateEntry: any;
-  EQLRecordChangeFiltersked_BroadcastRecipients: any;
-  EQLRecordChangeFiltersked_Broadcasts: any;
-  EQLRecordFilterAccountResourceScores: any;
-  EQLRecordFilterAccountTags: any;
+  EQLRecordChangeFilterTimesheet: any;
+  EQLRecordChangeFilterTimesheetEntry: any;
   EQLRecordFilterAccounts: any;
   EQLRecordFilterActivities: any;
-  EQLRecordFilterActivityResources: any;
-  EQLRecordFilterAdminSetting: any;
-  EQLRecordFilterAttendees: any;
   EQLRecordFilterAvailabilities: any;
-  EQLRecordFilterAvailabilityPatternResources: any;
-  EQLRecordFilterAvailabilityPatterns: any;
-  EQLRecordFilterAvailabilityTemplateEntries: any;
-  EQLRecordFilterAvailabilityTemplateResources: any;
-  EQLRecordFilterAvailabilityTemplates: any;
-  EQLRecordFilterClientAuthorization: any;
-  EQLRecordFilterClientAuthorizationServices: any;
-  EQLRecordFilterClientAvailabilities: any;
-  EQLRecordFilterClientAvailabilityTemplate: any;
-  EQLRecordFilterContactTags: any;
   EQLRecordFilterContacts: any;
-  EQLRecordFilterExceptionRecord: any;
-  EQLRecordFilterExceptionType: any;
-  EQLRecordFilterHolidayRegions: any;
-  EQLRecordFilterHolidays: any;
   EQLRecordFilterJobAllocations: any;
-  EQLRecordFilterJobDependencies: any;
-  EQLRecordFilterJobOffers: any;
-  EQLRecordFilterJobProducts: any;
-  EQLRecordFilterJobTags: any;
-  EQLRecordFilterJobTasks: any;
-  EQLRecordFilterJobTimeConstraints: any;
   EQLRecordFilterJobs: any;
-  EQLRecordFilterLocationResourceScores: any;
-  EQLRecordFilterLocations: any;
-  EQLRecordFilterLogger: any;
-  EQLRecordFilterProducts: any;
-  EQLRecordFilterRecurringSchedules: any;
-  EQLRecordFilterRegions: any;
-  EQLRecordFilterResourceJobOffers: any;
-  EQLRecordFilterResourceOverrideRegions: any;
-  EQLRecordFilterResourceOverrides: any;
-  EQLRecordFilterResourceRegions: any;
-  EQLRecordFilterResourceRequirementTags: any;
-  EQLRecordFilterResourceRequirements: any;
-  EQLRecordFilterResourceShiftBreaks: any;
-  EQLRecordFilterResourceShiftOffers: any;
-  EQLRecordFilterResourceShifts: any;
-  EQLRecordFilterResourceTags: any;
-  EQLRecordFilterResources: any;
-  EQLRecordFilterScheduleTemplates: any;
-  EQLRecordFilterShiftOfferShifts: any;
-  EQLRecordFilterShiftOffers: any;
-  EQLRecordFilterShiftTags: any;
+  EQLRecordFilterMonitorLogs: any;
   EQLRecordFilterShifts: any;
-  EQLRecordFilterStarterTest: any;
   EQLRecordFilterTagManagerSettings: any;
-  EQLRecordFilterTagRequest: any;
-  EQLRecordFilterTags: any;
-  EQLRecordFilterTemplatedActivities: any;
-  EQLRecordFilterTemplatedActivityResources: any;
-  EQLRecordFilterTemplatedAttendees: any;
-  EQLRecordFilterTemplatedJobAllocations: any;
-  EQLRecordFilterTemplatedJobDependencies: any;
-  EQLRecordFilterTemplatedJobProducts: any;
-  EQLRecordFilterTemplatedJobTags: any;
-  EQLRecordFilterTemplatedJobTasks: any;
-  EQLRecordFilterTemplatedJobTimeConstraints: any;
-  EQLRecordFilterTemplatedJobs: any;
-  EQLRecordFilterTemplatedResourceRequirementTags: any;
-  EQLRecordFilterTemplatedResourceRequirements: any;
-  EQLRecordFilterTemplatedResourceShifts: any;
-  EQLRecordFilterTemplatedShiftTags: any;
-  EQLRecordFilterTemplatedShifts: any;
-  EQLRecordFilterUserRegions: any;
-  EQLRecordFilterUser_Ext: any;
-  EQLRecordFilterUsers: any;
-  EQLRecordFilterclientAvailabilityTemplateEntry: any;
-  EQLRecordFiltersked_BroadcastRecipients: any;
-  EQLRecordFiltersked_Broadcasts: any;
+  EQLRecordFilterTimesheet: any;
+  EQLRecordFilterTimesheetEntry: any;
   Instant: any;
   JobAllocationStatus: any;
   JobDependencyAnchor: any;
@@ -412,64 +300,31 @@ export type AccountTagsEdge = {
 
 export type Accounts = {
   __typename?: 'Accounts';
-  AC?: Maybe<Users>;
-  ACId?: Maybe<Scalars['ID']>;
-  AVP?: Maybe<Users>;
-  AVPId?: Maybe<Scalars['ID']>;
-  ActiveFromDate?: Maybe<Scalars['LocalDate']>;
-  ActiveThruDate?: Maybe<Scalars['LocalDate']>;
-  ActualStartOfCareDate?: Maybe<Scalars['LocalDate']>;
   Availabilities: Array<ClientAvailabilities>;
   BillingCity?: Maybe<Scalars['String']>;
   BillingPostalCode?: Maybe<Scalars['String']>;
   BillingState?: Maybe<Scalars['String']>;
   BillingStreet?: Maybe<Scalars['String']>;
-  CaseID?: Maybe<Scalars['String']>;
-  CaseProgressionStatus?: Maybe<Scalars['String']>;
   Contacts: Array<Contacts>;
   CreatedBy: Users;
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
-  DateOfBirth?: Maybe<Scalars['LocalDate']>;
-  DefaultLocation?: Maybe<Locations>;
-  DefaultLocationId?: Maybe<Scalars['ID']>;
-  DischargeDate?: Maybe<Scalars['Instant']>;
-  Division?: Maybe<Scalars['String']>;
-  ExternalClientID?: Maybe<Scalars['String']>;
-  FSM?: Maybe<Users>;
-  FSMId?: Maybe<Scalars['ID']>;
   Fax?: Maybe<Scalars['String']>;
-  Gender?: Maybe<Scalars['String']>;
-  HoldDate?: Maybe<Scalars['LocalDate']>;
   Jobs: Array<Jobs>;
   LastModifiedBy: Users;
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
+  Level?: Maybe<Scalars['String']>;
   Locations: Array<Locations>;
-  MRNumber?: Maybe<Scalars['String']>;
   Name: Scalars['String'];
-  NeedToRecalculateJobsLocation: Scalars['Boolean'];
-  OD?: Maybe<Users>;
-  ODId?: Maybe<Scalars['ID']>;
-  PayerLabel?: Maybe<Scalars['String']>;
   Phone?: Maybe<Scalars['String']>;
-  PlannedStartOfCareDate?: Maybe<Scalars['LocalDate']>;
-  PreferredTechnician?: Maybe<Scalars['String']>;
-  RCD?: Maybe<Users>;
-  RCDId?: Maybe<Scalars['ID']>;
-  Rank?: Maybe<Scalars['BigDecimal']>;
-  Region?: Maybe<Regions>;
-  RegionId?: Maybe<Scalars['ID']>;
+  Rank?: Maybe<Scalars['Int']>;
   RequiresWhitelist: Scalars['Boolean'];
   ResourceScores: Array<AccountResourceScores>;
-  ResumeServiceDate?: Maybe<Scalars['LocalDate']>;
-  SC?: Maybe<Users>;
-  SCId?: Maybe<Scalars['ID']>;
   ShippingCity?: Maybe<Scalars['String']>;
   ShippingPostalCode?: Maybe<Scalars['String']>;
   ShippingState?: Maybe<Scalars['String']>;
   ShippingStreet?: Maybe<Scalars['String']>;
-  Status?: Maybe<Scalars['String']>;
   Tags: Array<AccountTags>;
   UID: Scalars['ID'];
 };
@@ -552,6 +407,7 @@ export type Activities = {
   TemplatedActivity?: Maybe<TemplatedActivities>;
   TemplatedActivityId?: Maybe<Scalars['ID']>;
   Timezone?: Maybe<Scalars['String']>;
+  TuanTest?: Maybe<Scalars['String']>;
   Type?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
 };
@@ -605,31 +461,87 @@ export type ActivityResourcesEdge = {
   offset: Scalars['Int'];
 };
 
-export type AdminSetting = {
-  __typename?: 'AdminSetting';
-  AllDayEndTime?: Maybe<Scalars['String']>;
-  AllDayStartTime?: Maybe<Scalars['String']>;
+export type ArcadeGames = {
+  __typename?: 'ArcadeGames';
   CreatedBy: Users;
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
   LastModifiedBy: Users;
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
-  ReadOnlyAvailabilityForm?: Maybe<Scalars['Boolean']>;
   UID: Scalars['ID'];
+  active: Scalars['Boolean'];
+  type?: Maybe<Scalars['String']>;
+  verbiage?: Maybe<Scalars['String']>;
 };
 
-export type AdminSettingConnection = {
-  __typename?: 'AdminSettingConnection';
-  edges: Array<AdminSettingEdge>;
+export type ArcadeGamesConnection = {
+  __typename?: 'ArcadeGamesConnection';
+  edges: Array<ArcadeGamesEdge>;
   pageInfo: PageInfo;
   totalCount: Scalars['Int'];
 };
 
-export type AdminSettingEdge = {
-  __typename?: 'AdminSettingEdge';
+export type ArcadeGamesEdge = {
+  __typename?: 'ArcadeGamesEdge';
   cursor: Scalars['Base64'];
-  node: AdminSetting;
+  node: ArcadeGames;
+  offset: Scalars['Int'];
+};
+
+export type Attendee = {
+  __typename?: 'Attendee';
+  CreatedBy: Users;
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  GroupEvent?: Maybe<GroupEvent1>;
+  GroupEventId?: Maybe<Scalars['ID']>;
+  LastModifiedBy: Users;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  TestAttendee?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type Attendee1 = {
+  __typename?: 'Attendee1';
+  CreatedBy: Users;
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  GroupEvent?: Maybe<GroupEvent>;
+  GroupEventId?: Maybe<Scalars['ID']>;
+  LastModifiedBy: Users;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  Name?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type Attendee1Connection = {
+  __typename?: 'Attendee1Connection';
+  edges: Array<Attendee1Edge>;
+  pageInfo: PageInfo;
+  totalCount: Scalars['Int'];
+};
+
+export type Attendee1Edge = {
+  __typename?: 'Attendee1Edge';
+  cursor: Scalars['Base64'];
+  node: Attendee1;
+  offset: Scalars['Int'];
+};
+
+export type AttendeeConnection = {
+  __typename?: 'AttendeeConnection';
+  edges: Array<AttendeeEdge>;
+  pageInfo: PageInfo;
+  totalCount: Scalars['Int'];
+};
+
+export type AttendeeEdge = {
+  __typename?: 'AttendeeEdge';
+  cursor: Scalars['Base64'];
+  node: Attendee;
   offset: Scalars['Int'];
 };
 
@@ -709,7 +621,6 @@ export type AvailabilityPatternResources = {
   LastModifiedBy: Users;
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
-  RepeatEvery?: Maybe<Scalars['String']>;
   Resource: Resources;
   ResourceId: Scalars['ID'];
   Start: Scalars['Instant'];
@@ -842,7 +753,6 @@ export type AvailabilityTemplates = {
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
   Name: Scalars['String'];
-  RepeatEvery?: Maybe<Scalars['String']>;
   Resources: Array<AvailabilityTemplateResources>;
   Start?: Maybe<Scalars['LocalDate']>;
   UID: Scalars['ID'];
@@ -874,87 +784,30 @@ export type AvailabilityTemplatesEdge = {
   offset: Scalars['Int'];
 };
 
-export type ClientAuthorization = {
-  __typename?: 'ClientAuthorization';
-  Account?: Maybe<Accounts>;
-  AccountId?: Maybe<Scalars['ID']>;
-  AuthorizationEffectiveDate?: Maybe<Scalars['LocalDate']>;
-  AuthorizationExpirationDate?: Maybe<Scalars['LocalDate']>;
-  AuthorizationNotes?: Maybe<Scalars['String']>;
-  AuthorizationStatus?: Maybe<Scalars['String']>;
-  CaseProgressionStatus?: Maybe<Scalars['String']>;
+export type Class = {
+  __typename?: 'Class';
   CreatedBy: Users;
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
-  DummyTestingField?: Maybe<Scalars['BigDecimal']>;
-  ExternalID?: Maybe<Scalars['String']>;
-  Jobs: Array<Jobs>;
   LastModifiedBy: Users;
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
   Name?: Maybe<Scalars['String']>;
-  Region?: Maybe<Regions>;
-  RegionId?: Maybe<Scalars['ID']>;
-  TotalAuthorizedHours?: Maybe<Scalars['BigDecimal']>;
-  TotalScheduledAuthorizedHours?: Maybe<Scalars['BigDecimal']>;
-  TotalUsedAuthorizedHours?: Maybe<Scalars['BigDecimal']>;
   UID: Scalars['ID'];
+  isActive: Scalars['Boolean'];
 };
 
-
-export type ClientAuthorizationJobsArgs = {
-  filter?: InputMaybe<Scalars['EQLQueryFilterJobs']>;
-  orderBy?: InputMaybe<Scalars['EQLOrderByClauseJobs']>;
-};
-
-export type ClientAuthorizationConnection = {
-  __typename?: 'ClientAuthorizationConnection';
-  edges: Array<ClientAuthorizationEdge>;
+export type ClassConnection = {
+  __typename?: 'ClassConnection';
+  edges: Array<ClassEdge>;
   pageInfo: PageInfo;
   totalCount: Scalars['Int'];
 };
 
-export type ClientAuthorizationEdge = {
-  __typename?: 'ClientAuthorizationEdge';
+export type ClassEdge = {
+  __typename?: 'ClassEdge';
   cursor: Scalars['Base64'];
-  node: ClientAuthorization;
-  offset: Scalars['Int'];
-};
-
-export type ClientAuthorizationServices = {
-  __typename?: 'ClientAuthorizationServices';
-  AuthorizedHoursPerWeek?: Maybe<Scalars['BigDecimal']>;
-  ClientAuthorization?: Maybe<ClientAuthorization>;
-  ClientAuthorizationId?: Maybe<Scalars['ID']>;
-  CreatedBy: Users;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  DummyField?: Maybe<Scalars['BigDecimal']>;
-  ExternalID?: Maybe<Scalars['String']>;
-  FamilyAgreedUpon?: Maybe<Scalars['BigDecimal']>;
-  HoursRemainingAfterChargeCreation?: Maybe<Scalars['BigDecimal']>;
-  LastModifiedBy: Users;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Name?: Maybe<Scalars['String']>;
-  ServiceType?: Maybe<Scalars['String']>;
-  TotalAuthorizedServiceHours?: Maybe<Scalars['BigDecimal']>;
-  TotalScheduledServiceHours?: Maybe<Scalars['BigDecimal']>;
-  TotalUsedServiceHours?: Maybe<Scalars['BigDecimal']>;
-  UID: Scalars['ID'];
-};
-
-export type ClientAuthorizationServicesConnection = {
-  __typename?: 'ClientAuthorizationServicesConnection';
-  edges: Array<ClientAuthorizationServicesEdge>;
-  pageInfo: PageInfo;
-  totalCount: Scalars['Int'];
-};
-
-export type ClientAuthorizationServicesEdge = {
-  __typename?: 'ClientAuthorizationServicesEdge';
-  cursor: Scalars['Base64'];
-  node: ClientAuthorizationServices;
+  node: Class;
   offset: Scalars['Int'];
 };
 
@@ -991,57 +844,6 @@ export type ClientAvailabilitiesEdge = {
   __typename?: 'ClientAvailabilitiesEdge';
   cursor: Scalars['Base64'];
   node: ClientAvailabilities;
-  offset: Scalars['Int'];
-};
-
-export type ClientAvailabilityTemplate = {
-  __typename?: 'ClientAvailabilityTemplate';
-  Account?: Maybe<Accounts>;
-  AccountId?: Maybe<Scalars['ID']>;
-  AdjustmentType?: Maybe<Scalars['String']>;
-  AllDay: Scalars['Boolean'];
-  CreatedBy: Users;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  DatesOfMonth?: Maybe<Array<Scalars['String']>>;
-  DaysOfMonth?: Maybe<Array<Scalars['String']>>;
-  DaysOfWeek?: Maybe<Scalars['String']>;
-  DaysOfYear?: Maybe<Scalars['String']>;
-  EndDate?: Maybe<Scalars['LocalDate']>;
-  EndTime?: Maybe<Scalars['LocalTime']>;
-  Entries: Array<ClientAvailabilityTemplateEntry>;
-  Label?: Maybe<Scalars['String']>;
-  LastModifiedBy: Users;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Location?: Maybe<Locations>;
-  LocationId?: Maybe<Scalars['ID']>;
-  MonthsOfYear?: Maybe<Array<Scalars['String']>>;
-  Note?: Maybe<Scalars['String']>;
-  Pattern?: Maybe<Scalars['String']>;
-  StartDate?: Maybe<Scalars['LocalDate']>;
-  StartTime?: Maybe<Scalars['LocalTime']>;
-  Type?: Maybe<Scalars['String']>;
-  UID: Scalars['ID'];
-};
-
-
-export type ClientAvailabilityTemplateEntriesArgs = {
-  filter?: InputMaybe<Scalars['EQLQueryFilterclientAvailabilityTemplateEntry']>;
-  orderBy?: InputMaybe<Scalars['EQLOrderByClauseclientAvailabilityTemplateEntry']>;
-};
-
-export type ClientAvailabilityTemplateConnection = {
-  __typename?: 'ClientAvailabilityTemplateConnection';
-  edges: Array<ClientAvailabilityTemplateEdge>;
-  pageInfo: PageInfo;
-  totalCount: Scalars['Int'];
-};
-
-export type ClientAvailabilityTemplateEdge = {
-  __typename?: 'ClientAvailabilityTemplateEdge';
-  cursor: Scalars['Base64'];
-  node: ClientAvailabilityTemplate;
   offset: Scalars['Int'];
 };
 
@@ -1105,6 +907,7 @@ export type Contacts = {
   RegionId?: Maybe<Scalars['ID']>;
   Tags: Array<ContactTags>;
   Title?: Maybe<Scalars['String']>;
+  TuanTest?: Maybe<Scalars['BigDecimal']>;
   UID: Scalars['ID'];
 };
 
@@ -1134,46 +937,17 @@ export type ContactsEdge = {
   offset: Scalars['Int'];
 };
 
-export type ExceptionRecord = {
-  __typename?: 'ExceptionRecord';
+export type DefaultAutoOffer = {
+  __typename?: 'DefaultAutoOffer';
+  AutoOffer?: Maybe<Scalars['String']>;
+  AutoOfferOffset?: Maybe<Scalars['BigDecimal']>;
+  AutoOfferRespectJobRegion: Scalars['Boolean'];
+  AutoOfferRespectJobTags: Scalars['Boolean'];
+  AutoOfferRespectPreviousOfferStatus: Scalars['Boolean'];
+  AutoOfferRespectResourceAvailability: Scalars['Boolean'];
   CreatedBy: Users;
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
-  ExceptionId?: Maybe<Scalars['String']>;
-  LastModifiedBy: Users;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  RuleId?: Maybe<Scalars['String']>;
-  SourceId?: Maybe<Scalars['String']>;
-  SourceType?: Maybe<Scalars['String']>;
-  TargetId?: Maybe<Scalars['String']>;
-  TargetType?: Maybe<Scalars['String']>;
-  UID: Scalars['ID'];
-};
-
-export type ExceptionRecordConnection = {
-  __typename?: 'ExceptionRecordConnection';
-  edges: Array<ExceptionRecordEdge>;
-  pageInfo: PageInfo;
-  totalCount: Scalars['Int'];
-};
-
-export type ExceptionRecordEdge = {
-  __typename?: 'ExceptionRecordEdge';
-  cursor: Scalars['Base64'];
-  node: ExceptionRecord;
-  offset: Scalars['Int'];
-};
-
-export type ExceptionType = {
-  __typename?: 'ExceptionType';
-  CreatedBy: Users;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  Description?: Maybe<Scalars['String']>;
-  DescriptionTwo?: Maybe<Scalars['String']>;
-  ExceptionType: Scalars['String'];
-  ExceptionType2: Scalars['String'];
   LastModifiedBy: Users;
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
@@ -1181,17 +955,87 @@ export type ExceptionType = {
   UID: Scalars['ID'];
 };
 
-export type ExceptionTypeConnection = {
-  __typename?: 'ExceptionTypeConnection';
-  edges: Array<ExceptionTypeEdge>;
+export type DefaultAutoOfferConnection = {
+  __typename?: 'DefaultAutoOfferConnection';
+  edges: Array<DefaultAutoOfferEdge>;
   pageInfo: PageInfo;
   totalCount: Scalars['Int'];
 };
 
-export type ExceptionTypeEdge = {
-  __typename?: 'ExceptionTypeEdge';
+export type DefaultAutoOfferEdge = {
+  __typename?: 'DefaultAutoOfferEdge';
   cursor: Scalars['Base64'];
-  node: ExceptionType;
+  node: DefaultAutoOffer;
+  offset: Scalars['Int'];
+};
+
+export type GroupEvent = {
+  __typename?: 'GroupEvent';
+  CreatedBy: Users;
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  GroupEvent: Array<Attendee1>;
+  Job?: Maybe<Jobs>;
+  JobId?: Maybe<Scalars['ID']>;
+  LastModifiedBy: Users;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  Name?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+
+export type GroupEventGroupEventArgs = {
+  filter?: InputMaybe<Scalars['EQLQueryFilterAttendee1']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseAttendee1']>;
+};
+
+export type GroupEvent1 = {
+  __typename?: 'GroupEvent1';
+  CreatedBy: Users;
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  GroupEvent: Array<Attendee>;
+  Job?: Maybe<GroupEvent1>;
+  JobId?: Maybe<Scalars['ID']>;
+  LastModifiedBy: Users;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  UID: Scalars['ID'];
+  name?: Maybe<Scalars['String']>;
+};
+
+
+export type GroupEvent1GroupEventArgs = {
+  filter?: InputMaybe<Scalars['EQLQueryFilterAttendee']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseAttendee']>;
+};
+
+export type GroupEvent1Connection = {
+  __typename?: 'GroupEvent1Connection';
+  edges: Array<GroupEvent1Edge>;
+  pageInfo: PageInfo;
+  totalCount: Scalars['Int'];
+};
+
+export type GroupEvent1Edge = {
+  __typename?: 'GroupEvent1Edge';
+  cursor: Scalars['Base64'];
+  node: GroupEvent1;
+  offset: Scalars['Int'];
+};
+
+export type GroupEventConnection = {
+  __typename?: 'GroupEventConnection';
+  edges: Array<GroupEventEdge>;
+  pageInfo: PageInfo;
+  totalCount: Scalars['Int'];
+};
+
+export type GroupEventEdge = {
+  __typename?: 'GroupEventEdge';
+  cursor: Scalars['Base64'];
+  node: GroupEvent;
   offset: Scalars['Int'];
 };
 
@@ -1525,15 +1369,17 @@ export type Jobs = {
   ActualStart?: Maybe<Scalars['Instant']>;
   Address?: Maybe<Scalars['String']>;
   Attendees: Array<Attendees>;
-  AuthorizationService?: Maybe<ClientAuthorizationServices>;
-  AuthorizationServiceId?: Maybe<Scalars['ID']>;
-  AuthorizedHoursPerWeek?: Maybe<Scalars['BigDecimal']>;
+  AutoOffer?: Maybe<Scalars['String']>;
+  AutoOfferDate?: Maybe<Scalars['String']>;
+  AutoOfferOffset?: Maybe<Scalars['BigDecimal']>;
+  AutoOfferRespectJobRegion: Scalars['Boolean'];
+  AutoOfferRespectJobTags: Scalars['Boolean'];
+  AutoOfferRespectPreviousOfferStatus: Scalars['Boolean'];
+  AutoOfferRespectResourceAvailability: Scalars['Boolean'];
   AutoSchedule: Scalars['Boolean'];
   CanBeDeclined: Scalars['Boolean'];
-  ClearOfExceptions: Scalars['Boolean'];
-  ClientAuthorization?: Maybe<ClientAuthorization>;
-  ClientAuthorizationId?: Maybe<Scalars['ID']>;
   CompletionNotes?: Maybe<Scalars['String']>;
+  Confirmed: Scalars['Boolean'];
   Contact?: Maybe<Contacts>;
   ContactId?: Maybe<Scalars['ID']>;
   CopiedFrom?: Maybe<Jobs>;
@@ -1547,12 +1393,12 @@ export type Jobs = {
   End?: Maybe<Scalars['Instant']>;
   EstimatedEnd?: Maybe<Scalars['Instant']>;
   EstimatedStart?: Maybe<Scalars['Instant']>;
-  FamilyAgreedUpon?: Maybe<Scalars['BigDecimal']>;
   FollowupReason?: Maybe<Scalars['String']>;
   Followups: Array<Jobs>;
   GeoLatitude?: Maybe<Scalars['BigDecimal']>;
   GeoLongitude?: Maybe<Scalars['BigDecimal']>;
   IsGroupEvent: Scalars['Boolean'];
+  Job: Array<GroupEvent>;
   JobAllocationCount: Scalars['Int'];
   JobAllocationTimeSource: Scalars['Boolean'];
   JobAllocations: Array<JobAllocations>;
@@ -1560,6 +1406,7 @@ export type Jobs = {
   JobDependenciesTo: Array<JobDependencies>;
   JobOffers: Array<JobOffers>;
   JobProducts: Array<JobProducts>;
+  JobStartDefer?: Maybe<Scalars['BigDecimal']>;
   JobStatus: Scalars['JobStatus'];
   JobTags: Array<JobTags>;
   JobTasks: Array<JobTasks>;
@@ -1569,7 +1416,6 @@ export type Jobs = {
   LastModifiedDate: Scalars['Instant'];
   Location?: Maybe<Locations>;
   LocationId?: Maybe<Scalars['ID']>;
-  LocationType?: Maybe<Scalars['String']>;
   Locked: Scalars['Boolean'];
   MaxAttendees?: Maybe<Scalars['Int']>;
   MinAttendees?: Maybe<Scalars['Int']>;
@@ -1584,6 +1430,7 @@ export type Jobs = {
   RecurringScheduleId?: Maybe<Scalars['ID']>;
   Region: Regions;
   RegionId: Scalars['ID'];
+  RequiredKit?: Maybe<Scalars['BigDecimal']>;
   ResourceRequirements: Array<ResourceRequirements>;
   ScheduleTemplate?: Maybe<ScheduleTemplates>;
   ScheduleTemplateId?: Maybe<Scalars['ID']>;
@@ -1591,13 +1438,13 @@ export type Jobs = {
   TemplatedJob?: Maybe<TemplatedJobs>;
   TemplatedJobId?: Maybe<Scalars['ID']>;
   Timezone: Scalars['String'];
-  TotalAuthorizedServiceHours?: Maybe<Scalars['BigDecimal']>;
   Type?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
   Urgency?: Maybe<Scalars['String']>;
   VirtualMeetingId?: Maybe<Scalars['String']>;
   VirtualMeetingInfo?: Maybe<Scalars['String']>;
   VirtualMeetingURL?: Maybe<Scalars['String']>;
+  jobhistory: Array<Logger>;
 };
 
 
@@ -1610,6 +1457,12 @@ export type JobsAttendeesArgs = {
 export type JobsFollowupsArgs = {
   filter?: InputMaybe<Scalars['EQLQueryFilterJobs']>;
   orderBy?: InputMaybe<Scalars['EQLOrderByClauseJobs']>;
+};
+
+
+export type JobsJobArgs = {
+  filter?: InputMaybe<Scalars['EQLQueryFilterGroupEvent']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseGroupEvent']>;
 };
 
 
@@ -1666,6 +1519,12 @@ export type JobsResourceRequirementsArgs = {
   orderBy?: InputMaybe<Scalars['EQLOrderByClauseResourceRequirements']>;
 };
 
+
+export type JobsJobhistoryArgs = {
+  filter?: InputMaybe<Scalars['EQLQueryFilterLogger']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseLogger']>;
+};
+
 export type JobsConnection = {
   __typename?: 'JobsConnection';
   edges: Array<JobsEdge>;
@@ -1720,7 +1579,6 @@ export type Locations = {
   CreatedBy: Users;
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
-  Default?: Maybe<Scalars['Boolean']>;
   GeoLatitude?: Maybe<Scalars['BigDecimal']>;
   GeoLongitude?: Maybe<Scalars['BigDecimal']>;
   Jobs: Array<Jobs>;
@@ -1780,12 +1638,13 @@ export type Logger = {
   CreatedBy: Users;
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
+  Description?: Maybe<Scalars['String']>;
   LastModifiedBy: Users;
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
-  Message?: Maybe<Scalars['String']>;
-  Type?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
+  jobhistory?: Maybe<Jobs>;
+  jobhistoryId?: Maybe<Scalars['ID']>;
 };
 
 export type LoggerConnection = {
@@ -1799,6 +1658,64 @@ export type LoggerEdge = {
   __typename?: 'LoggerEdge';
   cursor: Scalars['Base64'];
   node: Logger;
+  offset: Scalars['Int'];
+};
+
+export type MonitorLogs = {
+  __typename?: 'MonitorLogs';
+  CreatedBy: Users;
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  Description: Scalars['String'];
+  LastModifiedBy: Users;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  Monitors: Monitors;
+  MonitorsId: Scalars['ID'];
+  Name: Scalars['String'];
+  Type?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type MonitorLogsConnection = {
+  __typename?: 'MonitorLogsConnection';
+  edges: Array<MonitorLogsEdge>;
+  pageInfo: PageInfo;
+  totalCount: Scalars['Int'];
+};
+
+export type MonitorLogsEdge = {
+  __typename?: 'MonitorLogsEdge';
+  cursor: Scalars['Base64'];
+  node: MonitorLogs;
+  offset: Scalars['Int'];
+};
+
+export type Monitors = {
+  __typename?: 'Monitors';
+  CreatedBy: Users;
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  LastModifiedBy: Users;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  Name: Scalars['String'];
+  UID: Scalars['ID'];
+  Vendors: Vendors;
+  VendorsId: Scalars['ID'];
+};
+
+export type MonitorsConnection = {
+  __typename?: 'MonitorsConnection';
+  edges: Array<MonitorsEdge>;
+  pageInfo: PageInfo;
+  totalCount: Scalars['Int'];
+};
+
+export type MonitorsEdge = {
+  __typename?: 'MonitorsEdge';
+  cursor: Scalars['Base64'];
+  node: Monitors;
   offset: Scalars['Int'];
 };
 
@@ -1822,45 +1739,20 @@ export type NewAccountTags = {
 };
 
 export type NewAccounts = {
-  ACId?: InputMaybe<Scalars['ID']>;
-  AVPId?: InputMaybe<Scalars['ID']>;
-  ActiveFromDate?: InputMaybe<Scalars['LocalDate']>;
-  ActiveThruDate?: InputMaybe<Scalars['LocalDate']>;
-  ActualStartOfCareDate?: InputMaybe<Scalars['LocalDate']>;
   BillingCity?: InputMaybe<Scalars['String']>;
   BillingPostalCode?: InputMaybe<Scalars['String']>;
   BillingState?: InputMaybe<Scalars['String']>;
   BillingStreet?: InputMaybe<Scalars['String']>;
-  CaseID?: InputMaybe<Scalars['String']>;
-  CaseProgressionStatus?: InputMaybe<Scalars['String']>;
-  DateOfBirth?: InputMaybe<Scalars['LocalDate']>;
-  DefaultLocationId?: InputMaybe<Scalars['ID']>;
-  DischargeDate?: InputMaybe<Scalars['Instant']>;
-  Division?: InputMaybe<Scalars['String']>;
-  ExternalClientID?: InputMaybe<Scalars['String']>;
-  FSMId?: InputMaybe<Scalars['ID']>;
   Fax?: InputMaybe<Scalars['String']>;
-  Gender?: InputMaybe<Scalars['String']>;
-  HoldDate?: InputMaybe<Scalars['LocalDate']>;
-  MRNumber?: InputMaybe<Scalars['String']>;
+  Level?: InputMaybe<Scalars['String']>;
   Name: Scalars['String'];
-  NeedToRecalculateJobsLocation?: InputMaybe<Scalars['Boolean']>;
-  ODId?: InputMaybe<Scalars['ID']>;
-  PayerLabel?: InputMaybe<Scalars['String']>;
   Phone?: InputMaybe<Scalars['String']>;
-  PlannedStartOfCareDate?: InputMaybe<Scalars['LocalDate']>;
-  PreferredTechnician?: InputMaybe<Scalars['String']>;
-  RCDId?: InputMaybe<Scalars['ID']>;
-  Rank?: InputMaybe<Scalars['BigDecimal']>;
-  RegionId?: InputMaybe<Scalars['ID']>;
+  Rank?: InputMaybe<Scalars['Int']>;
   RequiresWhitelist?: InputMaybe<Scalars['Boolean']>;
-  ResumeServiceDate?: InputMaybe<Scalars['LocalDate']>;
-  SCId?: InputMaybe<Scalars['ID']>;
   ShippingCity?: InputMaybe<Scalars['String']>;
   ShippingPostalCode?: InputMaybe<Scalars['String']>;
   ShippingState?: InputMaybe<Scalars['String']>;
   ShippingStreet?: InputMaybe<Scalars['String']>;
-  Status?: InputMaybe<Scalars['String']>;
 };
 
 export type NewActivities = {
@@ -1877,6 +1769,7 @@ export type NewActivities = {
   Start: Scalars['Instant'];
   TemplatedActivityId?: InputMaybe<Scalars['ID']>;
   Timezone?: InputMaybe<Scalars['String']>;
+  TuanTest?: InputMaybe<Scalars['String']>;
   Type?: InputMaybe<Scalars['String']>;
 };
 
@@ -1885,10 +1778,20 @@ export type NewActivityResources = {
   ResourceId: Scalars['ID'];
 };
 
-export type NewAdminSetting = {
-  AllDayEndTime?: InputMaybe<Scalars['String']>;
-  AllDayStartTime?: InputMaybe<Scalars['String']>;
-  ReadOnlyAvailabilityForm?: InputMaybe<Scalars['Boolean']>;
+export type NewArcadeGames = {
+  active?: InputMaybe<Scalars['Boolean']>;
+  type?: InputMaybe<Scalars['String']>;
+  verbiage?: InputMaybe<Scalars['String']>;
+};
+
+export type NewAttendee = {
+  GroupEventId?: InputMaybe<Scalars['ID']>;
+  TestAttendee?: InputMaybe<Scalars['String']>;
+};
+
+export type NewAttendee1 = {
+  GroupEventId?: InputMaybe<Scalars['ID']>;
+  Name?: InputMaybe<Scalars['String']>;
 };
 
 export type NewAttendees = {
@@ -1912,7 +1815,6 @@ export type NewAvailabilities = {
 export type NewAvailabilityPatternResources = {
   AvailabilityPatternId: Scalars['ID'];
   End?: InputMaybe<Scalars['Instant']>;
-  RepeatEvery?: InputMaybe<Scalars['String']>;
   ResourceId: Scalars['ID'];
   Start: Scalars['Instant'];
   Status?: InputMaybe<Scalars['AvailabilityStatus']>;
@@ -1944,38 +1846,12 @@ export type NewAvailabilityTemplates = {
   Finish?: InputMaybe<Scalars['LocalDate']>;
   Global?: InputMaybe<Scalars['Boolean']>;
   Name?: InputMaybe<Scalars['String']>;
-  RepeatEvery?: InputMaybe<Scalars['String']>;
   Start?: InputMaybe<Scalars['LocalDate']>;
 };
 
-export type NewClientAuthorization = {
-  AccountId?: InputMaybe<Scalars['ID']>;
-  AuthorizationEffectiveDate?: InputMaybe<Scalars['LocalDate']>;
-  AuthorizationExpirationDate?: InputMaybe<Scalars['LocalDate']>;
-  AuthorizationNotes?: InputMaybe<Scalars['String']>;
-  AuthorizationStatus?: InputMaybe<Scalars['String']>;
-  CaseProgressionStatus?: InputMaybe<Scalars['String']>;
-  DummyTestingField?: InputMaybe<Scalars['BigDecimal']>;
-  ExternalID?: InputMaybe<Scalars['String']>;
+export type NewClass = {
   Name?: InputMaybe<Scalars['String']>;
-  RegionId?: InputMaybe<Scalars['ID']>;
-  TotalAuthorizedHours?: InputMaybe<Scalars['BigDecimal']>;
-  TotalScheduledAuthorizedHours?: InputMaybe<Scalars['BigDecimal']>;
-  TotalUsedAuthorizedHours?: InputMaybe<Scalars['BigDecimal']>;
-};
-
-export type NewClientAuthorizationServices = {
-  AuthorizedHoursPerWeek?: InputMaybe<Scalars['BigDecimal']>;
-  ClientAuthorizationId?: InputMaybe<Scalars['ID']>;
-  DummyField?: InputMaybe<Scalars['BigDecimal']>;
-  ExternalID?: InputMaybe<Scalars['String']>;
-  FamilyAgreedUpon?: InputMaybe<Scalars['BigDecimal']>;
-  HoursRemainingAfterChargeCreation?: InputMaybe<Scalars['BigDecimal']>;
-  Name?: InputMaybe<Scalars['String']>;
-  ServiceType?: InputMaybe<Scalars['String']>;
-  TotalAuthorizedServiceHours?: InputMaybe<Scalars['BigDecimal']>;
-  TotalScheduledServiceHours?: InputMaybe<Scalars['BigDecimal']>;
-  TotalUsedServiceHours?: InputMaybe<Scalars['BigDecimal']>;
+  isActive?: InputMaybe<Scalars['Boolean']>;
 };
 
 export type NewClientAvailabilities = {
@@ -1987,26 +1863,6 @@ export type NewClientAvailabilities = {
   PreferredStart?: InputMaybe<Scalars['Instant']>;
   RecurringScheduleId?: InputMaybe<Scalars['ID']>;
   Start: Scalars['Instant'];
-};
-
-export type NewClientAvailabilityTemplate = {
-  AccountId?: InputMaybe<Scalars['ID']>;
-  AdjustmentType?: InputMaybe<Scalars['String']>;
-  AllDay?: InputMaybe<Scalars['Boolean']>;
-  DatesOfMonth?: InputMaybe<Array<Scalars['String']>>;
-  DaysOfMonth?: InputMaybe<Array<Scalars['String']>>;
-  DaysOfWeek?: InputMaybe<Scalars['String']>;
-  DaysOfYear?: InputMaybe<Scalars['String']>;
-  EndDate?: InputMaybe<Scalars['LocalDate']>;
-  EndTime?: InputMaybe<Scalars['LocalTime']>;
-  Label?: InputMaybe<Scalars['String']>;
-  LocationId?: InputMaybe<Scalars['ID']>;
-  MonthsOfYear?: InputMaybe<Array<Scalars['String']>>;
-  Note?: InputMaybe<Scalars['String']>;
-  Pattern?: InputMaybe<Scalars['String']>;
-  StartDate?: InputMaybe<Scalars['LocalDate']>;
-  StartTime?: InputMaybe<Scalars['LocalTime']>;
-  Type?: InputMaybe<Scalars['String']>;
 };
 
 export type NewContactTags = {
@@ -2033,23 +1889,27 @@ export type NewContacts = {
   Phone?: InputMaybe<Scalars['String']>;
   RegionId?: InputMaybe<Scalars['ID']>;
   Title?: InputMaybe<Scalars['String']>;
+  TuanTest?: InputMaybe<Scalars['BigDecimal']>;
 };
 
-export type NewExceptionRecord = {
-  ExceptionId?: InputMaybe<Scalars['String']>;
-  RuleId?: InputMaybe<Scalars['String']>;
-  SourceId?: InputMaybe<Scalars['String']>;
-  SourceType?: InputMaybe<Scalars['String']>;
-  TargetId?: InputMaybe<Scalars['String']>;
-  TargetType?: InputMaybe<Scalars['String']>;
-};
-
-export type NewExceptionType = {
-  Description?: InputMaybe<Scalars['String']>;
-  DescriptionTwo?: InputMaybe<Scalars['String']>;
-  ExceptionType: Scalars['String'];
-  ExceptionType2: Scalars['String'];
+export type NewDefaultAutoOffer = {
+  AutoOffer?: InputMaybe<Scalars['String']>;
+  AutoOfferOffset?: InputMaybe<Scalars['BigDecimal']>;
+  AutoOfferRespectJobRegion?: InputMaybe<Scalars['Boolean']>;
+  AutoOfferRespectJobTags?: InputMaybe<Scalars['Boolean']>;
+  AutoOfferRespectPreviousOfferStatus?: InputMaybe<Scalars['Boolean']>;
+  AutoOfferRespectResourceAvailability?: InputMaybe<Scalars['Boolean']>;
   Name?: InputMaybe<Scalars['String']>;
+};
+
+export type NewGroupEvent = {
+  JobId?: InputMaybe<Scalars['ID']>;
+  Name?: InputMaybe<Scalars['String']>;
+};
+
+export type NewGroupEvent1 = {
+  JobId?: InputMaybe<Scalars['ID']>;
+  name?: InputMaybe<Scalars['String']>;
 };
 
 export type NewHolidayRegions = {
@@ -2149,13 +2009,17 @@ export type NewJobs = {
   ActualEnd?: InputMaybe<Scalars['Instant']>;
   ActualStart?: InputMaybe<Scalars['Instant']>;
   Address?: InputMaybe<Scalars['String']>;
-  AuthorizationServiceId?: InputMaybe<Scalars['ID']>;
-  AuthorizedHoursPerWeek?: InputMaybe<Scalars['BigDecimal']>;
+  AutoOffer?: InputMaybe<Scalars['String']>;
+  AutoOfferDate?: InputMaybe<Scalars['String']>;
+  AutoOfferOffset?: InputMaybe<Scalars['BigDecimal']>;
+  AutoOfferRespectJobRegion?: InputMaybe<Scalars['Boolean']>;
+  AutoOfferRespectJobTags?: InputMaybe<Scalars['Boolean']>;
+  AutoOfferRespectPreviousOfferStatus?: InputMaybe<Scalars['Boolean']>;
+  AutoOfferRespectResourceAvailability?: InputMaybe<Scalars['Boolean']>;
   AutoSchedule?: InputMaybe<Scalars['Boolean']>;
   CanBeDeclined?: InputMaybe<Scalars['Boolean']>;
-  ClearOfExceptions?: InputMaybe<Scalars['Boolean']>;
-  ClientAuthorizationId?: InputMaybe<Scalars['ID']>;
   CompletionNotes?: InputMaybe<Scalars['String']>;
+  Confirmed?: InputMaybe<Scalars['Boolean']>;
   ContactId?: InputMaybe<Scalars['ID']>;
   CopiedFromId?: InputMaybe<Scalars['ID']>;
   CustomerConfirmationStatus?: InputMaybe<Scalars['CustomerConfirmationStatus']>;
@@ -2164,15 +2028,14 @@ export type NewJobs = {
   End?: InputMaybe<Scalars['Instant']>;
   EstimatedEnd?: InputMaybe<Scalars['Instant']>;
   EstimatedStart?: InputMaybe<Scalars['Instant']>;
-  FamilyAgreedUpon?: InputMaybe<Scalars['BigDecimal']>;
   FollowupReason?: InputMaybe<Scalars['String']>;
   GeoLatitude?: InputMaybe<Scalars['BigDecimal']>;
   GeoLongitude?: InputMaybe<Scalars['BigDecimal']>;
   IsGroupEvent?: InputMaybe<Scalars['Boolean']>;
   JobAllocationTimeSource?: InputMaybe<Scalars['Boolean']>;
+  JobStartDefer?: InputMaybe<Scalars['BigDecimal']>;
   JobStatus?: InputMaybe<Scalars['JobStatus']>;
   LocationId?: InputMaybe<Scalars['ID']>;
-  LocationType?: InputMaybe<Scalars['String']>;
   Locked?: InputMaybe<Scalars['Boolean']>;
   MaxAttendees?: InputMaybe<Scalars['Int']>;
   MinAttendees?: InputMaybe<Scalars['Int']>;
@@ -2184,10 +2047,10 @@ export type NewJobs = {
   Quantity?: InputMaybe<Scalars['Int']>;
   RecurringScheduleId?: InputMaybe<Scalars['ID']>;
   RegionId: Scalars['ID'];
+  RequiredKit?: InputMaybe<Scalars['BigDecimal']>;
   ScheduleTemplateId?: InputMaybe<Scalars['ID']>;
   Start?: InputMaybe<Scalars['Instant']>;
   TemplatedJobId?: InputMaybe<Scalars['ID']>;
-  TotalAuthorizedServiceHours?: InputMaybe<Scalars['BigDecimal']>;
   Type?: InputMaybe<Scalars['String']>;
   Urgency?: InputMaybe<Scalars['String']>;
   VirtualMeetingId?: InputMaybe<Scalars['String']>;
@@ -2205,7 +2068,6 @@ export type NewLocationResourceScores = {
 export type NewLocations = {
   AccountId?: InputMaybe<Scalars['ID']>;
   Address?: InputMaybe<Scalars['String']>;
-  Default?: InputMaybe<Scalars['Boolean']>;
   GeoLatitude?: InputMaybe<Scalars['BigDecimal']>;
   GeoLongitude?: InputMaybe<Scalars['BigDecimal']>;
   Name: Scalars['String'];
@@ -2215,8 +2077,24 @@ export type NewLocations = {
 };
 
 export type NewLogger = {
-  Message?: InputMaybe<Scalars['String']>;
+  Description?: InputMaybe<Scalars['String']>;
+  jobhistoryId?: InputMaybe<Scalars['ID']>;
+};
+
+export type NewMonitorLogs = {
+  Description: Scalars['String'];
+  MonitorsId: Scalars['ID'];
+  Name: Scalars['String'];
   Type?: InputMaybe<Scalars['String']>;
+};
+
+export type NewMonitors = {
+  Name: Scalars['String'];
+  VendorsId: Scalars['ID'];
+};
+
+export type NewPatients = {
+  Name?: InputMaybe<Scalars['String']>;
 };
 
 export type NewProducts = {
@@ -2225,6 +2103,28 @@ export type NewProducts = {
   IsActive?: InputMaybe<Scalars['Boolean']>;
   Name: Scalars['String'];
   ProductCode?: InputMaybe<Scalars['String']>;
+};
+
+export type NewProjects = {
+  Name?: InputMaybe<Scalars['String']>;
+};
+
+export type NewPublicPageSetting = {
+  Link?: InputMaybe<Scalars['String']>;
+};
+
+export type NewPublicPageTemplate = {
+  Description?: InputMaybe<Scalars['String']>;
+  Name?: InputMaybe<Scalars['String']>;
+};
+
+export type NewPublicSchedule = {
+  IsInactivated?: InputMaybe<Scalars['Boolean']>;
+  JobId?: InputMaybe<Scalars['ID']>;
+  Name?: InputMaybe<Scalars['String']>;
+  Note?: InputMaybe<Scalars['String']>;
+  PublicPageTemplateId?: InputMaybe<Scalars['ID']>;
+  Status?: InputMaybe<Scalars['String']>;
 };
 
 export type NewRecurringSchedules = {
@@ -2325,17 +2225,16 @@ export type NewResourceTags = {
 export type NewResources = {
   Alias?: InputMaybe<Scalars['String']>;
   AutoSchedule?: InputMaybe<Scalars['Boolean']>;
-  CareConnectUserID?: InputMaybe<Scalars['BigDecimal']>;
+  Birthday?: InputMaybe<Scalars['LocalDate']>;
   Category?: InputMaybe<Scalars['String']>;
   CountryCode?: InputMaybe<Scalars['String']>;
-  EffectiveTerminationDate?: InputMaybe<Scalars['Instant']>;
   Email?: InputMaybe<Scalars['String']>;
   EmploymentType?: InputMaybe<Scalars['String']>;
-  FSM?: InputMaybe<Scalars['String']>;
   GeoLatitude?: InputMaybe<Scalars['BigDecimal']>;
   GeoLongitude?: InputMaybe<Scalars['BigDecimal']>;
   HomeAddress?: InputMaybe<Scalars['String']>;
   IsActive?: InputMaybe<Scalars['Boolean']>;
+  Language?: InputMaybe<Scalars['String']>;
   MobilePhone?: InputMaybe<Scalars['String']>;
   Name: Scalars['String'];
   Notes?: InputMaybe<Scalars['String']>;
@@ -2343,28 +2242,11 @@ export type NewResources = {
   PrimaryPhone?: InputMaybe<Scalars['String']>;
   PrimaryRegionId: Scalars['ID'];
   Rating?: InputMaybe<Scalars['Int']>;
-  ReportsTo?: InputMaybe<Scalars['String']>;
-  RequestedWorkingHoursPerWeek?: InputMaybe<Scalars['BigDecimal']>;
   ResourceType?: InputMaybe<Scalars['String']>;
-  TotalUtilizedHours?: InputMaybe<Scalars['String']>;
   UserId?: InputMaybe<Scalars['ID']>;
+  VehicleID?: InputMaybe<Scalars['String']>;
   WeeklyHours?: InputMaybe<Scalars['BigDecimal']>;
   WorkingHourType?: InputMaybe<Scalars['WorkingHourType']>;
-  amsuserstatus?: InputMaybe<Scalars['String']>;
-  city?: InputMaybe<Scalars['String']>;
-  complianceissue?: InputMaybe<Scalars['String']>;
-  degreetypelab?: InputMaybe<Scalars['String']>;
-  estimatedactivationtimestamp?: InputMaybe<Scalars['String']>;
-  gender?: InputMaybe<Scalars['String']>;
-  homephone?: InputMaybe<Scalars['String']>;
-  middleInitial?: InputMaybe<Scalars['String']>;
-  npi?: InputMaybe<Scalars['String']>;
-  onboardingstatuslabel?: InputMaybe<Scalars['String']>;
-  personalemail?: InputMaybe<Scalars['String']>;
-  state?: InputMaybe<Scalars['String']>;
-  uniqueeid?: InputMaybe<Scalars['String']>;
-  worksfor?: InputMaybe<Scalars['String']>;
-  zip?: InputMaybe<Scalars['String']>;
 };
 
 export type NewScheduleTemplates = {
@@ -2403,13 +2285,6 @@ export type NewShifts = {
   ScheduleTemplateId?: InputMaybe<Scalars['ID']>;
   Start?: InputMaybe<Scalars['Instant']>;
   TemplatedShiftId?: InputMaybe<Scalars['ID']>;
-};
-
-export type NewStarterTest = {
-  ResourceId: Scalars['ID'];
-  StarterTestBooleanField?: InputMaybe<Scalars['Boolean']>;
-  StarterTestDecimalField?: InputMaybe<Scalars['BigDecimal']>;
-  StarterTestPicklistField?: InputMaybe<Scalars['String']>;
 };
 
 export type NewTagManagerSettings = {
@@ -2598,48 +2473,69 @@ export type NewTemplatedShifts = {
   StartTimeOfDay: Scalars['LocalTime'];
 };
 
+export type NewTestPerObj = {
+  Field1?: InputMaybe<Scalars['String']>;
+  Field2?: InputMaybe<Scalars['String']>;
+  JobId?: InputMaybe<Scalars['ID']>;
+};
+
+export type NewTestPerObject2 = {
+  FieldA?: InputMaybe<Scalars['BigDecimal']>;
+  FieldB?: InputMaybe<Scalars['BigDecimal']>;
+  JobId?: InputMaybe<Scalars['ID']>;
+  JobTestPer2Id?: InputMaybe<Scalars['ID']>;
+};
+
+export type NewTimesheet = {
+  ApprovedById?: InputMaybe<Scalars['ID']>;
+  ApprovedDate?: InputMaybe<Scalars['LocalDate']>;
+  ApproverComments?: InputMaybe<Scalars['String']>;
+  EndDate?: InputMaybe<Scalars['LocalDate']>;
+  ResourceId?: InputMaybe<Scalars['ID']>;
+  StartDate?: InputMaybe<Scalars['LocalDate']>;
+  Status?: InputMaybe<Scalars['String']>;
+  SubmitterComments?: InputMaybe<Scalars['String']>;
+};
+
+export type NewTimesheetEntry = {
+  ActivityId?: InputMaybe<Scalars['ID']>;
+  Description?: InputMaybe<Scalars['String']>;
+  Distance?: InputMaybe<Scalars['BigDecimal']>;
+  EndDate?: InputMaybe<Scalars['LocalDate']>;
+  EndTime?: InputMaybe<Scalars['LocalTime']>;
+  EntryType?: InputMaybe<Scalars['String']>;
+  JobId?: InputMaybe<Scalars['ID']>;
+  ShiftId?: InputMaybe<Scalars['ID']>;
+  StartDate?: InputMaybe<Scalars['LocalDate']>;
+  StartTime?: InputMaybe<Scalars['LocalTime']>;
+  TimesheetId?: InputMaybe<Scalars['ID']>;
+  UnavailabilityId?: InputMaybe<Scalars['ID']>;
+};
+
+export type NewTraining = {
+  PL?: InputMaybe<Scalars['String']>;
+  TextA?: InputMaybe<Scalars['String']>;
+};
+
+export type NewTuanTest = {
+  Age?: InputMaybe<Scalars['BigDecimal']>;
+  Name?: InputMaybe<Scalars['String']>;
+};
+
 export type NewUserRegions = {
   RegionId: Scalars['ID'];
   UserId: Scalars['ID'];
 };
 
-export type NewUser_Ext = {
-  CareConnectUserID?: InputMaybe<Scalars['String']>;
-  uniqueeid?: InputMaybe<Scalars['String']>;
-  userId?: InputMaybe<Scalars['ID']>;
+export type NewVendorTag = {
+  TagsId: Scalars['ID'];
+  VendorsId: Scalars['ID'];
 };
 
-export type NewclientAvailabilityTemplateEntry = {
-  AllDay?: InputMaybe<Scalars['Boolean']>;
-  ClientAvailabilityTemplateId?: InputMaybe<Scalars['ID']>;
-  EndTime?: InputMaybe<Scalars['LocalTime']>;
-  LocationId?: InputMaybe<Scalars['ID']>;
+export type NewVendors = {
+  Description?: InputMaybe<Scalars['String']>;
   Name?: InputMaybe<Scalars['String']>;
-  StartTime?: InputMaybe<Scalars['LocalTime']>;
-  Weekday?: InputMaybe<Scalars['String']>;
-};
-
-export type Newsked_BroadcastRecipients = {
-  sked_BroadcastId: Scalars['ID'];
-  sked_ContactId?: InputMaybe<Scalars['ID']>;
-  sked_Date?: InputMaybe<Scalars['LocalDate']>;
-  sked_ErrorInformation?: InputMaybe<Scalars['String']>;
-  sked_NotificationMethod?: InputMaybe<Scalars['String']>;
-  sked_Phone?: InputMaybe<Scalars['String']>;
-  sked_ResourceId?: InputMaybe<Scalars['ID']>;
-  sked_Status?: InputMaybe<Scalars['String']>;
-  sked_Timestamp?: InputMaybe<Scalars['String']>;
-};
-
-export type Newsked_Broadcasts = {
-  sked_Broadcast?: InputMaybe<Scalars['String']>;
-  sked_Date?: InputMaybe<Scalars['LocalDate']>;
-  sked_NotSent?: InputMaybe<Scalars['BigDecimal']>;
-  sked_NotificationMethod?: InputMaybe<Scalars['String']>;
-  sked_RecipientType?: InputMaybe<Scalars['String']>;
-  sked_Sent?: InputMaybe<Scalars['BigDecimal']>;
-  sked_Timestamp?: InputMaybe<Scalars['String']>;
-  sked_TotalRecipients?: InputMaybe<Scalars['BigDecimal']>;
+  TenantId?: InputMaybe<Scalars['String']>;
 };
 
 /**
@@ -2672,6 +2568,32 @@ export type PageInfo = {
   startCursor?: Maybe<Scalars['Base64']>;
 };
 
+export type Patients = {
+  __typename?: 'Patients';
+  CreatedBy: Users;
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  LastModifiedBy: Users;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  Name?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type PatientsConnection = {
+  __typename?: 'PatientsConnection';
+  edges: Array<PatientsEdge>;
+  pageInfo: PageInfo;
+  totalCount: Scalars['Int'];
+};
+
+export type PatientsEdge = {
+  __typename?: 'PatientsEdge';
+  cursor: Scalars['Base64'];
+  node: Patients;
+  offset: Scalars['Int'];
+};
+
 export type Products = {
   __typename?: 'Products';
   CreatedBy: Users;
@@ -2702,6 +2624,118 @@ export type ProductsEdge = {
   offset: Scalars['Int'];
 };
 
+export type Projects = {
+  __typename?: 'Projects';
+  CreatedBy: Users;
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  LastModifiedBy: Users;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  Name?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type ProjectsConnection = {
+  __typename?: 'ProjectsConnection';
+  edges: Array<ProjectsEdge>;
+  pageInfo: PageInfo;
+  totalCount: Scalars['Int'];
+};
+
+export type ProjectsEdge = {
+  __typename?: 'ProjectsEdge';
+  cursor: Scalars['Base64'];
+  node: Projects;
+  offset: Scalars['Int'];
+};
+
+export type PublicPageSetting = {
+  __typename?: 'PublicPageSetting';
+  CreatedBy: Users;
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  LastModifiedBy: Users;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  Link?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type PublicPageSettingConnection = {
+  __typename?: 'PublicPageSettingConnection';
+  edges: Array<PublicPageSettingEdge>;
+  pageInfo: PageInfo;
+  totalCount: Scalars['Int'];
+};
+
+export type PublicPageSettingEdge = {
+  __typename?: 'PublicPageSettingEdge';
+  cursor: Scalars['Base64'];
+  node: PublicPageSetting;
+  offset: Scalars['Int'];
+};
+
+export type PublicPageTemplate = {
+  __typename?: 'PublicPageTemplate';
+  CreatedBy: Users;
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  Description?: Maybe<Scalars['String']>;
+  LastModifiedBy: Users;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  Name?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type PublicPageTemplateConnection = {
+  __typename?: 'PublicPageTemplateConnection';
+  edges: Array<PublicPageTemplateEdge>;
+  pageInfo: PageInfo;
+  totalCount: Scalars['Int'];
+};
+
+export type PublicPageTemplateEdge = {
+  __typename?: 'PublicPageTemplateEdge';
+  cursor: Scalars['Base64'];
+  node: PublicPageTemplate;
+  offset: Scalars['Int'];
+};
+
+export type PublicSchedule = {
+  __typename?: 'PublicSchedule';
+  CreatedBy: Users;
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  IsInactivated?: Maybe<Scalars['Boolean']>;
+  Job?: Maybe<Jobs>;
+  JobId?: Maybe<Scalars['ID']>;
+  LastModifiedBy: Users;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  Name?: Maybe<Scalars['String']>;
+  Note?: Maybe<Scalars['String']>;
+  PublicPageTemplate?: Maybe<PublicPageTemplate>;
+  PublicPageTemplateId?: Maybe<Scalars['ID']>;
+  Status?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type PublicScheduleConnection = {
+  __typename?: 'PublicScheduleConnection';
+  edges: Array<PublicScheduleEdge>;
+  pageInfo: PageInfo;
+  totalCount: Scalars['Int'];
+};
+
+export type PublicScheduleEdge = {
+  __typename?: 'PublicScheduleEdge';
+  cursor: Scalars['Base64'];
+  node: PublicSchedule;
+  offset: Scalars['Int'];
+};
+
 export type Query = {
   __typename?: 'Query';
   accountResourceScores: AccountResourceScoresConnection;
@@ -2714,8 +2748,12 @@ export type Query = {
   activitiesById?: Maybe<Activities>;
   activityResources: ActivityResourcesConnection;
   activityResourcesById?: Maybe<ActivityResources>;
-  adminSetting: AdminSettingConnection;
-  adminSettingById?: Maybe<AdminSetting>;
+  arcadeGames: ArcadeGamesConnection;
+  arcadeGamesById?: Maybe<ArcadeGames>;
+  attendee: AttendeeConnection;
+  attendee1: Attendee1Connection;
+  attendee1ById?: Maybe<Attendee1>;
+  attendeeById?: Maybe<Attendee>;
   attendees: AttendeesConnection;
   attendeesById?: Maybe<Attendees>;
   availabilities: AvailabilitiesConnection;
@@ -2730,24 +2768,20 @@ export type Query = {
   availabilityTemplateResourcesById?: Maybe<AvailabilityTemplateResources>;
   availabilityTemplates: AvailabilityTemplatesConnection;
   availabilityTemplatesById?: Maybe<AvailabilityTemplates>;
-  clientAuthorization: ClientAuthorizationConnection;
-  clientAuthorizationById?: Maybe<ClientAuthorization>;
-  clientAuthorizationServices: ClientAuthorizationServicesConnection;
-  clientAuthorizationServicesById?: Maybe<ClientAuthorizationServices>;
+  class: ClassConnection;
+  classById?: Maybe<Class>;
   clientAvailabilities: ClientAvailabilitiesConnection;
   clientAvailabilitiesById?: Maybe<ClientAvailabilities>;
-  clientAvailabilityTemplate: ClientAvailabilityTemplateConnection;
-  clientAvailabilityTemplateById?: Maybe<ClientAvailabilityTemplate>;
-  clientAvailabilityTemplateEntry: ClientAvailabilityTemplateEntryConnection;
-  clientAvailabilityTemplateEntryById?: Maybe<ClientAvailabilityTemplateEntry>;
   contactTags: ContactTagsConnection;
   contactTagsById?: Maybe<ContactTags>;
   contacts: ContactsConnection;
   contactsById?: Maybe<Contacts>;
-  exceptionRecord: ExceptionRecordConnection;
-  exceptionRecordById?: Maybe<ExceptionRecord>;
-  exceptionType: ExceptionTypeConnection;
-  exceptionTypeById?: Maybe<ExceptionType>;
+  defaultAutoOffer: DefaultAutoOfferConnection;
+  defaultAutoOfferById?: Maybe<DefaultAutoOffer>;
+  groupEvent: GroupEventConnection;
+  groupEvent1: GroupEvent1Connection;
+  groupEvent1ById?: Maybe<GroupEvent1>;
+  groupEventById?: Maybe<GroupEvent>;
   holidayRegions: HolidayRegionsConnection;
   holidayRegionsById?: Maybe<HolidayRegions>;
   holidays: HolidaysConnection;
@@ -2774,6 +2808,10 @@ export type Query = {
   locationsById?: Maybe<Locations>;
   logger: LoggerConnection;
   loggerById?: Maybe<Logger>;
+  monitorLogs: MonitorLogsConnection;
+  monitorLogsById?: Maybe<MonitorLogs>;
+  monitors: MonitorsConnection;
+  monitorsById?: Maybe<Monitors>;
   /**
    * Retrieve all `Notifications` starting from a given timestamp.
    *
@@ -2844,8 +2882,18 @@ export type Query = {
    * ```
    */
   notifications: Array<Maybe<Notifications>>;
+  patients: PatientsConnection;
+  patientsById?: Maybe<Patients>;
   products: ProductsConnection;
   productsById?: Maybe<Products>;
+  projects: ProjectsConnection;
+  projectsById?: Maybe<Projects>;
+  publicPageSetting: PublicPageSettingConnection;
+  publicPageSettingById?: Maybe<PublicPageSetting>;
+  publicPageTemplate: PublicPageTemplateConnection;
+  publicPageTemplateById?: Maybe<PublicPageTemplate>;
+  publicSchedule: PublicScheduleConnection;
+  publicScheduleById?: Maybe<PublicSchedule>;
   recurringSchedules: RecurringSchedulesConnection;
   recurringSchedulesById?: Maybe<RecurringSchedules>;
   regions: RegionsConnection;
@@ -2883,12 +2931,6 @@ export type Query = {
   shiftTagsById?: Maybe<ShiftTags>;
   shifts: ShiftsConnection;
   shiftsById?: Maybe<Shifts>;
-  sked_BroadcastRecipients: Sked_BroadcastRecipientsConnection;
-  sked_BroadcastRecipientsById?: Maybe<Sked_BroadcastRecipients>;
-  sked_Broadcasts: Sked_BroadcastsConnection;
-  sked_BroadcastsById?: Maybe<Sked_Broadcasts>;
-  starterTest: StarterTestConnection;
-  starterTestById?: Maybe<StarterTest>;
   tagManagerSettings: TagManagerSettingsConnection;
   tagManagerSettingsById?: Maybe<TagManagerSettings>;
   tagRequest: TagRequestConnection;
@@ -2925,12 +2967,26 @@ export type Query = {
   templatedShiftTagsById?: Maybe<TemplatedShiftTags>;
   templatedShifts: TemplatedShiftsConnection;
   templatedShiftsById?: Maybe<TemplatedShifts>;
+  testPerObj: TestPerObjConnection;
+  testPerObjById?: Maybe<TestPerObj>;
+  testPerObject2: TestPerObject2Connection;
+  testPerObject2ById?: Maybe<TestPerObject2>;
+  timesheet: TimesheetConnection;
+  timesheetById?: Maybe<Timesheet>;
+  timesheetEntry: TimesheetEntryConnection;
+  timesheetEntryById?: Maybe<TimesheetEntry>;
+  training: TrainingConnection;
+  trainingById?: Maybe<Training>;
+  tuanTest: TuanTestConnection;
+  tuanTestById?: Maybe<TuanTest>;
   userRegions: UserRegionsConnection;
   userRegionsById?: Maybe<UserRegions>;
-  user_Ext: User_ExtConnection;
-  user_ExtById?: Maybe<User_Ext>;
   users: UsersConnection;
   usersById?: Maybe<Users>;
+  vendorTag: VendorTagConnection;
+  vendorTagById?: Maybe<VendorTag>;
+  vendors: VendorsConnection;
+  vendorsById?: Maybe<Vendors>;
 };
 
 
@@ -3004,16 +3060,44 @@ export type QueryActivityResourcesByIdArgs = {
 };
 
 
-export type QueryAdminSettingArgs = {
+export type QueryArcadeGamesArgs = {
   after?: InputMaybe<Scalars['Base64']>;
-  filter?: InputMaybe<Scalars['EQLQueryFilterAdminSetting']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterArcadeGames']>;
   first?: InputMaybe<Scalars['PositiveIntMax200']>;
   offset?: InputMaybe<Scalars['NonNegativeInt']>;
-  orderBy?: InputMaybe<Scalars['EQLOrderByClauseAdminSetting']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseArcadeGames']>;
 };
 
 
-export type QueryAdminSettingByIdArgs = {
+export type QueryArcadeGamesByIdArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type QueryAttendeeArgs = {
+  after?: InputMaybe<Scalars['Base64']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterAttendee']>;
+  first?: InputMaybe<Scalars['PositiveIntMax200']>;
+  offset?: InputMaybe<Scalars['NonNegativeInt']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseAttendee']>;
+};
+
+
+export type QueryAttendee1Args = {
+  after?: InputMaybe<Scalars['Base64']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterAttendee1']>;
+  first?: InputMaybe<Scalars['PositiveIntMax200']>;
+  offset?: InputMaybe<Scalars['NonNegativeInt']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseAttendee1']>;
+};
+
+
+export type QueryAttendee1ByIdArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type QueryAttendeeByIdArgs = {
   UID: Scalars['ID'];
 };
 
@@ -3116,30 +3200,16 @@ export type QueryAvailabilityTemplatesByIdArgs = {
 };
 
 
-export type QueryClientAuthorizationArgs = {
+export type QueryClassArgs = {
   after?: InputMaybe<Scalars['Base64']>;
-  filter?: InputMaybe<Scalars['EQLQueryFilterClientAuthorization']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterClass']>;
   first?: InputMaybe<Scalars['PositiveIntMax200']>;
   offset?: InputMaybe<Scalars['NonNegativeInt']>;
-  orderBy?: InputMaybe<Scalars['EQLOrderByClauseClientAuthorization']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseClass']>;
 };
 
 
-export type QueryClientAuthorizationByIdArgs = {
-  UID: Scalars['ID'];
-};
-
-
-export type QueryClientAuthorizationServicesArgs = {
-  after?: InputMaybe<Scalars['Base64']>;
-  filter?: InputMaybe<Scalars['EQLQueryFilterClientAuthorizationServices']>;
-  first?: InputMaybe<Scalars['PositiveIntMax200']>;
-  offset?: InputMaybe<Scalars['NonNegativeInt']>;
-  orderBy?: InputMaybe<Scalars['EQLOrderByClauseClientAuthorizationServices']>;
-};
-
-
-export type QueryClientAuthorizationServicesByIdArgs = {
+export type QueryClassByIdArgs = {
   UID: Scalars['ID'];
 };
 
@@ -3154,34 +3224,6 @@ export type QueryClientAvailabilitiesArgs = {
 
 
 export type QueryClientAvailabilitiesByIdArgs = {
-  UID: Scalars['ID'];
-};
-
-
-export type QueryClientAvailabilityTemplateArgs = {
-  after?: InputMaybe<Scalars['Base64']>;
-  filter?: InputMaybe<Scalars['EQLQueryFilterClientAvailabilityTemplate']>;
-  first?: InputMaybe<Scalars['PositiveIntMax200']>;
-  offset?: InputMaybe<Scalars['NonNegativeInt']>;
-  orderBy?: InputMaybe<Scalars['EQLOrderByClauseClientAvailabilityTemplate']>;
-};
-
-
-export type QueryClientAvailabilityTemplateByIdArgs = {
-  UID: Scalars['ID'];
-};
-
-
-export type QueryClientAvailabilityTemplateEntryArgs = {
-  after?: InputMaybe<Scalars['Base64']>;
-  filter?: InputMaybe<Scalars['EQLQueryFilterclientAvailabilityTemplateEntry']>;
-  first?: InputMaybe<Scalars['PositiveIntMax200']>;
-  offset?: InputMaybe<Scalars['NonNegativeInt']>;
-  orderBy?: InputMaybe<Scalars['EQLOrderByClauseclientAvailabilityTemplateEntry']>;
-};
-
-
-export type QueryClientAvailabilityTemplateEntryByIdArgs = {
   UID: Scalars['ID'];
 };
 
@@ -3214,30 +3256,44 @@ export type QueryContactsByIdArgs = {
 };
 
 
-export type QueryExceptionRecordArgs = {
+export type QueryDefaultAutoOfferArgs = {
   after?: InputMaybe<Scalars['Base64']>;
-  filter?: InputMaybe<Scalars['EQLQueryFilterExceptionRecord']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterDefaultAutoOffer']>;
   first?: InputMaybe<Scalars['PositiveIntMax200']>;
   offset?: InputMaybe<Scalars['NonNegativeInt']>;
-  orderBy?: InputMaybe<Scalars['EQLOrderByClauseExceptionRecord']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseDefaultAutoOffer']>;
 };
 
 
-export type QueryExceptionRecordByIdArgs = {
+export type QueryDefaultAutoOfferByIdArgs = {
   UID: Scalars['ID'];
 };
 
 
-export type QueryExceptionTypeArgs = {
+export type QueryGroupEventArgs = {
   after?: InputMaybe<Scalars['Base64']>;
-  filter?: InputMaybe<Scalars['EQLQueryFilterExceptionType']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterGroupEvent']>;
   first?: InputMaybe<Scalars['PositiveIntMax200']>;
   offset?: InputMaybe<Scalars['NonNegativeInt']>;
-  orderBy?: InputMaybe<Scalars['EQLOrderByClauseExceptionType']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseGroupEvent']>;
 };
 
 
-export type QueryExceptionTypeByIdArgs = {
+export type QueryGroupEvent1Args = {
+  after?: InputMaybe<Scalars['Base64']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterGroupEvent1']>;
+  first?: InputMaybe<Scalars['PositiveIntMax200']>;
+  offset?: InputMaybe<Scalars['NonNegativeInt']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseGroupEvent1']>;
+};
+
+
+export type QueryGroupEvent1ByIdArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type QueryGroupEventByIdArgs = {
   UID: Scalars['ID'];
 };
 
@@ -3424,8 +3480,50 @@ export type QueryLoggerByIdArgs = {
 };
 
 
+export type QueryMonitorLogsArgs = {
+  after?: InputMaybe<Scalars['Base64']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterMonitorLogs']>;
+  first?: InputMaybe<Scalars['PositiveIntMax200']>;
+  offset?: InputMaybe<Scalars['NonNegativeInt']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseMonitorLogs']>;
+};
+
+
+export type QueryMonitorLogsByIdArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type QueryMonitorsArgs = {
+  after?: InputMaybe<Scalars['Base64']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterMonitors']>;
+  first?: InputMaybe<Scalars['PositiveIntMax200']>;
+  offset?: InputMaybe<Scalars['NonNegativeInt']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseMonitors']>;
+};
+
+
+export type QueryMonitorsByIdArgs = {
+  UID: Scalars['ID'];
+};
+
+
 export type QueryNotificationsArgs = {
   start: Scalars['Instant'];
+};
+
+
+export type QueryPatientsArgs = {
+  after?: InputMaybe<Scalars['Base64']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterPatients']>;
+  first?: InputMaybe<Scalars['PositiveIntMax200']>;
+  offset?: InputMaybe<Scalars['NonNegativeInt']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClausePatients']>;
+};
+
+
+export type QueryPatientsByIdArgs = {
+  UID: Scalars['ID'];
 };
 
 
@@ -3439,6 +3537,62 @@ export type QueryProductsArgs = {
 
 
 export type QueryProductsByIdArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type QueryProjectsArgs = {
+  after?: InputMaybe<Scalars['Base64']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterProjects']>;
+  first?: InputMaybe<Scalars['PositiveIntMax200']>;
+  offset?: InputMaybe<Scalars['NonNegativeInt']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseProjects']>;
+};
+
+
+export type QueryProjectsByIdArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type QueryPublicPageSettingArgs = {
+  after?: InputMaybe<Scalars['Base64']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterPublicPageSetting']>;
+  first?: InputMaybe<Scalars['PositiveIntMax200']>;
+  offset?: InputMaybe<Scalars['NonNegativeInt']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClausePublicPageSetting']>;
+};
+
+
+export type QueryPublicPageSettingByIdArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type QueryPublicPageTemplateArgs = {
+  after?: InputMaybe<Scalars['Base64']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterPublicPageTemplate']>;
+  first?: InputMaybe<Scalars['PositiveIntMax200']>;
+  offset?: InputMaybe<Scalars['NonNegativeInt']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClausePublicPageTemplate']>;
+};
+
+
+export type QueryPublicPageTemplateByIdArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type QueryPublicScheduleArgs = {
+  after?: InputMaybe<Scalars['Base64']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterPublicSchedule']>;
+  first?: InputMaybe<Scalars['PositiveIntMax200']>;
+  offset?: InputMaybe<Scalars['NonNegativeInt']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClausePublicSchedule']>;
+};
+
+
+export type QueryPublicScheduleByIdArgs = {
   UID: Scalars['ID'];
 };
 
@@ -3702,48 +3856,6 @@ export type QueryShiftsByIdArgs = {
 };
 
 
-export type QuerySked_BroadcastRecipientsArgs = {
-  after?: InputMaybe<Scalars['Base64']>;
-  filter?: InputMaybe<Scalars['EQLQueryFiltersked_BroadcastRecipients']>;
-  first?: InputMaybe<Scalars['PositiveIntMax200']>;
-  offset?: InputMaybe<Scalars['NonNegativeInt']>;
-  orderBy?: InputMaybe<Scalars['EQLOrderByClausesked_BroadcastRecipients']>;
-};
-
-
-export type QuerySked_BroadcastRecipientsByIdArgs = {
-  UID: Scalars['ID'];
-};
-
-
-export type QuerySked_BroadcastsArgs = {
-  after?: InputMaybe<Scalars['Base64']>;
-  filter?: InputMaybe<Scalars['EQLQueryFiltersked_Broadcasts']>;
-  first?: InputMaybe<Scalars['PositiveIntMax200']>;
-  offset?: InputMaybe<Scalars['NonNegativeInt']>;
-  orderBy?: InputMaybe<Scalars['EQLOrderByClausesked_Broadcasts']>;
-};
-
-
-export type QuerySked_BroadcastsByIdArgs = {
-  UID: Scalars['ID'];
-};
-
-
-export type QueryStarterTestArgs = {
-  after?: InputMaybe<Scalars['Base64']>;
-  filter?: InputMaybe<Scalars['EQLQueryFilterStarterTest']>;
-  first?: InputMaybe<Scalars['PositiveIntMax200']>;
-  offset?: InputMaybe<Scalars['NonNegativeInt']>;
-  orderBy?: InputMaybe<Scalars['EQLOrderByClauseStarterTest']>;
-};
-
-
-export type QueryStarterTestByIdArgs = {
-  UID: Scalars['ID'];
-};
-
-
 export type QueryTagManagerSettingsArgs = {
   after?: InputMaybe<Scalars['Base64']>;
   filter?: InputMaybe<Scalars['EQLQueryFilterTagManagerSettings']>;
@@ -3996,6 +4108,90 @@ export type QueryTemplatedShiftsByIdArgs = {
 };
 
 
+export type QueryTestPerObjArgs = {
+  after?: InputMaybe<Scalars['Base64']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterTestPerObj']>;
+  first?: InputMaybe<Scalars['PositiveIntMax200']>;
+  offset?: InputMaybe<Scalars['NonNegativeInt']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseTestPerObj']>;
+};
+
+
+export type QueryTestPerObjByIdArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type QueryTestPerObject2Args = {
+  after?: InputMaybe<Scalars['Base64']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterTestPerObject2']>;
+  first?: InputMaybe<Scalars['PositiveIntMax200']>;
+  offset?: InputMaybe<Scalars['NonNegativeInt']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseTestPerObject2']>;
+};
+
+
+export type QueryTestPerObject2ByIdArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type QueryTimesheetArgs = {
+  after?: InputMaybe<Scalars['Base64']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterTimesheet']>;
+  first?: InputMaybe<Scalars['PositiveIntMax200']>;
+  offset?: InputMaybe<Scalars['NonNegativeInt']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseTimesheet']>;
+};
+
+
+export type QueryTimesheetByIdArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type QueryTimesheetEntryArgs = {
+  after?: InputMaybe<Scalars['Base64']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterTimesheetEntry']>;
+  first?: InputMaybe<Scalars['PositiveIntMax200']>;
+  offset?: InputMaybe<Scalars['NonNegativeInt']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseTimesheetEntry']>;
+};
+
+
+export type QueryTimesheetEntryByIdArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type QueryTrainingArgs = {
+  after?: InputMaybe<Scalars['Base64']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterTraining']>;
+  first?: InputMaybe<Scalars['PositiveIntMax200']>;
+  offset?: InputMaybe<Scalars['NonNegativeInt']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseTraining']>;
+};
+
+
+export type QueryTrainingByIdArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type QueryTuanTestArgs = {
+  after?: InputMaybe<Scalars['Base64']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterTuanTest']>;
+  first?: InputMaybe<Scalars['PositiveIntMax200']>;
+  offset?: InputMaybe<Scalars['NonNegativeInt']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseTuanTest']>;
+};
+
+
+export type QueryTuanTestByIdArgs = {
+  UID: Scalars['ID'];
+};
+
+
 export type QueryUserRegionsArgs = {
   after?: InputMaybe<Scalars['Base64']>;
   filter?: InputMaybe<Scalars['EQLQueryFilterUserRegions']>;
@@ -4010,20 +4206,6 @@ export type QueryUserRegionsByIdArgs = {
 };
 
 
-export type QueryUser_ExtArgs = {
-  after?: InputMaybe<Scalars['Base64']>;
-  filter?: InputMaybe<Scalars['EQLQueryFilterUser_Ext']>;
-  first?: InputMaybe<Scalars['PositiveIntMax200']>;
-  offset?: InputMaybe<Scalars['NonNegativeInt']>;
-  orderBy?: InputMaybe<Scalars['EQLOrderByClauseUser_Ext']>;
-};
-
-
-export type QueryUser_ExtByIdArgs = {
-  UID: Scalars['ID'];
-};
-
-
 export type QueryUsersArgs = {
   after?: InputMaybe<Scalars['Base64']>;
   filter?: InputMaybe<Scalars['EQLQueryFilterUsers']>;
@@ -4034,6 +4216,34 @@ export type QueryUsersArgs = {
 
 
 export type QueryUsersByIdArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type QueryVendorTagArgs = {
+  after?: InputMaybe<Scalars['Base64']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterVendorTag']>;
+  first?: InputMaybe<Scalars['PositiveIntMax200']>;
+  offset?: InputMaybe<Scalars['NonNegativeInt']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseVendorTag']>;
+};
+
+
+export type QueryVendorTagByIdArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type QueryVendorsArgs = {
+  after?: InputMaybe<Scalars['Base64']>;
+  filter?: InputMaybe<Scalars['EQLQueryFilterVendors']>;
+  first?: InputMaybe<Scalars['PositiveIntMax200']>;
+  offset?: InputMaybe<Scalars['NonNegativeInt']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseVendors']>;
+};
+
+
+export type QueryVendorsByIdArgs = {
   UID: Scalars['ID'];
 };
 
@@ -4095,17 +4305,10 @@ export type Regions = {
   LastModifiedDate: Scalars['Instant'];
   Name: Scalars['String'];
   Radius?: Maybe<Scalars['Int']>;
-  Region: Array<ClientAuthorization>;
   Resources: Array<Resources>;
   Timezone: Scalars['String'];
   UID: Scalars['ID'];
   UserRegions: Array<UserRegions>;
-};
-
-
-export type RegionsRegionArgs = {
-  filter?: InputMaybe<Scalars['EQLQueryFilterClientAuthorization']>;
-  orderBy?: InputMaybe<Scalars['EQLOrderByClauseClientAuthorization']>;
 };
 
 
@@ -4487,21 +4690,21 @@ export type Resources = {
   AutoSchedule: Scalars['Boolean'];
   Availabilities: Array<Availabilities>;
   AvailabilityPatterns: Array<AvailabilityPatternResources>;
-  CareConnectUserID?: Maybe<Scalars['BigDecimal']>;
+  AvailabilityTemplates: Array<AvailabilityTemplateResources>;
+  Birthday?: Maybe<Scalars['LocalDate']>;
   Category?: Maybe<Scalars['String']>;
   CountryCode?: Maybe<Scalars['String']>;
   CreatedBy: Users;
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
-  EffectiveTerminationDate?: Maybe<Scalars['Instant']>;
   Email?: Maybe<Scalars['String']>;
   EmploymentType?: Maybe<Scalars['String']>;
-  FSM?: Maybe<Scalars['String']>;
   GeoLatitude?: Maybe<Scalars['BigDecimal']>;
   GeoLongitude?: Maybe<Scalars['BigDecimal']>;
   HomeAddress?: Maybe<Scalars['String']>;
   IsActive: Scalars['Boolean'];
   JobAllocations: Array<JobAllocations>;
+  Language?: Maybe<Scalars['String']>;
   LastModifiedBy: Users;
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
@@ -4514,8 +4717,6 @@ export type Resources = {
   PrimaryRegion: Regions;
   PrimaryRegionId: Scalars['ID'];
   Rating?: Maybe<Scalars['Int']>;
-  ReportsTo?: Maybe<Scalars['String']>;
-  RequestedWorkingHoursPerWeek?: Maybe<Scalars['BigDecimal']>;
   ResourceActivities: Array<ActivityResources>;
   ResourceOverrides: Array<ResourceOverrides>;
   ResourceRegions: Array<ResourceRegions>;
@@ -4526,27 +4727,12 @@ export type Resources = {
   TemplatedJobAllocations: Array<TemplatedJobAllocations>;
   TemplatedResourceActivities: Array<TemplatedActivityResources>;
   TemplatedResourceShifts: Array<TemplatedResourceShifts>;
-  TotalUtilizedHours?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
   User?: Maybe<Users>;
   UserId?: Maybe<Scalars['ID']>;
+  VehicleID?: Maybe<Scalars['String']>;
   WeeklyHours?: Maybe<Scalars['BigDecimal']>;
   WorkingHourType?: Maybe<Scalars['WorkingHourType']>;
-  amsuserstatus?: Maybe<Scalars['String']>;
-  city?: Maybe<Scalars['String']>;
-  complianceissue?: Maybe<Scalars['String']>;
-  degreetypelab?: Maybe<Scalars['String']>;
-  estimatedactivationtimestamp?: Maybe<Scalars['String']>;
-  gender?: Maybe<Scalars['String']>;
-  homephone?: Maybe<Scalars['String']>;
-  middleInitial?: Maybe<Scalars['String']>;
-  npi?: Maybe<Scalars['String']>;
-  onboardingstatuslabel?: Maybe<Scalars['String']>;
-  personalemail?: Maybe<Scalars['String']>;
-  state?: Maybe<Scalars['String']>;
-  uniqueeid?: Maybe<Scalars['String']>;
-  worksfor?: Maybe<Scalars['String']>;
-  zip?: Maybe<Scalars['String']>;
 };
 
 
@@ -4571,6 +4757,12 @@ export type ResourcesAvailabilitiesArgs = {
 export type ResourcesAvailabilityPatternsArgs = {
   filter?: InputMaybe<Scalars['EQLQueryFilterAvailabilityPatternResources']>;
   orderBy?: InputMaybe<Scalars['EQLOrderByClauseAvailabilityPatternResources']>;
+};
+
+
+export type ResourcesAvailabilityTemplatesArgs = {
+  filter?: InputMaybe<Scalars['EQLQueryFilterAvailabilityTemplateResources']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseAvailabilityTemplateResources']>;
 };
 
 
@@ -4734,7 +4926,9 @@ export type SchemaMutation = {
   deleteAccounts?: Maybe<Scalars['ID']>;
   deleteActivities?: Maybe<Scalars['ID']>;
   deleteActivityResources?: Maybe<Scalars['ID']>;
-  deleteAdminSetting?: Maybe<Scalars['ID']>;
+  deleteArcadeGames?: Maybe<Scalars['ID']>;
+  deleteAttendee?: Maybe<Scalars['ID']>;
+  deleteAttendee1?: Maybe<Scalars['ID']>;
   deleteAttendees?: Maybe<Scalars['ID']>;
   deleteAvailabilities?: Maybe<Scalars['ID']>;
   deleteAvailabilityPatternResources?: Maybe<Scalars['ID']>;
@@ -4742,14 +4936,13 @@ export type SchemaMutation = {
   deleteAvailabilityTemplateEntries?: Maybe<Scalars['ID']>;
   deleteAvailabilityTemplateResources?: Maybe<Scalars['ID']>;
   deleteAvailabilityTemplates?: Maybe<Scalars['ID']>;
-  deleteClientAuthorization?: Maybe<Scalars['ID']>;
-  deleteClientAuthorizationServices?: Maybe<Scalars['ID']>;
+  deleteClass?: Maybe<Scalars['ID']>;
   deleteClientAvailabilities?: Maybe<Scalars['ID']>;
-  deleteClientAvailabilityTemplate?: Maybe<Scalars['ID']>;
   deleteContactTags?: Maybe<Scalars['ID']>;
   deleteContacts?: Maybe<Scalars['ID']>;
-  deleteExceptionRecord?: Maybe<Scalars['ID']>;
-  deleteExceptionType?: Maybe<Scalars['ID']>;
+  deleteDefaultAutoOffer?: Maybe<Scalars['ID']>;
+  deleteGroupEvent?: Maybe<Scalars['ID']>;
+  deleteGroupEvent1?: Maybe<Scalars['ID']>;
   deleteHolidayRegions?: Maybe<Scalars['ID']>;
   deleteHolidays?: Maybe<Scalars['ID']>;
   deleteJobAllocations?: Maybe<Scalars['ID']>;
@@ -4763,7 +4956,14 @@ export type SchemaMutation = {
   deleteLocationResourceScores?: Maybe<Scalars['ID']>;
   deleteLocations?: Maybe<Scalars['ID']>;
   deleteLogger?: Maybe<Scalars['ID']>;
+  deleteMonitorLogs?: Maybe<Scalars['ID']>;
+  deleteMonitors?: Maybe<Scalars['ID']>;
+  deletePatients?: Maybe<Scalars['ID']>;
   deleteProducts?: Maybe<Scalars['ID']>;
+  deleteProjects?: Maybe<Scalars['ID']>;
+  deletePublicPageSetting?: Maybe<Scalars['ID']>;
+  deletePublicPageTemplate?: Maybe<Scalars['ID']>;
+  deletePublicSchedule?: Maybe<Scalars['ID']>;
   deleteRecurringSchedules?: Maybe<Scalars['ID']>;
   deleteRegions?: Maybe<Scalars['ID']>;
   deleteResourceJobOffers?: Maybe<Scalars['ID']>;
@@ -4782,7 +4982,6 @@ export type SchemaMutation = {
   deleteShiftOffers?: Maybe<Scalars['ID']>;
   deleteShiftTags?: Maybe<Scalars['ID']>;
   deleteShifts?: Maybe<Scalars['ID']>;
-  deleteStarterTest?: Maybe<Scalars['ID']>;
   deleteTagManagerSettings?: Maybe<Scalars['ID']>;
   deleteTagRequest?: Maybe<Scalars['ID']>;
   deleteTags?: Maybe<Scalars['ID']>;
@@ -4801,17 +5000,23 @@ export type SchemaMutation = {
   deleteTemplatedResourceShifts?: Maybe<Scalars['ID']>;
   deleteTemplatedShiftTags?: Maybe<Scalars['ID']>;
   deleteTemplatedShifts?: Maybe<Scalars['ID']>;
+  deleteTestPerObj?: Maybe<Scalars['ID']>;
+  deleteTestPerObject2?: Maybe<Scalars['ID']>;
+  deleteTimesheet?: Maybe<Scalars['ID']>;
+  deleteTimesheetEntry?: Maybe<Scalars['ID']>;
+  deleteTraining?: Maybe<Scalars['ID']>;
+  deleteTuanTest?: Maybe<Scalars['ID']>;
   deleteUserRegions?: Maybe<Scalars['ID']>;
-  deleteUser_Ext?: Maybe<Scalars['ID']>;
-  deleteclientAvailabilityTemplateEntry?: Maybe<Scalars['ID']>;
-  deletesked_BroadcastRecipients?: Maybe<Scalars['ID']>;
-  deletesked_Broadcasts?: Maybe<Scalars['ID']>;
+  deleteVendorTag?: Maybe<Scalars['ID']>;
+  deleteVendors?: Maybe<Scalars['ID']>;
   getAccountResourceScores: SimpleAccountResourceScores;
   getAccountTags: SimpleAccountTags;
   getAccounts: SimpleAccounts;
   getActivities: SimpleActivities;
   getActivityResources: SimpleActivityResources;
-  getAdminSetting: SimpleAdminSetting;
+  getArcadeGames: SimpleArcadeGames;
+  getAttendee: SimpleAttendee;
+  getAttendee1: SimpleAttendee1;
   getAttendees: SimpleAttendees;
   getAvailabilities: SimpleAvailabilities;
   getAvailabilityPatternResources: SimpleAvailabilityPatternResources;
@@ -4819,14 +5024,13 @@ export type SchemaMutation = {
   getAvailabilityTemplateEntries: SimpleAvailabilityTemplateEntries;
   getAvailabilityTemplateResources: SimpleAvailabilityTemplateResources;
   getAvailabilityTemplates: SimpleAvailabilityTemplates;
-  getClientAuthorization: SimpleClientAuthorization;
-  getClientAuthorizationServices: SimpleClientAuthorizationServices;
+  getClass: SimpleClass;
   getClientAvailabilities: SimpleClientAvailabilities;
-  getClientAvailabilityTemplate: SimpleClientAvailabilityTemplate;
   getContactTags: SimpleContactTags;
   getContacts: SimpleContacts;
-  getExceptionRecord: SimpleExceptionRecord;
-  getExceptionType: SimpleExceptionType;
+  getDefaultAutoOffer: SimpleDefaultAutoOffer;
+  getGroupEvent: SimpleGroupEvent;
+  getGroupEvent1: SimpleGroupEvent1;
   getHolidayRegions: SimpleHolidayRegions;
   getHolidays: SimpleHolidays;
   getJobAllocations: SimpleJobAllocations;
@@ -4840,7 +5044,14 @@ export type SchemaMutation = {
   getLocationResourceScores: SimpleLocationResourceScores;
   getLocations: SimpleLocations;
   getLogger: SimpleLogger;
+  getMonitorLogs: SimpleMonitorLogs;
+  getMonitors: SimpleMonitors;
+  getPatients: SimplePatients;
   getProducts: SimpleProducts;
+  getProjects: SimpleProjects;
+  getPublicPageSetting: SimplePublicPageSetting;
+  getPublicPageTemplate: SimplePublicPageTemplate;
+  getPublicSchedule: SimplePublicSchedule;
   getRecurringSchedules: SimpleRecurringSchedules;
   getRegions: SimpleRegions;
   getResourceJobOffers: SimpleResourceJobOffers;
@@ -4859,7 +5070,6 @@ export type SchemaMutation = {
   getShiftOffers: SimpleShiftOffers;
   getShiftTags: SimpleShiftTags;
   getShifts: SimpleShifts;
-  getStarterTest: SimpleStarterTest;
   getTagManagerSettings: SimpleTagManagerSettings;
   getTagRequest: SimpleTagRequest;
   getTags: SimpleTags;
@@ -4878,17 +5088,23 @@ export type SchemaMutation = {
   getTemplatedResourceShifts: SimpleTemplatedResourceShifts;
   getTemplatedShiftTags: SimpleTemplatedShiftTags;
   getTemplatedShifts: SimpleTemplatedShifts;
+  getTestPerObj: SimpleTestPerObj;
+  getTestPerObject2: SimpleTestPerObject2;
+  getTimesheet: SimpleTimesheet;
+  getTimesheetEntry: SimpleTimesheetEntry;
+  getTraining: SimpleTraining;
+  getTuanTest: SimpleTuanTest;
   getUserRegions: SimpleUserRegions;
-  getUser_Ext: SimpleUser_Ext;
-  getclientAvailabilityTemplateEntry: SimpleclientAvailabilityTemplateEntry;
-  getsked_BroadcastRecipients: Simplesked_BroadcastRecipients;
-  getsked_Broadcasts: Simplesked_Broadcasts;
+  getVendorTag: SimpleVendorTag;
+  getVendors: SimpleVendors;
   insertAccountResourceScores: Scalars['ID'];
   insertAccountTags: Scalars['ID'];
   insertAccounts: Scalars['ID'];
   insertActivities: Scalars['ID'];
   insertActivityResources: Scalars['ID'];
-  insertAdminSetting: Scalars['ID'];
+  insertArcadeGames: Scalars['ID'];
+  insertAttendee: Scalars['ID'];
+  insertAttendee1: Scalars['ID'];
   insertAttendees: Scalars['ID'];
   insertAvailabilities: Scalars['ID'];
   insertAvailabilityPatternResources: Scalars['ID'];
@@ -4896,14 +5112,13 @@ export type SchemaMutation = {
   insertAvailabilityTemplateEntries: Scalars['ID'];
   insertAvailabilityTemplateResources: Scalars['ID'];
   insertAvailabilityTemplates: Scalars['ID'];
-  insertClientAuthorization: Scalars['ID'];
-  insertClientAuthorizationServices: Scalars['ID'];
+  insertClass: Scalars['ID'];
   insertClientAvailabilities: Scalars['ID'];
-  insertClientAvailabilityTemplate: Scalars['ID'];
   insertContactTags: Scalars['ID'];
   insertContacts: Scalars['ID'];
-  insertExceptionRecord: Scalars['ID'];
-  insertExceptionType: Scalars['ID'];
+  insertDefaultAutoOffer: Scalars['ID'];
+  insertGroupEvent: Scalars['ID'];
+  insertGroupEvent1: Scalars['ID'];
   insertHolidayRegions: Scalars['ID'];
   insertHolidays: Scalars['ID'];
   insertJobAllocations: Scalars['ID'];
@@ -4917,7 +5132,14 @@ export type SchemaMutation = {
   insertLocationResourceScores: Scalars['ID'];
   insertLocations: Scalars['ID'];
   insertLogger: Scalars['ID'];
+  insertMonitorLogs: Scalars['ID'];
+  insertMonitors: Scalars['ID'];
+  insertPatients: Scalars['ID'];
   insertProducts: Scalars['ID'];
+  insertProjects: Scalars['ID'];
+  insertPublicPageSetting: Scalars['ID'];
+  insertPublicPageTemplate: Scalars['ID'];
+  insertPublicSchedule: Scalars['ID'];
   insertRecurringSchedules: Scalars['ID'];
   insertRegions: Scalars['ID'];
   insertResourceJobOffers: Scalars['ID'];
@@ -4936,7 +5158,6 @@ export type SchemaMutation = {
   insertShiftOffers: Scalars['ID'];
   insertShiftTags: Scalars['ID'];
   insertShifts: Scalars['ID'];
-  insertStarterTest: Scalars['ID'];
   insertTagManagerSettings: Scalars['ID'];
   insertTagRequest: Scalars['ID'];
   insertTags: Scalars['ID'];
@@ -4955,17 +5176,23 @@ export type SchemaMutation = {
   insertTemplatedResourceShifts: Scalars['ID'];
   insertTemplatedShiftTags: Scalars['ID'];
   insertTemplatedShifts: Scalars['ID'];
+  insertTestPerObj: Scalars['ID'];
+  insertTestPerObject2: Scalars['ID'];
+  insertTimesheet: Scalars['ID'];
+  insertTimesheetEntry: Scalars['ID'];
+  insertTraining: Scalars['ID'];
+  insertTuanTest: Scalars['ID'];
   insertUserRegions: Scalars['ID'];
-  insertUser_Ext: Scalars['ID'];
-  insertclientAvailabilityTemplateEntry: Scalars['ID'];
-  insertsked_BroadcastRecipients: Scalars['ID'];
-  insertsked_Broadcasts: Scalars['ID'];
+  insertVendorTag: Scalars['ID'];
+  insertVendors: Scalars['ID'];
   updateAccountResourceScores: Scalars['ID'];
   updateAccountTags: Scalars['ID'];
   updateAccounts: Scalars['ID'];
   updateActivities: Scalars['ID'];
   updateActivityResources: Scalars['ID'];
-  updateAdminSetting: Scalars['ID'];
+  updateArcadeGames: Scalars['ID'];
+  updateAttendee: Scalars['ID'];
+  updateAttendee1: Scalars['ID'];
   updateAttendees: Scalars['ID'];
   updateAvailabilities: Scalars['ID'];
   updateAvailabilityPatternResources: Scalars['ID'];
@@ -4973,14 +5200,13 @@ export type SchemaMutation = {
   updateAvailabilityTemplateEntries: Scalars['ID'];
   updateAvailabilityTemplateResources: Scalars['ID'];
   updateAvailabilityTemplates: Scalars['ID'];
-  updateClientAuthorization: Scalars['ID'];
-  updateClientAuthorizationServices: Scalars['ID'];
+  updateClass: Scalars['ID'];
   updateClientAvailabilities: Scalars['ID'];
-  updateClientAvailabilityTemplate: Scalars['ID'];
   updateContactTags: Scalars['ID'];
   updateContacts: Scalars['ID'];
-  updateExceptionRecord: Scalars['ID'];
-  updateExceptionType: Scalars['ID'];
+  updateDefaultAutoOffer: Scalars['ID'];
+  updateGroupEvent: Scalars['ID'];
+  updateGroupEvent1: Scalars['ID'];
   updateHolidayRegions: Scalars['ID'];
   updateHolidays: Scalars['ID'];
   updateJobAllocations: Scalars['ID'];
@@ -4994,7 +5220,14 @@ export type SchemaMutation = {
   updateLocationResourceScores: Scalars['ID'];
   updateLocations: Scalars['ID'];
   updateLogger: Scalars['ID'];
+  updateMonitorLogs: Scalars['ID'];
+  updateMonitors: Scalars['ID'];
+  updatePatients: Scalars['ID'];
   updateProducts: Scalars['ID'];
+  updateProjects: Scalars['ID'];
+  updatePublicPageSetting: Scalars['ID'];
+  updatePublicPageTemplate: Scalars['ID'];
+  updatePublicSchedule: Scalars['ID'];
   updateRecurringSchedules: Scalars['ID'];
   updateRegions: Scalars['ID'];
   updateResourceJobOffers: Scalars['ID'];
@@ -5013,7 +5246,6 @@ export type SchemaMutation = {
   updateShiftOffers: Scalars['ID'];
   updateShiftTags: Scalars['ID'];
   updateShifts: Scalars['ID'];
-  updateStarterTest: Scalars['ID'];
   updateTagManagerSettings: Scalars['ID'];
   updateTagRequest: Scalars['ID'];
   updateTags: Scalars['ID'];
@@ -5032,17 +5264,23 @@ export type SchemaMutation = {
   updateTemplatedResourceShifts: Scalars['ID'];
   updateTemplatedShiftTags: Scalars['ID'];
   updateTemplatedShifts: Scalars['ID'];
+  updateTestPerObj: Scalars['ID'];
+  updateTestPerObject2: Scalars['ID'];
+  updateTimesheet: Scalars['ID'];
+  updateTimesheetEntry: Scalars['ID'];
+  updateTraining: Scalars['ID'];
+  updateTuanTest: Scalars['ID'];
   updateUserRegions: Scalars['ID'];
-  updateUser_Ext: Scalars['ID'];
-  updateclientAvailabilityTemplateEntry: Scalars['ID'];
-  updatesked_BroadcastRecipients: Scalars['ID'];
-  updatesked_Broadcasts: Scalars['ID'];
+  updateVendorTag: Scalars['ID'];
+  updateVendors: Scalars['ID'];
   upsertAccountResourceScores: Scalars['ID'];
   upsertAccountTags: Scalars['ID'];
   upsertAccounts: Scalars['ID'];
   upsertActivities: Scalars['ID'];
   upsertActivityResources: Scalars['ID'];
-  upsertAdminSetting: Scalars['ID'];
+  upsertArcadeGames: Scalars['ID'];
+  upsertAttendee: Scalars['ID'];
+  upsertAttendee1: Scalars['ID'];
   upsertAttendees: Scalars['ID'];
   upsertAvailabilities: Scalars['ID'];
   upsertAvailabilityPatternResources: Scalars['ID'];
@@ -5050,14 +5288,13 @@ export type SchemaMutation = {
   upsertAvailabilityTemplateEntries: Scalars['ID'];
   upsertAvailabilityTemplateResources: Scalars['ID'];
   upsertAvailabilityTemplates: Scalars['ID'];
-  upsertClientAuthorization: Scalars['ID'];
-  upsertClientAuthorizationServices: Scalars['ID'];
+  upsertClass: Scalars['ID'];
   upsertClientAvailabilities: Scalars['ID'];
-  upsertClientAvailabilityTemplate: Scalars['ID'];
   upsertContactTags: Scalars['ID'];
   upsertContacts: Scalars['ID'];
-  upsertExceptionRecord: Scalars['ID'];
-  upsertExceptionType: Scalars['ID'];
+  upsertDefaultAutoOffer: Scalars['ID'];
+  upsertGroupEvent: Scalars['ID'];
+  upsertGroupEvent1: Scalars['ID'];
   upsertHolidayRegions: Scalars['ID'];
   upsertHolidays: Scalars['ID'];
   upsertJobAllocations: Scalars['ID'];
@@ -5071,7 +5308,14 @@ export type SchemaMutation = {
   upsertLocationResourceScores: Scalars['ID'];
   upsertLocations: Scalars['ID'];
   upsertLogger: Scalars['ID'];
+  upsertMonitorLogs: Scalars['ID'];
+  upsertMonitors: Scalars['ID'];
+  upsertPatients: Scalars['ID'];
   upsertProducts: Scalars['ID'];
+  upsertProjects: Scalars['ID'];
+  upsertPublicPageSetting: Scalars['ID'];
+  upsertPublicPageTemplate: Scalars['ID'];
+  upsertPublicSchedule: Scalars['ID'];
   upsertRecurringSchedules: Scalars['ID'];
   upsertRegions: Scalars['ID'];
   upsertResourceJobOffers: Scalars['ID'];
@@ -5090,7 +5334,6 @@ export type SchemaMutation = {
   upsertShiftOffers: Scalars['ID'];
   upsertShiftTags: Scalars['ID'];
   upsertShifts: Scalars['ID'];
-  upsertStarterTest: Scalars['ID'];
   upsertTagManagerSettings: Scalars['ID'];
   upsertTagRequest: Scalars['ID'];
   upsertTags: Scalars['ID'];
@@ -5109,11 +5352,15 @@ export type SchemaMutation = {
   upsertTemplatedResourceShifts: Scalars['ID'];
   upsertTemplatedShiftTags: Scalars['ID'];
   upsertTemplatedShifts: Scalars['ID'];
+  upsertTestPerObj: Scalars['ID'];
+  upsertTestPerObject2: Scalars['ID'];
+  upsertTimesheet: Scalars['ID'];
+  upsertTimesheetEntry: Scalars['ID'];
+  upsertTraining: Scalars['ID'];
+  upsertTuanTest: Scalars['ID'];
   upsertUserRegions: Scalars['ID'];
-  upsertUser_Ext: Scalars['ID'];
-  upsertclientAvailabilityTemplateEntry: Scalars['ID'];
-  upsertsked_BroadcastRecipients: Scalars['ID'];
-  upsertsked_Broadcasts: Scalars['ID'];
+  upsertVendorTag: Scalars['ID'];
+  upsertVendors: Scalars['ID'];
 };
 
 
@@ -5142,7 +5389,17 @@ export type SchemaMutationDeleteActivityResourcesArgs = {
 };
 
 
-export type SchemaMutationDeleteAdminSettingArgs = {
+export type SchemaMutationDeleteArcadeGamesArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type SchemaMutationDeleteAttendeeArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type SchemaMutationDeleteAttendee1Args = {
   UID: Scalars['ID'];
 };
 
@@ -5182,22 +5439,12 @@ export type SchemaMutationDeleteAvailabilityTemplatesArgs = {
 };
 
 
-export type SchemaMutationDeleteClientAuthorizationArgs = {
-  UID: Scalars['ID'];
-};
-
-
-export type SchemaMutationDeleteClientAuthorizationServicesArgs = {
+export type SchemaMutationDeleteClassArgs = {
   UID: Scalars['ID'];
 };
 
 
 export type SchemaMutationDeleteClientAvailabilitiesArgs = {
-  UID: Scalars['ID'];
-};
-
-
-export type SchemaMutationDeleteClientAvailabilityTemplateArgs = {
   UID: Scalars['ID'];
 };
 
@@ -5212,12 +5459,17 @@ export type SchemaMutationDeleteContactsArgs = {
 };
 
 
-export type SchemaMutationDeleteExceptionRecordArgs = {
+export type SchemaMutationDeleteDefaultAutoOfferArgs = {
   UID: Scalars['ID'];
 };
 
 
-export type SchemaMutationDeleteExceptionTypeArgs = {
+export type SchemaMutationDeleteGroupEventArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type SchemaMutationDeleteGroupEvent1Args = {
   UID: Scalars['ID'];
 };
 
@@ -5287,7 +5539,42 @@ export type SchemaMutationDeleteLoggerArgs = {
 };
 
 
+export type SchemaMutationDeleteMonitorLogsArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type SchemaMutationDeleteMonitorsArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type SchemaMutationDeletePatientsArgs = {
+  UID: Scalars['ID'];
+};
+
+
 export type SchemaMutationDeleteProductsArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type SchemaMutationDeleteProjectsArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type SchemaMutationDeletePublicPageSettingArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type SchemaMutationDeletePublicPageTemplateArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type SchemaMutationDeletePublicScheduleArgs = {
   UID: Scalars['ID'];
 };
 
@@ -5382,11 +5669,6 @@ export type SchemaMutationDeleteShiftsArgs = {
 };
 
 
-export type SchemaMutationDeleteStarterTestArgs = {
-  UID: Scalars['ID'];
-};
-
-
 export type SchemaMutationDeleteTagManagerSettingsArgs = {
   UID: Scalars['ID'];
 };
@@ -5477,27 +5759,47 @@ export type SchemaMutationDeleteTemplatedShiftsArgs = {
 };
 
 
+export type SchemaMutationDeleteTestPerObjArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type SchemaMutationDeleteTestPerObject2Args = {
+  UID: Scalars['ID'];
+};
+
+
+export type SchemaMutationDeleteTimesheetArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type SchemaMutationDeleteTimesheetEntryArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type SchemaMutationDeleteTrainingArgs = {
+  UID: Scalars['ID'];
+};
+
+
+export type SchemaMutationDeleteTuanTestArgs = {
+  UID: Scalars['ID'];
+};
+
+
 export type SchemaMutationDeleteUserRegionsArgs = {
   UID: Scalars['ID'];
 };
 
 
-export type SchemaMutationDeleteUser_ExtArgs = {
+export type SchemaMutationDeleteVendorTagArgs = {
   UID: Scalars['ID'];
 };
 
 
-export type SchemaMutationDeleteclientAvailabilityTemplateEntryArgs = {
-  UID: Scalars['ID'];
-};
-
-
-export type SchemaMutationDeletesked_BroadcastRecipientsArgs = {
-  UID: Scalars['ID'];
-};
-
-
-export type SchemaMutationDeletesked_BroadcastsArgs = {
+export type SchemaMutationDeleteVendorsArgs = {
   UID: Scalars['ID'];
 };
 
@@ -5527,7 +5829,17 @@ export type SchemaMutationGetActivityResourcesArgs = {
 };
 
 
-export type SchemaMutationGetAdminSettingArgs = {
+export type SchemaMutationGetArcadeGamesArgs = {
+  id: Scalars['ID'];
+};
+
+
+export type SchemaMutationGetAttendeeArgs = {
+  id: Scalars['ID'];
+};
+
+
+export type SchemaMutationGetAttendee1Args = {
   id: Scalars['ID'];
 };
 
@@ -5567,22 +5879,12 @@ export type SchemaMutationGetAvailabilityTemplatesArgs = {
 };
 
 
-export type SchemaMutationGetClientAuthorizationArgs = {
-  id: Scalars['ID'];
-};
-
-
-export type SchemaMutationGetClientAuthorizationServicesArgs = {
+export type SchemaMutationGetClassArgs = {
   id: Scalars['ID'];
 };
 
 
 export type SchemaMutationGetClientAvailabilitiesArgs = {
-  id: Scalars['ID'];
-};
-
-
-export type SchemaMutationGetClientAvailabilityTemplateArgs = {
   id: Scalars['ID'];
 };
 
@@ -5597,12 +5899,17 @@ export type SchemaMutationGetContactsArgs = {
 };
 
 
-export type SchemaMutationGetExceptionRecordArgs = {
+export type SchemaMutationGetDefaultAutoOfferArgs = {
   id: Scalars['ID'];
 };
 
 
-export type SchemaMutationGetExceptionTypeArgs = {
+export type SchemaMutationGetGroupEventArgs = {
+  id: Scalars['ID'];
+};
+
+
+export type SchemaMutationGetGroupEvent1Args = {
   id: Scalars['ID'];
 };
 
@@ -5672,7 +5979,42 @@ export type SchemaMutationGetLoggerArgs = {
 };
 
 
+export type SchemaMutationGetMonitorLogsArgs = {
+  id: Scalars['ID'];
+};
+
+
+export type SchemaMutationGetMonitorsArgs = {
+  id: Scalars['ID'];
+};
+
+
+export type SchemaMutationGetPatientsArgs = {
+  id: Scalars['ID'];
+};
+
+
 export type SchemaMutationGetProductsArgs = {
+  id: Scalars['ID'];
+};
+
+
+export type SchemaMutationGetProjectsArgs = {
+  id: Scalars['ID'];
+};
+
+
+export type SchemaMutationGetPublicPageSettingArgs = {
+  id: Scalars['ID'];
+};
+
+
+export type SchemaMutationGetPublicPageTemplateArgs = {
+  id: Scalars['ID'];
+};
+
+
+export type SchemaMutationGetPublicScheduleArgs = {
   id: Scalars['ID'];
 };
 
@@ -5767,11 +6109,6 @@ export type SchemaMutationGetShiftsArgs = {
 };
 
 
-export type SchemaMutationGetStarterTestArgs = {
-  id: Scalars['ID'];
-};
-
-
 export type SchemaMutationGetTagManagerSettingsArgs = {
   id: Scalars['ID'];
 };
@@ -5862,27 +6199,47 @@ export type SchemaMutationGetTemplatedShiftsArgs = {
 };
 
 
+export type SchemaMutationGetTestPerObjArgs = {
+  id: Scalars['ID'];
+};
+
+
+export type SchemaMutationGetTestPerObject2Args = {
+  id: Scalars['ID'];
+};
+
+
+export type SchemaMutationGetTimesheetArgs = {
+  id: Scalars['ID'];
+};
+
+
+export type SchemaMutationGetTimesheetEntryArgs = {
+  id: Scalars['ID'];
+};
+
+
+export type SchemaMutationGetTrainingArgs = {
+  id: Scalars['ID'];
+};
+
+
+export type SchemaMutationGetTuanTestArgs = {
+  id: Scalars['ID'];
+};
+
+
 export type SchemaMutationGetUserRegionsArgs = {
   id: Scalars['ID'];
 };
 
 
-export type SchemaMutationGetUser_ExtArgs = {
+export type SchemaMutationGetVendorTagArgs = {
   id: Scalars['ID'];
 };
 
 
-export type SchemaMutationGetclientAvailabilityTemplateEntryArgs = {
-  id: Scalars['ID'];
-};
-
-
-export type SchemaMutationGetsked_BroadcastRecipientsArgs = {
-  id: Scalars['ID'];
-};
-
-
-export type SchemaMutationGetsked_BroadcastsArgs = {
+export type SchemaMutationGetVendorsArgs = {
   id: Scalars['ID'];
 };
 
@@ -5917,9 +6274,21 @@ export type SchemaMutationInsertActivityResourcesArgs = {
 };
 
 
-export type SchemaMutationInsertAdminSettingArgs = {
+export type SchemaMutationInsertArcadeGamesArgs = {
   idAlias?: InputMaybe<Scalars['ID']>;
-  input: NewAdminSetting;
+  input: NewArcadeGames;
+};
+
+
+export type SchemaMutationInsertAttendeeArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: NewAttendee;
+};
+
+
+export type SchemaMutationInsertAttendee1Args = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: NewAttendee1;
 };
 
 
@@ -5965,27 +6334,15 @@ export type SchemaMutationInsertAvailabilityTemplatesArgs = {
 };
 
 
-export type SchemaMutationInsertClientAuthorizationArgs = {
+export type SchemaMutationInsertClassArgs = {
   idAlias?: InputMaybe<Scalars['ID']>;
-  input: NewClientAuthorization;
-};
-
-
-export type SchemaMutationInsertClientAuthorizationServicesArgs = {
-  idAlias?: InputMaybe<Scalars['ID']>;
-  input: NewClientAuthorizationServices;
+  input: NewClass;
 };
 
 
 export type SchemaMutationInsertClientAvailabilitiesArgs = {
   idAlias?: InputMaybe<Scalars['ID']>;
   input: NewClientAvailabilities;
-};
-
-
-export type SchemaMutationInsertClientAvailabilityTemplateArgs = {
-  idAlias?: InputMaybe<Scalars['ID']>;
-  input: NewClientAvailabilityTemplate;
 };
 
 
@@ -6001,15 +6358,21 @@ export type SchemaMutationInsertContactsArgs = {
 };
 
 
-export type SchemaMutationInsertExceptionRecordArgs = {
+export type SchemaMutationInsertDefaultAutoOfferArgs = {
   idAlias?: InputMaybe<Scalars['ID']>;
-  input: NewExceptionRecord;
+  input: NewDefaultAutoOffer;
 };
 
 
-export type SchemaMutationInsertExceptionTypeArgs = {
+export type SchemaMutationInsertGroupEventArgs = {
   idAlias?: InputMaybe<Scalars['ID']>;
-  input: NewExceptionType;
+  input: NewGroupEvent;
+};
+
+
+export type SchemaMutationInsertGroupEvent1Args = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: NewGroupEvent1;
 };
 
 
@@ -6091,9 +6454,51 @@ export type SchemaMutationInsertLoggerArgs = {
 };
 
 
+export type SchemaMutationInsertMonitorLogsArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: NewMonitorLogs;
+};
+
+
+export type SchemaMutationInsertMonitorsArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: NewMonitors;
+};
+
+
+export type SchemaMutationInsertPatientsArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: NewPatients;
+};
+
+
 export type SchemaMutationInsertProductsArgs = {
   idAlias?: InputMaybe<Scalars['ID']>;
   input: NewProducts;
+};
+
+
+export type SchemaMutationInsertProjectsArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: NewProjects;
+};
+
+
+export type SchemaMutationInsertPublicPageSettingArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: NewPublicPageSetting;
+};
+
+
+export type SchemaMutationInsertPublicPageTemplateArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: NewPublicPageTemplate;
+};
+
+
+export type SchemaMutationInsertPublicScheduleArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: NewPublicSchedule;
 };
 
 
@@ -6205,12 +6610,6 @@ export type SchemaMutationInsertShiftsArgs = {
 };
 
 
-export type SchemaMutationInsertStarterTestArgs = {
-  idAlias?: InputMaybe<Scalars['ID']>;
-  input: NewStarterTest;
-};
-
-
 export type SchemaMutationInsertTagManagerSettingsArgs = {
   idAlias?: InputMaybe<Scalars['ID']>;
   input: NewTagManagerSettings;
@@ -6319,33 +6718,57 @@ export type SchemaMutationInsertTemplatedShiftsArgs = {
 };
 
 
+export type SchemaMutationInsertTestPerObjArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: NewTestPerObj;
+};
+
+
+export type SchemaMutationInsertTestPerObject2Args = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: NewTestPerObject2;
+};
+
+
+export type SchemaMutationInsertTimesheetArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: NewTimesheet;
+};
+
+
+export type SchemaMutationInsertTimesheetEntryArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: NewTimesheetEntry;
+};
+
+
+export type SchemaMutationInsertTrainingArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: NewTraining;
+};
+
+
+export type SchemaMutationInsertTuanTestArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: NewTuanTest;
+};
+
+
 export type SchemaMutationInsertUserRegionsArgs = {
   idAlias?: InputMaybe<Scalars['ID']>;
   input: NewUserRegions;
 };
 
 
-export type SchemaMutationInsertUser_ExtArgs = {
+export type SchemaMutationInsertVendorTagArgs = {
   idAlias?: InputMaybe<Scalars['ID']>;
-  input: NewUser_Ext;
+  input: NewVendorTag;
 };
 
 
-export type SchemaMutationInsertclientAvailabilityTemplateEntryArgs = {
+export type SchemaMutationInsertVendorsArgs = {
   idAlias?: InputMaybe<Scalars['ID']>;
-  input: NewclientAvailabilityTemplateEntry;
-};
-
-
-export type SchemaMutationInsertsked_BroadcastRecipientsArgs = {
-  idAlias?: InputMaybe<Scalars['ID']>;
-  input: Newsked_BroadcastRecipients;
-};
-
-
-export type SchemaMutationInsertsked_BroadcastsArgs = {
-  idAlias?: InputMaybe<Scalars['ID']>;
-  input: Newsked_Broadcasts;
+  input: NewVendors;
 };
 
 
@@ -6374,8 +6797,18 @@ export type SchemaMutationUpdateActivityResourcesArgs = {
 };
 
 
-export type SchemaMutationUpdateAdminSettingArgs = {
-  input: UpdateAdminSetting;
+export type SchemaMutationUpdateArcadeGamesArgs = {
+  input: UpdateArcadeGames;
+};
+
+
+export type SchemaMutationUpdateAttendeeArgs = {
+  input: UpdateAttendee;
+};
+
+
+export type SchemaMutationUpdateAttendee1Args = {
+  input: UpdateAttendee1;
 };
 
 
@@ -6414,23 +6847,13 @@ export type SchemaMutationUpdateAvailabilityTemplatesArgs = {
 };
 
 
-export type SchemaMutationUpdateClientAuthorizationArgs = {
-  input: UpdateClientAuthorization;
-};
-
-
-export type SchemaMutationUpdateClientAuthorizationServicesArgs = {
-  input: UpdateClientAuthorizationServices;
+export type SchemaMutationUpdateClassArgs = {
+  input: UpdateClass;
 };
 
 
 export type SchemaMutationUpdateClientAvailabilitiesArgs = {
   input: UpdateClientAvailabilities;
-};
-
-
-export type SchemaMutationUpdateClientAvailabilityTemplateArgs = {
-  input: UpdateClientAvailabilityTemplate;
 };
 
 
@@ -6444,13 +6867,18 @@ export type SchemaMutationUpdateContactsArgs = {
 };
 
 
-export type SchemaMutationUpdateExceptionRecordArgs = {
-  input: UpdateExceptionRecord;
+export type SchemaMutationUpdateDefaultAutoOfferArgs = {
+  input: UpdateDefaultAutoOffer;
 };
 
 
-export type SchemaMutationUpdateExceptionTypeArgs = {
-  input: UpdateExceptionType;
+export type SchemaMutationUpdateGroupEventArgs = {
+  input: UpdateGroupEvent;
+};
+
+
+export type SchemaMutationUpdateGroupEvent1Args = {
+  input: UpdateGroupEvent1;
 };
 
 
@@ -6519,8 +6947,43 @@ export type SchemaMutationUpdateLoggerArgs = {
 };
 
 
+export type SchemaMutationUpdateMonitorLogsArgs = {
+  input: UpdateMonitorLogs;
+};
+
+
+export type SchemaMutationUpdateMonitorsArgs = {
+  input: UpdateMonitors;
+};
+
+
+export type SchemaMutationUpdatePatientsArgs = {
+  input: UpdatePatients;
+};
+
+
 export type SchemaMutationUpdateProductsArgs = {
   input: UpdateProducts;
+};
+
+
+export type SchemaMutationUpdateProjectsArgs = {
+  input: UpdateProjects;
+};
+
+
+export type SchemaMutationUpdatePublicPageSettingArgs = {
+  input: UpdatePublicPageSetting;
+};
+
+
+export type SchemaMutationUpdatePublicPageTemplateArgs = {
+  input: UpdatePublicPageTemplate;
+};
+
+
+export type SchemaMutationUpdatePublicScheduleArgs = {
+  input: UpdatePublicSchedule;
 };
 
 
@@ -6614,11 +7077,6 @@ export type SchemaMutationUpdateShiftsArgs = {
 };
 
 
-export type SchemaMutationUpdateStarterTestArgs = {
-  input: UpdateStarterTest;
-};
-
-
 export type SchemaMutationUpdateTagManagerSettingsArgs = {
   input: UpdateTagManagerSettings;
 };
@@ -6709,28 +7167,48 @@ export type SchemaMutationUpdateTemplatedShiftsArgs = {
 };
 
 
+export type SchemaMutationUpdateTestPerObjArgs = {
+  input: UpdateTestPerObj;
+};
+
+
+export type SchemaMutationUpdateTestPerObject2Args = {
+  input: UpdateTestPerObject2;
+};
+
+
+export type SchemaMutationUpdateTimesheetArgs = {
+  input: UpdateTimesheet;
+};
+
+
+export type SchemaMutationUpdateTimesheetEntryArgs = {
+  input: UpdateTimesheetEntry;
+};
+
+
+export type SchemaMutationUpdateTrainingArgs = {
+  input: UpdateTraining;
+};
+
+
+export type SchemaMutationUpdateTuanTestArgs = {
+  input: UpdateTuanTest;
+};
+
+
 export type SchemaMutationUpdateUserRegionsArgs = {
   input: UpdateUserRegions;
 };
 
 
-export type SchemaMutationUpdateUser_ExtArgs = {
-  input: UpdateUser_Ext;
+export type SchemaMutationUpdateVendorTagArgs = {
+  input: UpdateVendorTag;
 };
 
 
-export type SchemaMutationUpdateclientAvailabilityTemplateEntryArgs = {
-  input: UpdateclientAvailabilityTemplateEntry;
-};
-
-
-export type SchemaMutationUpdatesked_BroadcastRecipientsArgs = {
-  input: Updatesked_BroadcastRecipients;
-};
-
-
-export type SchemaMutationUpdatesked_BroadcastsArgs = {
-  input: Updatesked_Broadcasts;
+export type SchemaMutationUpdateVendorsArgs = {
+  input: UpdateVendors;
 };
 
 
@@ -6769,9 +7247,23 @@ export type SchemaMutationUpsertActivityResourcesArgs = {
 };
 
 
-export type SchemaMutationUpsertAdminSettingArgs = {
+export type SchemaMutationUpsertArcadeGamesArgs = {
   idAlias?: InputMaybe<Scalars['ID']>;
-  input: UpsertAdminSetting;
+  input: UpsertArcadeGames;
+  keyField: Scalars['String'];
+};
+
+
+export type SchemaMutationUpsertAttendeeArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: UpsertAttendee;
+  keyField: Scalars['String'];
+};
+
+
+export type SchemaMutationUpsertAttendee1Args = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: UpsertAttendee1;
   keyField: Scalars['String'];
 };
 
@@ -6825,16 +7317,9 @@ export type SchemaMutationUpsertAvailabilityTemplatesArgs = {
 };
 
 
-export type SchemaMutationUpsertClientAuthorizationArgs = {
+export type SchemaMutationUpsertClassArgs = {
   idAlias?: InputMaybe<Scalars['ID']>;
-  input: UpsertClientAuthorization;
-  keyField: Scalars['String'];
-};
-
-
-export type SchemaMutationUpsertClientAuthorizationServicesArgs = {
-  idAlias?: InputMaybe<Scalars['ID']>;
-  input: UpsertClientAuthorizationServices;
+  input: UpsertClass;
   keyField: Scalars['String'];
 };
 
@@ -6842,13 +7327,6 @@ export type SchemaMutationUpsertClientAuthorizationServicesArgs = {
 export type SchemaMutationUpsertClientAvailabilitiesArgs = {
   idAlias?: InputMaybe<Scalars['ID']>;
   input: UpsertClientAvailabilities;
-  keyField: Scalars['String'];
-};
-
-
-export type SchemaMutationUpsertClientAvailabilityTemplateArgs = {
-  idAlias?: InputMaybe<Scalars['ID']>;
-  input: UpsertClientAvailabilityTemplate;
   keyField: Scalars['String'];
 };
 
@@ -6867,16 +7345,23 @@ export type SchemaMutationUpsertContactsArgs = {
 };
 
 
-export type SchemaMutationUpsertExceptionRecordArgs = {
+export type SchemaMutationUpsertDefaultAutoOfferArgs = {
   idAlias?: InputMaybe<Scalars['ID']>;
-  input: UpsertExceptionRecord;
+  input: UpsertDefaultAutoOffer;
   keyField: Scalars['String'];
 };
 
 
-export type SchemaMutationUpsertExceptionTypeArgs = {
+export type SchemaMutationUpsertGroupEventArgs = {
   idAlias?: InputMaybe<Scalars['ID']>;
-  input: UpsertExceptionType;
+  input: UpsertGroupEvent;
+  keyField: Scalars['String'];
+};
+
+
+export type SchemaMutationUpsertGroupEvent1Args = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: UpsertGroupEvent1;
   keyField: Scalars['String'];
 };
 
@@ -6972,9 +7457,58 @@ export type SchemaMutationUpsertLoggerArgs = {
 };
 
 
+export type SchemaMutationUpsertMonitorLogsArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: UpsertMonitorLogs;
+  keyField: Scalars['String'];
+};
+
+
+export type SchemaMutationUpsertMonitorsArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: UpsertMonitors;
+  keyField: Scalars['String'];
+};
+
+
+export type SchemaMutationUpsertPatientsArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: UpsertPatients;
+  keyField: Scalars['String'];
+};
+
+
 export type SchemaMutationUpsertProductsArgs = {
   idAlias?: InputMaybe<Scalars['ID']>;
   input: UpsertProducts;
+  keyField: Scalars['String'];
+};
+
+
+export type SchemaMutationUpsertProjectsArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: UpsertProjects;
+  keyField: Scalars['String'];
+};
+
+
+export type SchemaMutationUpsertPublicPageSettingArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: UpsertPublicPageSetting;
+  keyField: Scalars['String'];
+};
+
+
+export type SchemaMutationUpsertPublicPageTemplateArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: UpsertPublicPageTemplate;
+  keyField: Scalars['String'];
+};
+
+
+export type SchemaMutationUpsertPublicScheduleArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: UpsertPublicSchedule;
   keyField: Scalars['String'];
 };
 
@@ -7105,13 +7639,6 @@ export type SchemaMutationUpsertShiftsArgs = {
 };
 
 
-export type SchemaMutationUpsertStarterTestArgs = {
-  idAlias?: InputMaybe<Scalars['ID']>;
-  input: UpsertStarterTest;
-  keyField: Scalars['String'];
-};
-
-
 export type SchemaMutationUpsertTagManagerSettingsArgs = {
   idAlias?: InputMaybe<Scalars['ID']>;
   input: UpsertTagManagerSettings;
@@ -7238,6 +7765,48 @@ export type SchemaMutationUpsertTemplatedShiftsArgs = {
 };
 
 
+export type SchemaMutationUpsertTestPerObjArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: UpsertTestPerObj;
+  keyField: Scalars['String'];
+};
+
+
+export type SchemaMutationUpsertTestPerObject2Args = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: UpsertTestPerObject2;
+  keyField: Scalars['String'];
+};
+
+
+export type SchemaMutationUpsertTimesheetArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: UpsertTimesheet;
+  keyField: Scalars['String'];
+};
+
+
+export type SchemaMutationUpsertTimesheetEntryArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: UpsertTimesheetEntry;
+  keyField: Scalars['String'];
+};
+
+
+export type SchemaMutationUpsertTrainingArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: UpsertTraining;
+  keyField: Scalars['String'];
+};
+
+
+export type SchemaMutationUpsertTuanTestArgs = {
+  idAlias?: InputMaybe<Scalars['ID']>;
+  input: UpsertTuanTest;
+  keyField: Scalars['String'];
+};
+
+
 export type SchemaMutationUpsertUserRegionsArgs = {
   idAlias?: InputMaybe<Scalars['ID']>;
   input: UpsertUserRegions;
@@ -7245,104 +7814,39 @@ export type SchemaMutationUpsertUserRegionsArgs = {
 };
 
 
-export type SchemaMutationUpsertUser_ExtArgs = {
+export type SchemaMutationUpsertVendorTagArgs = {
   idAlias?: InputMaybe<Scalars['ID']>;
-  input: UpsertUser_Ext;
+  input: UpsertVendorTag;
   keyField: Scalars['String'];
 };
 
 
-export type SchemaMutationUpsertclientAvailabilityTemplateEntryArgs = {
+export type SchemaMutationUpsertVendorsArgs = {
   idAlias?: InputMaybe<Scalars['ID']>;
-  input: UpsertclientAvailabilityTemplateEntry;
+  input: UpsertVendors;
   keyField: Scalars['String'];
-};
-
-
-export type SchemaMutationUpsertsked_BroadcastRecipientsArgs = {
-  idAlias?: InputMaybe<Scalars['ID']>;
-  input: Upsertsked_BroadcastRecipients;
-  keyField: Scalars['String'];
-};
-
-
-export type SchemaMutationUpsertsked_BroadcastsArgs = {
-  idAlias?: InputMaybe<Scalars['ID']>;
-  input: Upsertsked_Broadcasts;
-  keyField: Scalars['String'];
-};
-
-export type SchemaSubscriptionAccountResourceScores = {
-  __typename?: 'SchemaSubscriptionAccountResourceScores';
-  AccountId: Scalars['ID'];
-  Blacklisted: Scalars['Boolean'];
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  ResourceId: Scalars['ID'];
-  UID: Scalars['ID'];
-  Whitelisted: Scalars['Boolean'];
-};
-
-export type SchemaSubscriptionAccountTags = {
-  __typename?: 'SchemaSubscriptionAccountTags';
-  AccountId: Scalars['ID'];
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Required: Scalars['Boolean'];
-  TagId: Scalars['ID'];
-  UID: Scalars['ID'];
-  Weighting?: Maybe<Scalars['Int']>;
 };
 
 export type SchemaSubscriptionAccounts = {
   __typename?: 'SchemaSubscriptionAccounts';
-  ACId?: Maybe<Scalars['ID']>;
-  AVPId?: Maybe<Scalars['ID']>;
-  ActiveFromDate?: Maybe<Scalars['LocalDate']>;
-  ActiveThruDate?: Maybe<Scalars['LocalDate']>;
-  ActualStartOfCareDate?: Maybe<Scalars['LocalDate']>;
   BillingCity?: Maybe<Scalars['String']>;
   BillingPostalCode?: Maybe<Scalars['String']>;
   BillingState?: Maybe<Scalars['String']>;
   BillingStreet?: Maybe<Scalars['String']>;
-  CaseID?: Maybe<Scalars['String']>;
-  CaseProgressionStatus?: Maybe<Scalars['String']>;
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
-  DateOfBirth?: Maybe<Scalars['LocalDate']>;
-  DefaultLocationId?: Maybe<Scalars['ID']>;
-  DischargeDate?: Maybe<Scalars['Instant']>;
-  Division?: Maybe<Scalars['String']>;
-  ExternalClientID?: Maybe<Scalars['String']>;
-  FSMId?: Maybe<Scalars['ID']>;
   Fax?: Maybe<Scalars['String']>;
-  Gender?: Maybe<Scalars['String']>;
-  HoldDate?: Maybe<Scalars['LocalDate']>;
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
-  MRNumber?: Maybe<Scalars['String']>;
+  Level?: Maybe<Scalars['String']>;
   Name: Scalars['String'];
-  NeedToRecalculateJobsLocation: Scalars['Boolean'];
-  ODId?: Maybe<Scalars['ID']>;
-  PayerLabel?: Maybe<Scalars['String']>;
   Phone?: Maybe<Scalars['String']>;
-  PlannedStartOfCareDate?: Maybe<Scalars['LocalDate']>;
-  PreferredTechnician?: Maybe<Scalars['String']>;
-  RCDId?: Maybe<Scalars['ID']>;
-  Rank?: Maybe<Scalars['BigDecimal']>;
-  RegionId?: Maybe<Scalars['ID']>;
+  Rank?: Maybe<Scalars['Int']>;
   RequiresWhitelist: Scalars['Boolean'];
-  ResumeServiceDate?: Maybe<Scalars['LocalDate']>;
-  SCId?: Maybe<Scalars['ID']>;
   ShippingCity?: Maybe<Scalars['String']>;
   ShippingPostalCode?: Maybe<Scalars['String']>;
   ShippingState?: Maybe<Scalars['String']>;
   ShippingStreet?: Maybe<Scalars['String']>;
-  Status?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
 };
 
@@ -7366,44 +7870,8 @@ export type SchemaSubscriptionActivities = {
   Start: Scalars['Instant'];
   TemplatedActivityId?: Maybe<Scalars['ID']>;
   Timezone?: Maybe<Scalars['String']>;
+  TuanTest?: Maybe<Scalars['String']>;
   Type?: Maybe<Scalars['String']>;
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionActivityResources = {
-  __typename?: 'SchemaSubscriptionActivityResources';
-  ActivityId: Scalars['ID'];
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  ResourceId: Scalars['ID'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionAdminSetting = {
-  __typename?: 'SchemaSubscriptionAdminSetting';
-  AllDayEndTime?: Maybe<Scalars['String']>;
-  AllDayStartTime?: Maybe<Scalars['String']>;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  ReadOnlyAvailabilityForm?: Maybe<Scalars['Boolean']>;
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionAttendees = {
-  __typename?: 'SchemaSubscriptionAttendees';
-  CancelReason?: Maybe<Scalars['String']>;
-  ContactId: Scalars['ID'];
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  JobId: Scalars['ID'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Status: Scalars['String'];
-  TimeCancelled?: Maybe<Scalars['Instant']>;
   UID: Scalars['ID'];
 };
 
@@ -7421,173 +7889,6 @@ export type SchemaSubscriptionAvailabilities = {
   Status?: Maybe<Scalars['String']>;
   Type?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionAvailabilityPatternResources = {
-  __typename?: 'SchemaSubscriptionAvailabilityPatternResources';
-  AvailabilityPatternId: Scalars['ID'];
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  End?: Maybe<Scalars['Instant']>;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  RepeatEvery?: Maybe<Scalars['String']>;
-  ResourceId: Scalars['ID'];
-  Start: Scalars['Instant'];
-  Status?: Maybe<Scalars['String']>;
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionAvailabilityPatterns = {
-  __typename?: 'SchemaSubscriptionAvailabilityPatterns';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  Description?: Maybe<Scalars['String']>;
-  Hash: Scalars['String'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Name: Scalars['String'];
-  Pattern: Scalars['String'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionAvailabilityTemplateEntries = {
-  __typename?: 'SchemaSubscriptionAvailabilityTemplateEntries';
-  AvailabilityTemplateId: Scalars['ID'];
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  FinishTime: Scalars['Int'];
-  IsAvailable: Scalars['Boolean'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  StartTime: Scalars['Int'];
-  UID: Scalars['ID'];
-  Weekday: Scalars['String'];
-};
-
-export type SchemaSubscriptionAvailabilityTemplateResources = {
-  __typename?: 'SchemaSubscriptionAvailabilityTemplateResources';
-  AvailabilityTemplateId: Scalars['ID'];
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Migrated: Scalars['Boolean'];
-  ResourceId: Scalars['ID'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionAvailabilityTemplates = {
-  __typename?: 'SchemaSubscriptionAvailabilityTemplates';
-  AvailabilityPatternId?: Maybe<Scalars['ID']>;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  Finish?: Maybe<Scalars['LocalDate']>;
-  Global: Scalars['Boolean'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Name: Scalars['String'];
-  RepeatEvery?: Maybe<Scalars['String']>;
-  Start?: Maybe<Scalars['LocalDate']>;
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionClientAuthorization = {
-  __typename?: 'SchemaSubscriptionClientAuthorization';
-  AccountId?: Maybe<Scalars['ID']>;
-  AuthorizationEffectiveDate?: Maybe<Scalars['LocalDate']>;
-  AuthorizationExpirationDate?: Maybe<Scalars['LocalDate']>;
-  AuthorizationNotes?: Maybe<Scalars['String']>;
-  AuthorizationStatus?: Maybe<Scalars['String']>;
-  CaseProgressionStatus?: Maybe<Scalars['String']>;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  DummyTestingField?: Maybe<Scalars['BigDecimal']>;
-  ExternalID?: Maybe<Scalars['String']>;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Name?: Maybe<Scalars['String']>;
-  RegionId?: Maybe<Scalars['ID']>;
-  TotalAuthorizedHours?: Maybe<Scalars['BigDecimal']>;
-  TotalScheduledAuthorizedHours?: Maybe<Scalars['BigDecimal']>;
-  TotalUsedAuthorizedHours?: Maybe<Scalars['BigDecimal']>;
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionClientAuthorizationServices = {
-  __typename?: 'SchemaSubscriptionClientAuthorizationServices';
-  AuthorizedHoursPerWeek?: Maybe<Scalars['BigDecimal']>;
-  ClientAuthorizationId?: Maybe<Scalars['ID']>;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  DummyField?: Maybe<Scalars['BigDecimal']>;
-  ExternalID?: Maybe<Scalars['String']>;
-  FamilyAgreedUpon?: Maybe<Scalars['BigDecimal']>;
-  HoursRemainingAfterChargeCreation?: Maybe<Scalars['BigDecimal']>;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Name?: Maybe<Scalars['String']>;
-  ServiceType?: Maybe<Scalars['String']>;
-  TotalAuthorizedServiceHours?: Maybe<Scalars['BigDecimal']>;
-  TotalScheduledServiceHours?: Maybe<Scalars['BigDecimal']>;
-  TotalUsedServiceHours?: Maybe<Scalars['BigDecimal']>;
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionClientAvailabilities = {
-  __typename?: 'SchemaSubscriptionClientAvailabilities';
-  AccountId?: Maybe<Scalars['ID']>;
-  ContactId?: Maybe<Scalars['ID']>;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  End: Scalars['Instant'];
-  IsAvailable: Scalars['Boolean'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  PreferredEnd?: Maybe<Scalars['Instant']>;
-  PreferredStart?: Maybe<Scalars['Instant']>;
-  RecurringScheduleId?: Maybe<Scalars['ID']>;
-  Start: Scalars['Instant'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionClientAvailabilityTemplate = {
-  __typename?: 'SchemaSubscriptionClientAvailabilityTemplate';
-  AccountId?: Maybe<Scalars['ID']>;
-  AdjustmentType?: Maybe<Scalars['String']>;
-  AllDay: Scalars['Boolean'];
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  DatesOfMonth?: Maybe<Array<Scalars['String']>>;
-  DaysOfMonth?: Maybe<Array<Scalars['String']>>;
-  DaysOfWeek?: Maybe<Scalars['String']>;
-  DaysOfYear?: Maybe<Scalars['String']>;
-  EndDate?: Maybe<Scalars['LocalDate']>;
-  EndTime?: Maybe<Scalars['LocalTime']>;
-  Label?: Maybe<Scalars['String']>;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  LocationId?: Maybe<Scalars['ID']>;
-  MonthsOfYear?: Maybe<Array<Scalars['String']>>;
-  Note?: Maybe<Scalars['String']>;
-  Pattern?: Maybe<Scalars['String']>;
-  StartDate?: Maybe<Scalars['LocalDate']>;
-  StartTime?: Maybe<Scalars['LocalTime']>;
-  Type?: Maybe<Scalars['String']>;
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionContactTags = {
-  __typename?: 'SchemaSubscriptionContactTags';
-  ContactId: Scalars['ID'];
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Required: Scalars['Boolean'];
-  TagId: Scalars['ID'];
-  UID: Scalars['ID'];
-  Weighting?: Maybe<Scalars['Int']>;
 };
 
 export type SchemaSubscriptionContacts = {
@@ -7613,59 +7914,7 @@ export type SchemaSubscriptionContacts = {
   Phone?: Maybe<Scalars['String']>;
   RegionId?: Maybe<Scalars['ID']>;
   Title?: Maybe<Scalars['String']>;
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionExceptionRecord = {
-  __typename?: 'SchemaSubscriptionExceptionRecord';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  ExceptionId?: Maybe<Scalars['String']>;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  RuleId?: Maybe<Scalars['String']>;
-  SourceId?: Maybe<Scalars['String']>;
-  SourceType?: Maybe<Scalars['String']>;
-  TargetId?: Maybe<Scalars['String']>;
-  TargetType?: Maybe<Scalars['String']>;
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionExceptionType = {
-  __typename?: 'SchemaSubscriptionExceptionType';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  Description?: Maybe<Scalars['String']>;
-  DescriptionTwo?: Maybe<Scalars['String']>;
-  ExceptionType: Scalars['String'];
-  ExceptionType2: Scalars['String'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Name?: Maybe<Scalars['String']>;
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionHolidayRegions = {
-  __typename?: 'SchemaSubscriptionHolidayRegions';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  HolidayId: Scalars['ID'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  RegionId: Scalars['ID'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionHolidays = {
-  __typename?: 'SchemaSubscriptionHolidays';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  EndDate: Scalars['LocalDate'];
-  Global: Scalars['Boolean'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Name: Scalars['String'];
-  StartDate: Scalars['LocalDate'];
+  TuanTest?: Maybe<Scalars['BigDecimal']>;
   UID: Scalars['ID'];
 };
 
@@ -7709,90 +7958,6 @@ export type SchemaSubscriptionJobAllocations = {
   UID: Scalars['ID'];
 };
 
-export type SchemaSubscriptionJobDependencies = {
-  __typename?: 'SchemaSubscriptionJobDependencies';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  FromAnchor: Scalars['String'];
-  FromJobId: Scalars['ID'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  ToAnchor: Scalars['String'];
-  ToAnchorMaxOffsetMinutes?: Maybe<Scalars['Int']>;
-  ToAnchorMinOffsetMinutes?: Maybe<Scalars['Int']>;
-  ToJobId: Scalars['ID'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionJobOffers = {
-  __typename?: 'SchemaSubscriptionJobOffers';
-  CreatedById: Scalars['ID'];
-  CreatedByResource: Scalars['Boolean'];
-  CreatedDate: Scalars['Instant'];
-  JobId: Scalars['ID'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  ResourceRequirementId?: Maybe<Scalars['ID']>;
-  Status: Scalars['String'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionJobProducts = {
-  __typename?: 'SchemaSubscriptionJobProducts';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  JobId: Scalars['ID'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Name: Scalars['String'];
-  ProductId?: Maybe<Scalars['ID']>;
-  ProductName?: Maybe<Scalars['String']>;
-  Qty: Scalars['BigDecimal'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionJobTags = {
-  __typename?: 'SchemaSubscriptionJobTags';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  JobId: Scalars['ID'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Required: Scalars['Boolean'];
-  TagId: Scalars['ID'];
-  UID: Scalars['ID'];
-  Weighting?: Maybe<Scalars['Int']>;
-};
-
-export type SchemaSubscriptionJobTasks = {
-  __typename?: 'SchemaSubscriptionJobTasks';
-  Completed: Scalars['Boolean'];
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  Description?: Maybe<Scalars['String']>;
-  JobId: Scalars['ID'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Name: Scalars['String'];
-  Seq: Scalars['Int'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionJobTimeConstraints = {
-  __typename?: 'SchemaSubscriptionJobTimeConstraints';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  EndBefore?: Maybe<Scalars['Instant']>;
-  JobId: Scalars['ID'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Required: Scalars['Boolean'];
-  StartAfter?: Maybe<Scalars['Instant']>;
-  StartBefore?: Maybe<Scalars['Instant']>;
-  Type: Scalars['String'];
-  UID: Scalars['ID'];
-};
-
 export type SchemaSubscriptionJobs = {
   __typename?: 'SchemaSubscriptionJobs';
   AbortReason?: Maybe<Scalars['String']>;
@@ -7800,13 +7965,17 @@ export type SchemaSubscriptionJobs = {
   ActualEnd?: Maybe<Scalars['Instant']>;
   ActualStart?: Maybe<Scalars['Instant']>;
   Address?: Maybe<Scalars['String']>;
-  AuthorizationServiceId?: Maybe<Scalars['ID']>;
-  AuthorizedHoursPerWeek?: Maybe<Scalars['BigDecimal']>;
+  AutoOffer?: Maybe<Scalars['String']>;
+  AutoOfferDate?: Maybe<Scalars['String']>;
+  AutoOfferOffset?: Maybe<Scalars['BigDecimal']>;
+  AutoOfferRespectJobRegion: Scalars['Boolean'];
+  AutoOfferRespectJobTags: Scalars['Boolean'];
+  AutoOfferRespectPreviousOfferStatus: Scalars['Boolean'];
+  AutoOfferRespectResourceAvailability: Scalars['Boolean'];
   AutoSchedule: Scalars['Boolean'];
   CanBeDeclined: Scalars['Boolean'];
-  ClearOfExceptions: Scalars['Boolean'];
-  ClientAuthorizationId?: Maybe<Scalars['ID']>;
   CompletionNotes?: Maybe<Scalars['String']>;
+  Confirmed: Scalars['Boolean'];
   ContactId?: Maybe<Scalars['ID']>;
   CopiedFromId?: Maybe<Scalars['ID']>;
   CreatedById: Scalars['ID'];
@@ -7817,18 +7986,17 @@ export type SchemaSubscriptionJobs = {
   End?: Maybe<Scalars['Instant']>;
   EstimatedEnd?: Maybe<Scalars['Instant']>;
   EstimatedStart?: Maybe<Scalars['Instant']>;
-  FamilyAgreedUpon?: Maybe<Scalars['BigDecimal']>;
   FollowupReason?: Maybe<Scalars['String']>;
   GeoLatitude?: Maybe<Scalars['BigDecimal']>;
   GeoLongitude?: Maybe<Scalars['BigDecimal']>;
   IsGroupEvent: Scalars['Boolean'];
   JobAllocationCount: Scalars['Int'];
   JobAllocationTimeSource: Scalars['Boolean'];
+  JobStartDefer?: Maybe<Scalars['BigDecimal']>;
   JobStatus: Scalars['String'];
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
   LocationId?: Maybe<Scalars['ID']>;
-  LocationType?: Maybe<Scalars['String']>;
   Locked: Scalars['Boolean'];
   MaxAttendees?: Maybe<Scalars['Int']>;
   MinAttendees?: Maybe<Scalars['Int']>;
@@ -7840,11 +8008,11 @@ export type SchemaSubscriptionJobs = {
   Quantity?: Maybe<Scalars['Int']>;
   RecurringScheduleId?: Maybe<Scalars['ID']>;
   RegionId: Scalars['ID'];
+  RequiredKit?: Maybe<Scalars['BigDecimal']>;
   ScheduleTemplateId?: Maybe<Scalars['ID']>;
   Start?: Maybe<Scalars['Instant']>;
   TemplatedJobId?: Maybe<Scalars['ID']>;
   Timezone: Scalars['String'];
-  TotalAuthorizedServiceHours?: Maybe<Scalars['BigDecimal']>;
   Type?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
   Urgency?: Maybe<Scalars['String']>;
@@ -7853,66 +8021,21 @@ export type SchemaSubscriptionJobs = {
   VirtualMeetingURL?: Maybe<Scalars['String']>;
 };
 
-export type SchemaSubscriptionLocationResourceScores = {
-  __typename?: 'SchemaSubscriptionLocationResourceScores';
-  Blacklisted: Scalars['Boolean'];
+export type SchemaSubscriptionMonitorLogs = {
+  __typename?: 'SchemaSubscriptionMonitorLogs';
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
+  Description: Scalars['String'];
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
-  LocationId: Scalars['ID'];
-  ResourceId: Scalars['ID'];
-  UID: Scalars['ID'];
-  Whitelisted: Scalars['Boolean'];
-};
-
-export type SchemaSubscriptionLocations = {
-  __typename?: 'SchemaSubscriptionLocations';
-  AccountId?: Maybe<Scalars['ID']>;
-  Address?: Maybe<Scalars['String']>;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  Default?: Maybe<Scalars['Boolean']>;
-  GeoLatitude?: Maybe<Scalars['BigDecimal']>;
-  GeoLongitude?: Maybe<Scalars['BigDecimal']>;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
+  MonitorsId: Scalars['ID'];
   Name: Scalars['String'];
-  RegionId?: Maybe<Scalars['ID']>;
-  RequiresWhitelist: Scalars['Boolean'];
-  Type?: Maybe<Scalars['String']>;
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionLogger = {
-  __typename?: 'SchemaSubscriptionLogger';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Message?: Maybe<Scalars['String']>;
   Type?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
 };
 
 export type SchemaSubscriptionNotification = {
   operation: SchemaSubscriptionOp;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationAccountResourceScores = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationAccountResourceScores';
-  data: SchemaSubscriptionAccountResourceScores;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionAccountResourceScores;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationAccountTags = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationAccountTags';
-  data: SchemaSubscriptionAccountTags;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionAccountTags;
   timestamp: Scalars['Instant'];
 };
 
@@ -7932,115 +8055,11 @@ export type SchemaSubscriptionNotificationActivities = SchemaSubscriptionNotific
   timestamp: Scalars['Instant'];
 };
 
-export type SchemaSubscriptionNotificationActivityResources = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationActivityResources';
-  data: SchemaSubscriptionActivityResources;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionActivityResources;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationAdminSetting = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationAdminSetting';
-  data: SchemaSubscriptionAdminSetting;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionAdminSetting;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationAttendees = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationAttendees';
-  data: SchemaSubscriptionAttendees;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionAttendees;
-  timestamp: Scalars['Instant'];
-};
-
 export type SchemaSubscriptionNotificationAvailabilities = SchemaSubscriptionNotification & {
   __typename?: 'SchemaSubscriptionNotificationAvailabilities';
   data: SchemaSubscriptionAvailabilities;
   operation: SchemaSubscriptionOp;
   previous: SchemaSubscriptionAvailabilities;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationAvailabilityPatternResources = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationAvailabilityPatternResources';
-  data: SchemaSubscriptionAvailabilityPatternResources;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionAvailabilityPatternResources;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationAvailabilityPatterns = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationAvailabilityPatterns';
-  data: SchemaSubscriptionAvailabilityPatterns;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionAvailabilityPatterns;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationAvailabilityTemplateEntries = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationAvailabilityTemplateEntries';
-  data: SchemaSubscriptionAvailabilityTemplateEntries;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionAvailabilityTemplateEntries;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationAvailabilityTemplateResources = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationAvailabilityTemplateResources';
-  data: SchemaSubscriptionAvailabilityTemplateResources;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionAvailabilityTemplateResources;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationAvailabilityTemplates = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationAvailabilityTemplates';
-  data: SchemaSubscriptionAvailabilityTemplates;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionAvailabilityTemplates;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationClientAuthorization = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationClientAuthorization';
-  data: SchemaSubscriptionClientAuthorization;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionClientAuthorization;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationClientAuthorizationServices = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationClientAuthorizationServices';
-  data: SchemaSubscriptionClientAuthorizationServices;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionClientAuthorizationServices;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationClientAvailabilities = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationClientAvailabilities';
-  data: SchemaSubscriptionClientAvailabilities;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionClientAvailabilities;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationClientAvailabilityTemplate = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationClientAvailabilityTemplate';
-  data: SchemaSubscriptionClientAvailabilityTemplate;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionClientAvailabilityTemplate;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationContactTags = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationContactTags';
-  data: SchemaSubscriptionContactTags;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionContactTags;
   timestamp: Scalars['Instant'];
 };
 
@@ -8052,91 +8071,11 @@ export type SchemaSubscriptionNotificationContacts = SchemaSubscriptionNotificat
   timestamp: Scalars['Instant'];
 };
 
-export type SchemaSubscriptionNotificationExceptionRecord = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationExceptionRecord';
-  data: SchemaSubscriptionExceptionRecord;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionExceptionRecord;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationExceptionType = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationExceptionType';
-  data: SchemaSubscriptionExceptionType;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionExceptionType;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationHolidayRegions = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationHolidayRegions';
-  data: SchemaSubscriptionHolidayRegions;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionHolidayRegions;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationHolidays = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationHolidays';
-  data: SchemaSubscriptionHolidays;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionHolidays;
-  timestamp: Scalars['Instant'];
-};
-
 export type SchemaSubscriptionNotificationJobAllocations = SchemaSubscriptionNotification & {
   __typename?: 'SchemaSubscriptionNotificationJobAllocations';
   data: SchemaSubscriptionJobAllocations;
   operation: SchemaSubscriptionOp;
   previous: SchemaSubscriptionJobAllocations;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationJobDependencies = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationJobDependencies';
-  data: SchemaSubscriptionJobDependencies;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionJobDependencies;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationJobOffers = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationJobOffers';
-  data: SchemaSubscriptionJobOffers;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionJobOffers;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationJobProducts = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationJobProducts';
-  data: SchemaSubscriptionJobProducts;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionJobProducts;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationJobTags = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationJobTags';
-  data: SchemaSubscriptionJobTags;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionJobTags;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationJobTasks = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationJobTasks';
-  data: SchemaSubscriptionJobTasks;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionJobTasks;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationJobTimeConstraints = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationJobTimeConstraints';
-  data: SchemaSubscriptionJobTimeConstraints;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionJobTimeConstraints;
   timestamp: Scalars['Instant'];
 };
 
@@ -8148,171 +8087,11 @@ export type SchemaSubscriptionNotificationJobs = SchemaSubscriptionNotification 
   timestamp: Scalars['Instant'];
 };
 
-export type SchemaSubscriptionNotificationLocationResourceScores = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationLocationResourceScores';
-  data: SchemaSubscriptionLocationResourceScores;
+export type SchemaSubscriptionNotificationMonitorLogs = SchemaSubscriptionNotification & {
+  __typename?: 'SchemaSubscriptionNotificationMonitorLogs';
+  data: SchemaSubscriptionMonitorLogs;
   operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionLocationResourceScores;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationLocations = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationLocations';
-  data: SchemaSubscriptionLocations;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionLocations;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationLogger = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationLogger';
-  data: SchemaSubscriptionLogger;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionLogger;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationProducts = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationProducts';
-  data: SchemaSubscriptionProducts;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionProducts;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationRecurringSchedules = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationRecurringSchedules';
-  data: SchemaSubscriptionRecurringSchedules;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionRecurringSchedules;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationRegions = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationRegions';
-  data: SchemaSubscriptionRegions;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionRegions;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationResourceJobOffers = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationResourceJobOffers';
-  data: SchemaSubscriptionResourceJobOffers;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionResourceJobOffers;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationResourceOverrideRegions = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationResourceOverrideRegions';
-  data: SchemaSubscriptionResourceOverrideRegions;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionResourceOverrideRegions;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationResourceOverrides = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationResourceOverrides';
-  data: SchemaSubscriptionResourceOverrides;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionResourceOverrides;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationResourceRegions = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationResourceRegions';
-  data: SchemaSubscriptionResourceRegions;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionResourceRegions;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationResourceRequirementTags = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationResourceRequirementTags';
-  data: SchemaSubscriptionResourceRequirementTags;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionResourceRequirementTags;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationResourceRequirements = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationResourceRequirements';
-  data: SchemaSubscriptionResourceRequirements;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionResourceRequirements;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationResourceShiftBreaks = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationResourceShiftBreaks';
-  data: SchemaSubscriptionResourceShiftBreaks;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionResourceShiftBreaks;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationResourceShiftOffers = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationResourceShiftOffers';
-  data: SchemaSubscriptionResourceShiftOffers;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionResourceShiftOffers;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationResourceShifts = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationResourceShifts';
-  data: SchemaSubscriptionResourceShifts;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionResourceShifts;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationResourceTags = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationResourceTags';
-  data: SchemaSubscriptionResourceTags;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionResourceTags;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationResources = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationResources';
-  data: SchemaSubscriptionResources;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionResources;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationScheduleTemplates = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationScheduleTemplates';
-  data: SchemaSubscriptionScheduleTemplates;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionScheduleTemplates;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationShiftOfferShifts = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationShiftOfferShifts';
-  data: SchemaSubscriptionShiftOfferShifts;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionShiftOfferShifts;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationShiftOffers = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationShiftOffers';
-  data: SchemaSubscriptionShiftOffers;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionShiftOffers;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationShiftTags = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationShiftTags';
-  data: SchemaSubscriptionShiftTags;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionShiftTags;
+  previous: SchemaSubscriptionMonitorLogs;
   timestamp: Scalars['Instant'];
 };
 
@@ -8324,14 +8103,6 @@ export type SchemaSubscriptionNotificationShifts = SchemaSubscriptionNotificatio
   timestamp: Scalars['Instant'];
 };
 
-export type SchemaSubscriptionNotificationStarterTest = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationStarterTest';
-  data: SchemaSubscriptionStarterTest;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionStarterTest;
-  timestamp: Scalars['Instant'];
-};
-
 export type SchemaSubscriptionNotificationTagManagerSettings = SchemaSubscriptionNotification & {
   __typename?: 'SchemaSubscriptionNotificationTagManagerSettings';
   data: SchemaSubscriptionTagManagerSettings;
@@ -8340,187 +8111,19 @@ export type SchemaSubscriptionNotificationTagManagerSettings = SchemaSubscriptio
   timestamp: Scalars['Instant'];
 };
 
-export type SchemaSubscriptionNotificationTagRequest = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationTagRequest';
-  data: SchemaSubscriptionTagRequest;
+export type SchemaSubscriptionNotificationTimesheet = SchemaSubscriptionNotification & {
+  __typename?: 'SchemaSubscriptionNotificationTimesheet';
+  data: SchemaSubscriptionTimesheet;
   operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionTagRequest;
+  previous: SchemaSubscriptionTimesheet;
   timestamp: Scalars['Instant'];
 };
 
-export type SchemaSubscriptionNotificationTags = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationTags';
-  data: SchemaSubscriptionTags;
+export type SchemaSubscriptionNotificationTimesheetEntry = SchemaSubscriptionNotification & {
+  __typename?: 'SchemaSubscriptionNotificationTimesheetEntry';
+  data: SchemaSubscriptionTimesheetEntry;
   operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionTags;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationTemplatedActivities = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationTemplatedActivities';
-  data: SchemaSubscriptionTemplatedActivities;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionTemplatedActivities;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationTemplatedActivityResources = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationTemplatedActivityResources';
-  data: SchemaSubscriptionTemplatedActivityResources;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionTemplatedActivityResources;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationTemplatedAttendees = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationTemplatedAttendees';
-  data: SchemaSubscriptionTemplatedAttendees;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionTemplatedAttendees;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationTemplatedJobAllocations = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationTemplatedJobAllocations';
-  data: SchemaSubscriptionTemplatedJobAllocations;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionTemplatedJobAllocations;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationTemplatedJobDependencies = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationTemplatedJobDependencies';
-  data: SchemaSubscriptionTemplatedJobDependencies;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionTemplatedJobDependencies;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationTemplatedJobProducts = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationTemplatedJobProducts';
-  data: SchemaSubscriptionTemplatedJobProducts;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionTemplatedJobProducts;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationTemplatedJobTags = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationTemplatedJobTags';
-  data: SchemaSubscriptionTemplatedJobTags;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionTemplatedJobTags;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationTemplatedJobTasks = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationTemplatedJobTasks';
-  data: SchemaSubscriptionTemplatedJobTasks;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionTemplatedJobTasks;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationTemplatedJobTimeConstraints = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationTemplatedJobTimeConstraints';
-  data: SchemaSubscriptionTemplatedJobTimeConstraints;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionTemplatedJobTimeConstraints;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationTemplatedJobs = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationTemplatedJobs';
-  data: SchemaSubscriptionTemplatedJobs;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionTemplatedJobs;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationTemplatedResourceRequirementTags = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationTemplatedResourceRequirementTags';
-  data: SchemaSubscriptionTemplatedResourceRequirementTags;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionTemplatedResourceRequirementTags;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationTemplatedResourceRequirements = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationTemplatedResourceRequirements';
-  data: SchemaSubscriptionTemplatedResourceRequirements;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionTemplatedResourceRequirements;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationTemplatedResourceShifts = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationTemplatedResourceShifts';
-  data: SchemaSubscriptionTemplatedResourceShifts;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionTemplatedResourceShifts;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationTemplatedShiftTags = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationTemplatedShiftTags';
-  data: SchemaSubscriptionTemplatedShiftTags;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionTemplatedShiftTags;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationTemplatedShifts = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationTemplatedShifts';
-  data: SchemaSubscriptionTemplatedShifts;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionTemplatedShifts;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationUserRegions = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationUserRegions';
-  data: SchemaSubscriptionUserRegions;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionUserRegions;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationUser_Ext = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationUser_Ext';
-  data: SchemaSubscriptionUser_Ext;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionUser_Ext;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationUsers = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationUsers';
-  data: SchemaSubscriptionUsers;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionUsers;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationclientAvailabilityTemplateEntry = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationclientAvailabilityTemplateEntry';
-  data: SchemaSubscriptionclientAvailabilityTemplateEntry;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionclientAvailabilityTemplateEntry;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationsked_BroadcastRecipients = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationsked_BroadcastRecipients';
-  data: SchemaSubscriptionsked_BroadcastRecipients;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionsked_BroadcastRecipients;
-  timestamp: Scalars['Instant'];
-};
-
-export type SchemaSubscriptionNotificationsked_Broadcasts = SchemaSubscriptionNotification & {
-  __typename?: 'SchemaSubscriptionNotificationsked_Broadcasts';
-  data: SchemaSubscriptionsked_Broadcasts;
-  operation: SchemaSubscriptionOp;
-  previous: SchemaSubscriptionsked_Broadcasts;
+  previous: SchemaSubscriptionTimesheetEntry;
   timestamp: Scalars['Instant'];
 };
 
@@ -8529,290 +8132,6 @@ export enum SchemaSubscriptionOp {
   Insert = 'INSERT',
   Update = 'UPDATE'
 }
-
-export type SchemaSubscriptionProducts = {
-  __typename?: 'SchemaSubscriptionProducts';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  Description?: Maybe<Scalars['String']>;
-  Family?: Maybe<Scalars['String']>;
-  IsActive: Scalars['Boolean'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Name: Scalars['String'];
-  ProductCode?: Maybe<Scalars['String']>;
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionRecurringSchedules = {
-  __typename?: 'SchemaSubscriptionRecurringSchedules';
-  AckAllJobs: Scalars['Boolean'];
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  Description?: Maybe<Scalars['String']>;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Name: Scalars['String'];
-  Pattern?: Maybe<Scalars['String']>;
-  Summary?: Maybe<Scalars['String']>;
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionRegions = {
-  __typename?: 'SchemaSubscriptionRegions';
-  CountryCode?: Maybe<Scalars['String']>;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  Description?: Maybe<Scalars['String']>;
-  GeoLatitude?: Maybe<Scalars['BigDecimal']>;
-  GeoLongitude?: Maybe<Scalars['BigDecimal']>;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Name: Scalars['String'];
-  Radius?: Maybe<Scalars['Int']>;
-  Timezone: Scalars['String'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionResourceJobOffers = {
-  __typename?: 'SchemaSubscriptionResourceJobOffers';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  JobOfferId: Scalars['ID'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  ResourceId: Scalars['ID'];
-  Response?: Maybe<Scalars['String']>;
-  Status: Scalars['String'];
-  TimeNotified?: Maybe<Scalars['Instant']>;
-  TimeResponded?: Maybe<Scalars['Instant']>;
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionResourceOverrideRegions = {
-  __typename?: 'SchemaSubscriptionResourceOverrideRegions';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  RegionId: Scalars['ID'];
-  ResourceOverrideId: Scalars['ID'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionResourceOverrides = {
-  __typename?: 'SchemaSubscriptionResourceOverrides';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  Description?: Maybe<Scalars['String']>;
-  End: Scalars['Instant'];
-  GeoLatitude?: Maybe<Scalars['BigDecimal']>;
-  GeoLongitude?: Maybe<Scalars['BigDecimal']>;
-  HomeAddress?: Maybe<Scalars['String']>;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  ResourceId: Scalars['ID'];
-  Start: Scalars['Instant'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionResourceRegions = {
-  __typename?: 'SchemaSubscriptionResourceRegions';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  End?: Maybe<Scalars['Instant']>;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  RegionId: Scalars['ID'];
-  ResourceId: Scalars['ID'];
-  Start?: Maybe<Scalars['Instant']>;
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionResourceRequirementTags = {
-  __typename?: 'SchemaSubscriptionResourceRequirementTags';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Required: Scalars['Boolean'];
-  ResourceRequirementId: Scalars['ID'];
-  TagId: Scalars['ID'];
-  UID: Scalars['ID'];
-  Weighting?: Maybe<Scalars['Int']>;
-};
-
-export type SchemaSubscriptionResourceRequirements = {
-  __typename?: 'SchemaSubscriptionResourceRequirements';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  Description?: Maybe<Scalars['String']>;
-  Duration?: Maybe<Scalars['Duration']>;
-  JobAllocationCount: Scalars['Int'];
-  JobAllocationTimeSource: Scalars['Boolean'];
-  JobId: Scalars['ID'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Name: Scalars['String'];
-  Quantity: Scalars['Int'];
-  RelativeStart?: Maybe<Scalars['Duration']>;
-  ScheduledEnd?: Maybe<Scalars['Instant']>;
-  ScheduledStart?: Maybe<Scalars['Instant']>;
-  Status: Scalars['String'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionResourceShiftBreaks = {
-  __typename?: 'SchemaSubscriptionResourceShiftBreaks';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  End?: Maybe<Scalars['Instant']>;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  ResourceShiftId: Scalars['ID'];
-  Start: Scalars['Instant'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionResourceShiftOffers = {
-  __typename?: 'SchemaSubscriptionResourceShiftOffers';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  ResourceId: Scalars['ID'];
-  Response?: Maybe<Scalars['String']>;
-  ShiftOfferId: Scalars['ID'];
-  Status: Scalars['String'];
-  TimeNotified?: Maybe<Scalars['Instant']>;
-  TimeResponded?: Maybe<Scalars['Instant']>;
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionResourceShifts = {
-  __typename?: 'SchemaSubscriptionResourceShifts';
-  ActualEnd?: Maybe<Scalars['Instant']>;
-  ActualStart?: Maybe<Scalars['Instant']>;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  ResourceId: Scalars['ID'];
-  ShiftId: Scalars['ID'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionResourceTags = {
-  __typename?: 'SchemaSubscriptionResourceTags';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  ExpiryDate?: Maybe<Scalars['Instant']>;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  ResourceId: Scalars['ID'];
-  TagId: Scalars['ID'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionResources = {
-  __typename?: 'SchemaSubscriptionResources';
-  Alias?: Maybe<Scalars['String']>;
-  AutoSchedule: Scalars['Boolean'];
-  CareConnectUserID?: Maybe<Scalars['BigDecimal']>;
-  Category?: Maybe<Scalars['String']>;
-  CountryCode?: Maybe<Scalars['String']>;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  EffectiveTerminationDate?: Maybe<Scalars['Instant']>;
-  Email?: Maybe<Scalars['String']>;
-  EmploymentType?: Maybe<Scalars['String']>;
-  FSM?: Maybe<Scalars['String']>;
-  GeoLatitude?: Maybe<Scalars['BigDecimal']>;
-  GeoLongitude?: Maybe<Scalars['BigDecimal']>;
-  HomeAddress?: Maybe<Scalars['String']>;
-  IsActive: Scalars['Boolean'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  MobilePhone?: Maybe<Scalars['String']>;
-  Name: Scalars['String'];
-  Notes?: Maybe<Scalars['String']>;
-  NotificationType?: Maybe<Scalars['String']>;
-  PrimaryPhone?: Maybe<Scalars['String']>;
-  PrimaryRegionId: Scalars['ID'];
-  Rating?: Maybe<Scalars['Int']>;
-  ReportsTo?: Maybe<Scalars['String']>;
-  RequestedWorkingHoursPerWeek?: Maybe<Scalars['BigDecimal']>;
-  ResourceType?: Maybe<Scalars['String']>;
-  TotalUtilizedHours?: Maybe<Scalars['String']>;
-  UID: Scalars['ID'];
-  UserId?: Maybe<Scalars['ID']>;
-  WeeklyHours?: Maybe<Scalars['BigDecimal']>;
-  WorkingHourType?: Maybe<Scalars['String']>;
-  amsuserstatus?: Maybe<Scalars['String']>;
-  city?: Maybe<Scalars['String']>;
-  complianceissue?: Maybe<Scalars['String']>;
-  degreetypelab?: Maybe<Scalars['String']>;
-  estimatedactivationtimestamp?: Maybe<Scalars['String']>;
-  gender?: Maybe<Scalars['String']>;
-  homephone?: Maybe<Scalars['String']>;
-  middleInitial?: Maybe<Scalars['String']>;
-  npi?: Maybe<Scalars['String']>;
-  onboardingstatuslabel?: Maybe<Scalars['String']>;
-  personalemail?: Maybe<Scalars['String']>;
-  state?: Maybe<Scalars['String']>;
-  uniqueeid?: Maybe<Scalars['String']>;
-  worksfor?: Maybe<Scalars['String']>;
-  zip?: Maybe<Scalars['String']>;
-};
-
-export type SchemaSubscriptionScheduleTemplates = {
-  __typename?: 'SchemaSubscriptionScheduleTemplates';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  DeletedById?: Maybe<Scalars['ID']>;
-  DeletedDate?: Maybe<Scalars['Instant']>;
-  Description?: Maybe<Scalars['String']>;
-  IsDeleted: Scalars['Boolean'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Name: Scalars['String'];
-  PeriodDays?: Maybe<Scalars['Int']>;
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionShiftOfferShifts = {
-  __typename?: 'SchemaSubscriptionShiftOfferShifts';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  ShiftId: Scalars['ID'];
-  ShiftOfferId: Scalars['ID'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionShiftOffers = {
-  __typename?: 'SchemaSubscriptionShiftOffers';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Status: Scalars['String'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionShiftTags = {
-  __typename?: 'SchemaSubscriptionShiftTags';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Required: Scalars['Boolean'];
-  ShiftId: Scalars['ID'];
-  TagId: Scalars['ID'];
-  UID: Scalars['ID'];
-  Weighting?: Maybe<Scalars['Int']>;
-};
 
 export type SchemaSubscriptionShifts = {
   __typename?: 'SchemaSubscriptionShifts';
@@ -8831,19 +8150,6 @@ export type SchemaSubscriptionShifts = {
   ScheduleTemplateId?: Maybe<Scalars['ID']>;
   Start: Scalars['Instant'];
   TemplatedShiftId?: Maybe<Scalars['ID']>;
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionStarterTest = {
-  __typename?: 'SchemaSubscriptionStarterTest';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  ResourceId: Scalars['ID'];
-  StarterTestBooleanField: Scalars['Boolean'];
-  StarterTestDecimalField?: Maybe<Scalars['BigDecimal']>;
-  StarterTestPicklistField?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
 };
 
@@ -8868,374 +8174,42 @@ export type SchemaSubscriptionTagManagerSettings = {
   UID: Scalars['ID'];
 };
 
-export type SchemaSubscriptionTagRequest = {
-  __typename?: 'SchemaSubscriptionTagRequest';
+export type SchemaSubscriptionTimesheet = {
+  __typename?: 'SchemaSubscriptionTimesheet';
+  ApprovedById?: Maybe<Scalars['ID']>;
+  ApprovedDate?: Maybe<Scalars['LocalDate']>;
+  ApproverComments?: Maybe<Scalars['String']>;
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
-  IsRenewal: Scalars['Boolean'];
+  EndDate?: Maybe<Scalars['LocalDate']>;
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
-  NewExpiryDate?: Maybe<Scalars['LocalDate']>;
-  OldExpiryDate?: Maybe<Scalars['LocalDate']>;
-  ResourceId: Scalars['ID'];
-  Status?: Maybe<Scalars['String']>;
-  TagAssignmentId?: Maybe<Scalars['ID']>;
-  TagId?: Maybe<Scalars['ID']>;
-  TagName?: Maybe<Scalars['String']>;
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionTags = {
-  __typename?: 'SchemaSubscriptionTags';
-  Classification?: Maybe<Scalars['String']>;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  Groups?: Maybe<Array<Scalars['String']>>;
-  IsRequestable: Scalars['Boolean'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Name: Scalars['String'];
-  NotVisibleToResources: Scalars['Boolean'];
-  RequestEvidence: Scalars['Boolean'];
-  RequiresExpiryDate: Scalars['Boolean'];
-  Type?: Maybe<Scalars['String']>;
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionTemplatedActivities = {
-  __typename?: 'SchemaSubscriptionTemplatedActivities';
-  Address?: Maybe<Scalars['String']>;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  Duration: Scalars['Duration'];
-  GeoLatitude?: Maybe<Scalars['BigDecimal']>;
-  GeoLongitude?: Maybe<Scalars['BigDecimal']>;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  LocationId?: Maybe<Scalars['ID']>;
-  Notes?: Maybe<Scalars['String']>;
-  Quantity?: Maybe<Scalars['Int']>;
   ResourceId?: Maybe<Scalars['ID']>;
-  ScheduleTemplateId: Scalars['ID'];
-  StartOffsetDays: Scalars['Int'];
-  StartTimeOfDay: Scalars['LocalTime'];
-  Timezone: Scalars['String'];
-  Type?: Maybe<Scalars['String']>;
+  StartDate?: Maybe<Scalars['LocalDate']>;
+  Status?: Maybe<Scalars['String']>;
+  SubmitterComments?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
 };
 
-export type SchemaSubscriptionTemplatedActivityResources = {
-  __typename?: 'SchemaSubscriptionTemplatedActivityResources';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  ResourceId: Scalars['ID'];
-  TemplatedActivityId: Scalars['ID'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionTemplatedAttendees = {
-  __typename?: 'SchemaSubscriptionTemplatedAttendees';
-  ContactId: Scalars['ID'];
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  TemplatedJobId: Scalars['ID'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionTemplatedJobAllocations = {
-  __typename?: 'SchemaSubscriptionTemplatedJobAllocations';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  Duration?: Maybe<Scalars['Duration']>;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  NotificationType?: Maybe<Scalars['String']>;
-  ResourceId: Scalars['ID'];
-  StartOffsetDays?: Maybe<Scalars['Int']>;
-  StartTimeOfDay?: Maybe<Scalars['LocalTime']>;
-  Status: Scalars['String'];
-  TeamLeader: Scalars['Boolean'];
-  TemplatedJobId: Scalars['ID'];
-  TemplatedResourceRequirementId?: Maybe<Scalars['ID']>;
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionTemplatedJobDependencies = {
-  __typename?: 'SchemaSubscriptionTemplatedJobDependencies';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  FromAnchor: Scalars['String'];
-  FromTemplatedJobId: Scalars['ID'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  ToAnchor: Scalars['String'];
-  ToAnchorMaxOffsetMinutes?: Maybe<Scalars['Int']>;
-  ToAnchorMinOffsetMinutes?: Maybe<Scalars['Int']>;
-  ToTemplatedJobId: Scalars['ID'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionTemplatedJobProducts = {
-  __typename?: 'SchemaSubscriptionTemplatedJobProducts';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  ProductId?: Maybe<Scalars['ID']>;
-  Qty: Scalars['BigDecimal'];
-  TemplatedJobId: Scalars['ID'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionTemplatedJobTags = {
-  __typename?: 'SchemaSubscriptionTemplatedJobTags';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Required: Scalars['Boolean'];
-  TagId: Scalars['ID'];
-  TemplatedJobId: Scalars['ID'];
-  UID: Scalars['ID'];
-  Weighting?: Maybe<Scalars['Int']>;
-};
-
-export type SchemaSubscriptionTemplatedJobTasks = {
-  __typename?: 'SchemaSubscriptionTemplatedJobTasks';
-  Completed: Scalars['Boolean'];
+export type SchemaSubscriptionTimesheetEntry = {
+  __typename?: 'SchemaSubscriptionTimesheetEntry';
+  ActivityId?: Maybe<Scalars['ID']>;
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
   Description?: Maybe<Scalars['String']>;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Name: Scalars['String'];
-  Seq: Scalars['Int'];
-  TemplatedJobId: Scalars['ID'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionTemplatedJobTimeConstraints = {
-  __typename?: 'SchemaSubscriptionTemplatedJobTimeConstraints';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  EndBeforeOffsetDays?: Maybe<Scalars['Int']>;
-  EndBeforeTimeOfDay?: Maybe<Scalars['LocalTime']>;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Required: Scalars['Boolean'];
-  StartAfterOffsetDays?: Maybe<Scalars['Int']>;
-  StartAfterTimeOfDay?: Maybe<Scalars['LocalTime']>;
-  StartBeforeOffsetDays?: Maybe<Scalars['Int']>;
-  StartBeforeTimeOfDay?: Maybe<Scalars['LocalTime']>;
-  TemplatedJobId: Scalars['ID'];
-  Type: Scalars['String'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionTemplatedJobs = {
-  __typename?: 'SchemaSubscriptionTemplatedJobs';
-  AccountId?: Maybe<Scalars['ID']>;
-  Address?: Maybe<Scalars['String']>;
-  AutoSchedule: Scalars['Boolean'];
-  CanBeDeclined: Scalars['Boolean'];
-  ContactId?: Maybe<Scalars['ID']>;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  CustomerConfirmationStatus?: Maybe<Scalars['String']>;
-  Description?: Maybe<Scalars['String']>;
-  Duration: Scalars['Duration'];
-  GeoLatitude?: Maybe<Scalars['BigDecimal']>;
-  GeoLongitude?: Maybe<Scalars['BigDecimal']>;
-  IsGroupEvent: Scalars['Boolean'];
-  JobAllocationTimeSource: Scalars['Boolean'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  LocationId?: Maybe<Scalars['ID']>;
-  Locked: Scalars['Boolean'];
-  MaxAttendees?: Maybe<Scalars['Int']>;
-  MinAttendees?: Maybe<Scalars['Int']>;
-  NotesComments?: Maybe<Scalars['String']>;
-  NotifyPeriod?: Maybe<Scalars['Int']>;
-  Quantity?: Maybe<Scalars['Int']>;
-  RegionId: Scalars['ID'];
-  ScheduleTemplateId: Scalars['ID'];
-  StartOffsetDays: Scalars['Int'];
-  StartTimeOfDay: Scalars['LocalTime'];
-  Type?: Maybe<Scalars['String']>;
-  UID: Scalars['ID'];
-  Urgency?: Maybe<Scalars['String']>;
-  VirtualMeetingId?: Maybe<Scalars['String']>;
-  VirtualMeetingInfo?: Maybe<Scalars['String']>;
-  VirtualMeetingURL?: Maybe<Scalars['String']>;
-};
-
-export type SchemaSubscriptionTemplatedResourceRequirementTags = {
-  __typename?: 'SchemaSubscriptionTemplatedResourceRequirementTags';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Required: Scalars['Boolean'];
-  TagId: Scalars['ID'];
-  TemplatedResourceRequirementId: Scalars['ID'];
-  UID: Scalars['ID'];
-  Weighting?: Maybe<Scalars['Int']>;
-};
-
-export type SchemaSubscriptionTemplatedResourceRequirements = {
-  __typename?: 'SchemaSubscriptionTemplatedResourceRequirements';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  Description?: Maybe<Scalars['String']>;
-  JobAllocationTimeSource: Scalars['Boolean'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Quantity: Scalars['Int'];
-  RelativeStart?: Maybe<Scalars['Duration']>;
-  TemplatedJobId: Scalars['ID'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionTemplatedResourceShifts = {
-  __typename?: 'SchemaSubscriptionTemplatedResourceShifts';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  ResourceId: Scalars['ID'];
-  TemplatedShiftId: Scalars['ID'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionTemplatedShiftTags = {
-  __typename?: 'SchemaSubscriptionTemplatedShiftTags';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Required: Scalars['Boolean'];
-  TagId: Scalars['ID'];
-  TemplatedShiftId: Scalars['ID'];
-  UID: Scalars['ID'];
-  Weighting?: Maybe<Scalars['Int']>;
-};
-
-export type SchemaSubscriptionTemplatedShifts = {
-  __typename?: 'SchemaSubscriptionTemplatedShifts';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  DisplayName?: Maybe<Scalars['String']>;
-  Duration: Scalars['Duration'];
-  IsDraft: Scalars['Boolean'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  LocationId?: Maybe<Scalars['ID']>;
-  RegionId: Scalars['ID'];
-  ScheduleTemplateId: Scalars['ID'];
-  StartOffsetDays: Scalars['Int'];
-  StartTimeOfDay: Scalars['LocalTime'];
-  UID: Scalars['ID'];
-};
-
-export type SchemaSubscriptionUserRegions = {
-  __typename?: 'SchemaSubscriptionUserRegions';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  RegionId: Scalars['ID'];
-  UID: Scalars['ID'];
-  UserId: Scalars['ID'];
-};
-
-export type SchemaSubscriptionUser_Ext = {
-  __typename?: 'SchemaSubscriptionUser_Ext';
-  CareConnectUserID?: Maybe<Scalars['String']>;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  UID: Scalars['ID'];
-  uniqueeid?: Maybe<Scalars['String']>;
-  userId?: Maybe<Scalars['ID']>;
-};
-
-export type SchemaSubscriptionUsers = {
-  __typename?: 'SchemaSubscriptionUsers';
-  City?: Maybe<Scalars['String']>;
-  Country?: Maybe<Scalars['String']>;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  Email: Scalars['String'];
-  FirstName?: Maybe<Scalars['String']>;
-  FullPhotoUrl: Scalars['String'];
-  IsActive: Scalars['Boolean'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  LastName: Scalars['String'];
-  MobilePhone?: Maybe<Scalars['String']>;
-  Name: Scalars['String'];
-  PostalCode?: Maybe<Scalars['String']>;
-  SmallPhotoUrl: Scalars['String'];
-  State?: Maybe<Scalars['String']>;
-  Street?: Maybe<Scalars['String']>;
-  UID: Scalars['ID'];
-  UserTypes?: Maybe<Array<Scalars['String']>>;
-};
-
-export type SchemaSubscriptionclientAvailabilityTemplateEntry = {
-  __typename?: 'SchemaSubscriptionclientAvailabilityTemplateEntry';
-  AllDay: Scalars['Boolean'];
-  ClientAvailabilityTemplateId?: Maybe<Scalars['ID']>;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
+  Distance?: Maybe<Scalars['BigDecimal']>;
+  EndDate?: Maybe<Scalars['LocalDate']>;
   EndTime?: Maybe<Scalars['LocalTime']>;
+  EntryType?: Maybe<Scalars['String']>;
+  JobId?: Maybe<Scalars['ID']>;
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
-  LocationId?: Maybe<Scalars['ID']>;
-  Name?: Maybe<Scalars['String']>;
+  ShiftId?: Maybe<Scalars['ID']>;
+  StartDate?: Maybe<Scalars['LocalDate']>;
   StartTime?: Maybe<Scalars['LocalTime']>;
+  TimesheetId?: Maybe<Scalars['ID']>;
   UID: Scalars['ID'];
-  Weekday?: Maybe<Scalars['String']>;
-};
-
-export type SchemaSubscriptionsked_BroadcastRecipients = {
-  __typename?: 'SchemaSubscriptionsked_BroadcastRecipients';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  UID: Scalars['ID'];
-  sked_BroadcastId: Scalars['ID'];
-  sked_ContactId?: Maybe<Scalars['ID']>;
-  sked_Date?: Maybe<Scalars['LocalDate']>;
-  sked_ErrorInformation?: Maybe<Scalars['String']>;
-  sked_NotificationMethod?: Maybe<Scalars['String']>;
-  sked_Phone?: Maybe<Scalars['String']>;
-  sked_ResourceId?: Maybe<Scalars['ID']>;
-  sked_Status?: Maybe<Scalars['String']>;
-  sked_Timestamp?: Maybe<Scalars['String']>;
-};
-
-export type SchemaSubscriptionsked_Broadcasts = {
-  __typename?: 'SchemaSubscriptionsked_Broadcasts';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  UID: Scalars['ID'];
-  sked_Broadcast?: Maybe<Scalars['String']>;
-  sked_Date?: Maybe<Scalars['LocalDate']>;
-  sked_NotSent?: Maybe<Scalars['BigDecimal']>;
-  sked_NotificationMethod?: Maybe<Scalars['String']>;
-  sked_RecipientType?: Maybe<Scalars['String']>;
-  sked_Sent?: Maybe<Scalars['BigDecimal']>;
-  sked_Timestamp?: Maybe<Scalars['String']>;
-  sked_TotalRecipients?: Maybe<Scalars['BigDecimal']>;
+  UnavailabilityId?: Maybe<Scalars['ID']>;
 };
 
 export type ShiftOfferShifts = {
@@ -9428,49 +8402,24 @@ export type SimpleAccountTags = {
 
 export type SimpleAccounts = {
   __typename?: 'SimpleAccounts';
-  ACId?: Maybe<Scalars['ID']>;
-  AVPId?: Maybe<Scalars['ID']>;
-  ActiveFromDate?: Maybe<Scalars['LocalDate']>;
-  ActiveThruDate?: Maybe<Scalars['LocalDate']>;
-  ActualStartOfCareDate?: Maybe<Scalars['LocalDate']>;
   BillingCity?: Maybe<Scalars['String']>;
   BillingPostalCode?: Maybe<Scalars['String']>;
   BillingState?: Maybe<Scalars['String']>;
   BillingStreet?: Maybe<Scalars['String']>;
-  CaseID?: Maybe<Scalars['String']>;
-  CaseProgressionStatus?: Maybe<Scalars['String']>;
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
-  DateOfBirth?: Maybe<Scalars['LocalDate']>;
-  DefaultLocationId?: Maybe<Scalars['ID']>;
-  DischargeDate?: Maybe<Scalars['Instant']>;
-  Division?: Maybe<Scalars['String']>;
-  ExternalClientID?: Maybe<Scalars['String']>;
-  FSMId?: Maybe<Scalars['ID']>;
   Fax?: Maybe<Scalars['String']>;
-  Gender?: Maybe<Scalars['String']>;
-  HoldDate?: Maybe<Scalars['LocalDate']>;
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
-  MRNumber?: Maybe<Scalars['String']>;
+  Level?: Maybe<Scalars['String']>;
   Name: Scalars['String'];
-  NeedToRecalculateJobsLocation: Scalars['Boolean'];
-  ODId?: Maybe<Scalars['ID']>;
-  PayerLabel?: Maybe<Scalars['String']>;
   Phone?: Maybe<Scalars['String']>;
-  PlannedStartOfCareDate?: Maybe<Scalars['LocalDate']>;
-  PreferredTechnician?: Maybe<Scalars['String']>;
-  RCDId?: Maybe<Scalars['ID']>;
-  Rank?: Maybe<Scalars['BigDecimal']>;
-  RegionId?: Maybe<Scalars['ID']>;
+  Rank?: Maybe<Scalars['Int']>;
   RequiresWhitelist: Scalars['Boolean'];
-  ResumeServiceDate?: Maybe<Scalars['LocalDate']>;
-  SCId?: Maybe<Scalars['ID']>;
   ShippingCity?: Maybe<Scalars['String']>;
   ShippingPostalCode?: Maybe<Scalars['String']>;
   ShippingState?: Maybe<Scalars['String']>;
   ShippingStreet?: Maybe<Scalars['String']>;
-  Status?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
 };
 
@@ -9494,6 +8443,7 @@ export type SimpleActivities = {
   Start: Scalars['Instant'];
   TemplatedActivityId?: Maybe<Scalars['ID']>;
   Timezone?: Maybe<Scalars['String']>;
+  TuanTest?: Maybe<Scalars['String']>;
   Type?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
 };
@@ -9509,15 +8459,37 @@ export type SimpleActivityResources = {
   UID: Scalars['ID'];
 };
 
-export type SimpleAdminSetting = {
-  __typename?: 'SimpleAdminSetting';
-  AllDayEndTime?: Maybe<Scalars['String']>;
-  AllDayStartTime?: Maybe<Scalars['String']>;
+export type SimpleArcadeGames = {
+  __typename?: 'SimpleArcadeGames';
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
-  ReadOnlyAvailabilityForm?: Maybe<Scalars['Boolean']>;
+  UID: Scalars['ID'];
+  active: Scalars['Boolean'];
+  type?: Maybe<Scalars['String']>;
+  verbiage?: Maybe<Scalars['String']>;
+};
+
+export type SimpleAttendee = {
+  __typename?: 'SimpleAttendee';
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  GroupEventId?: Maybe<Scalars['ID']>;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  TestAttendee?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type SimpleAttendee1 = {
+  __typename?: 'SimpleAttendee1';
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  GroupEventId?: Maybe<Scalars['ID']>;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  Name?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
 };
 
@@ -9559,7 +8531,6 @@ export type SimpleAvailabilityPatternResources = {
   End?: Maybe<Scalars['Instant']>;
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
-  RepeatEvery?: Maybe<Scalars['String']>;
   ResourceId: Scalars['ID'];
   Start: Scalars['Instant'];
   Status?: Maybe<Scalars['AvailabilityStatus']>;
@@ -9615,51 +8586,19 @@ export type SimpleAvailabilityTemplates = {
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
   Name: Scalars['String'];
-  RepeatEvery?: Maybe<Scalars['String']>;
   Start?: Maybe<Scalars['LocalDate']>;
   UID: Scalars['ID'];
 };
 
-export type SimpleClientAuthorization = {
-  __typename?: 'SimpleClientAuthorization';
-  AccountId?: Maybe<Scalars['ID']>;
-  AuthorizationEffectiveDate?: Maybe<Scalars['LocalDate']>;
-  AuthorizationExpirationDate?: Maybe<Scalars['LocalDate']>;
-  AuthorizationNotes?: Maybe<Scalars['String']>;
-  AuthorizationStatus?: Maybe<Scalars['String']>;
-  CaseProgressionStatus?: Maybe<Scalars['String']>;
+export type SimpleClass = {
+  __typename?: 'SimpleClass';
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
-  DummyTestingField?: Maybe<Scalars['BigDecimal']>;
-  ExternalID?: Maybe<Scalars['String']>;
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
   Name?: Maybe<Scalars['String']>;
-  RegionId?: Maybe<Scalars['ID']>;
-  TotalAuthorizedHours?: Maybe<Scalars['BigDecimal']>;
-  TotalScheduledAuthorizedHours?: Maybe<Scalars['BigDecimal']>;
-  TotalUsedAuthorizedHours?: Maybe<Scalars['BigDecimal']>;
   UID: Scalars['ID'];
-};
-
-export type SimpleClientAuthorizationServices = {
-  __typename?: 'SimpleClientAuthorizationServices';
-  AuthorizedHoursPerWeek?: Maybe<Scalars['BigDecimal']>;
-  ClientAuthorizationId?: Maybe<Scalars['ID']>;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  DummyField?: Maybe<Scalars['BigDecimal']>;
-  ExternalID?: Maybe<Scalars['String']>;
-  FamilyAgreedUpon?: Maybe<Scalars['BigDecimal']>;
-  HoursRemainingAfterChargeCreation?: Maybe<Scalars['BigDecimal']>;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Name?: Maybe<Scalars['String']>;
-  ServiceType?: Maybe<Scalars['String']>;
-  TotalAuthorizedServiceHours?: Maybe<Scalars['BigDecimal']>;
-  TotalScheduledServiceHours?: Maybe<Scalars['BigDecimal']>;
-  TotalUsedServiceHours?: Maybe<Scalars['BigDecimal']>;
-  UID: Scalars['ID'];
+  isActive: Scalars['Boolean'];
 };
 
 export type SimpleClientAvailabilities = {
@@ -9676,32 +8615,6 @@ export type SimpleClientAvailabilities = {
   PreferredStart?: Maybe<Scalars['Instant']>;
   RecurringScheduleId?: Maybe<Scalars['ID']>;
   Start: Scalars['Instant'];
-  UID: Scalars['ID'];
-};
-
-export type SimpleClientAvailabilityTemplate = {
-  __typename?: 'SimpleClientAvailabilityTemplate';
-  AccountId?: Maybe<Scalars['ID']>;
-  AdjustmentType?: Maybe<Scalars['String']>;
-  AllDay: Scalars['Boolean'];
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  DatesOfMonth?: Maybe<Array<Scalars['String']>>;
-  DaysOfMonth?: Maybe<Array<Scalars['String']>>;
-  DaysOfWeek?: Maybe<Scalars['String']>;
-  DaysOfYear?: Maybe<Scalars['String']>;
-  EndDate?: Maybe<Scalars['LocalDate']>;
-  EndTime?: Maybe<Scalars['LocalTime']>;
-  Label?: Maybe<Scalars['String']>;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  LocationId?: Maybe<Scalars['ID']>;
-  MonthsOfYear?: Maybe<Array<Scalars['String']>>;
-  Note?: Maybe<Scalars['String']>;
-  Pattern?: Maybe<Scalars['String']>;
-  StartDate?: Maybe<Scalars['LocalDate']>;
-  StartTime?: Maybe<Scalars['LocalTime']>;
-  Type?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
 };
 
@@ -9741,36 +8654,46 @@ export type SimpleContacts = {
   Phone?: Maybe<Scalars['String']>;
   RegionId?: Maybe<Scalars['ID']>;
   Title?: Maybe<Scalars['String']>;
+  TuanTest?: Maybe<Scalars['BigDecimal']>;
   UID: Scalars['ID'];
 };
 
-export type SimpleExceptionRecord = {
-  __typename?: 'SimpleExceptionRecord';
+export type SimpleDefaultAutoOffer = {
+  __typename?: 'SimpleDefaultAutoOffer';
+  AutoOffer?: Maybe<Scalars['String']>;
+  AutoOfferOffset?: Maybe<Scalars['BigDecimal']>;
+  AutoOfferRespectJobRegion: Scalars['Boolean'];
+  AutoOfferRespectJobTags: Scalars['Boolean'];
+  AutoOfferRespectPreviousOfferStatus: Scalars['Boolean'];
+  AutoOfferRespectResourceAvailability: Scalars['Boolean'];
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
-  ExceptionId?: Maybe<Scalars['String']>;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  RuleId?: Maybe<Scalars['String']>;
-  SourceId?: Maybe<Scalars['String']>;
-  SourceType?: Maybe<Scalars['String']>;
-  TargetId?: Maybe<Scalars['String']>;
-  TargetType?: Maybe<Scalars['String']>;
-  UID: Scalars['ID'];
-};
-
-export type SimpleExceptionType = {
-  __typename?: 'SimpleExceptionType';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  Description?: Maybe<Scalars['String']>;
-  DescriptionTwo?: Maybe<Scalars['String']>;
-  ExceptionType: Scalars['String'];
-  ExceptionType2: Scalars['String'];
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
   Name?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
+};
+
+export type SimpleGroupEvent = {
+  __typename?: 'SimpleGroupEvent';
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  JobId?: Maybe<Scalars['ID']>;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  Name?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type SimpleGroupEvent1 = {
+  __typename?: 'SimpleGroupEvent1';
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  JobId?: Maybe<Scalars['ID']>;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  UID: Scalars['ID'];
+  name?: Maybe<Scalars['String']>;
 };
 
 export type SimpleHolidayRegions = {
@@ -9928,13 +8851,17 @@ export type SimpleJobs = {
   ActualEnd?: Maybe<Scalars['Instant']>;
   ActualStart?: Maybe<Scalars['Instant']>;
   Address?: Maybe<Scalars['String']>;
-  AuthorizationServiceId?: Maybe<Scalars['ID']>;
-  AuthorizedHoursPerWeek?: Maybe<Scalars['BigDecimal']>;
+  AutoOffer?: Maybe<Scalars['String']>;
+  AutoOfferDate?: Maybe<Scalars['String']>;
+  AutoOfferOffset?: Maybe<Scalars['BigDecimal']>;
+  AutoOfferRespectJobRegion: Scalars['Boolean'];
+  AutoOfferRespectJobTags: Scalars['Boolean'];
+  AutoOfferRespectPreviousOfferStatus: Scalars['Boolean'];
+  AutoOfferRespectResourceAvailability: Scalars['Boolean'];
   AutoSchedule: Scalars['Boolean'];
   CanBeDeclined: Scalars['Boolean'];
-  ClearOfExceptions: Scalars['Boolean'];
-  ClientAuthorizationId?: Maybe<Scalars['ID']>;
   CompletionNotes?: Maybe<Scalars['String']>;
+  Confirmed: Scalars['Boolean'];
   ContactId?: Maybe<Scalars['ID']>;
   CopiedFromId?: Maybe<Scalars['ID']>;
   CreatedById: Scalars['ID'];
@@ -9945,18 +8872,17 @@ export type SimpleJobs = {
   End?: Maybe<Scalars['Instant']>;
   EstimatedEnd?: Maybe<Scalars['Instant']>;
   EstimatedStart?: Maybe<Scalars['Instant']>;
-  FamilyAgreedUpon?: Maybe<Scalars['BigDecimal']>;
   FollowupReason?: Maybe<Scalars['String']>;
   GeoLatitude?: Maybe<Scalars['BigDecimal']>;
   GeoLongitude?: Maybe<Scalars['BigDecimal']>;
   IsGroupEvent: Scalars['Boolean'];
   JobAllocationCount: Scalars['Int'];
   JobAllocationTimeSource: Scalars['Boolean'];
+  JobStartDefer?: Maybe<Scalars['BigDecimal']>;
   JobStatus: Scalars['JobStatus'];
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
   LocationId?: Maybe<Scalars['ID']>;
-  LocationType?: Maybe<Scalars['String']>;
   Locked: Scalars['Boolean'];
   MaxAttendees?: Maybe<Scalars['Int']>;
   MinAttendees?: Maybe<Scalars['Int']>;
@@ -9968,11 +8894,11 @@ export type SimpleJobs = {
   Quantity?: Maybe<Scalars['Int']>;
   RecurringScheduleId?: Maybe<Scalars['ID']>;
   RegionId: Scalars['ID'];
+  RequiredKit?: Maybe<Scalars['BigDecimal']>;
   ScheduleTemplateId?: Maybe<Scalars['ID']>;
   Start?: Maybe<Scalars['Instant']>;
   TemplatedJobId?: Maybe<Scalars['ID']>;
   Timezone: Scalars['String'];
-  TotalAuthorizedServiceHours?: Maybe<Scalars['BigDecimal']>;
   Type?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
   Urgency?: Maybe<Scalars['String']>;
@@ -10000,7 +8926,6 @@ export type SimpleLocations = {
   Address?: Maybe<Scalars['String']>;
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
-  Default?: Maybe<Scalars['Boolean']>;
   GeoLatitude?: Maybe<Scalars['BigDecimal']>;
   GeoLongitude?: Maybe<Scalars['BigDecimal']>;
   LastModifiedById: Scalars['ID'];
@@ -10016,10 +8941,44 @@ export type SimpleLogger = {
   __typename?: 'SimpleLogger';
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
+  Description?: Maybe<Scalars['String']>;
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
-  Message?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+  jobhistoryId?: Maybe<Scalars['ID']>;
+};
+
+export type SimpleMonitorLogs = {
+  __typename?: 'SimpleMonitorLogs';
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  Description: Scalars['String'];
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  MonitorsId: Scalars['ID'];
+  Name: Scalars['String'];
   Type?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type SimpleMonitors = {
+  __typename?: 'SimpleMonitors';
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  Name: Scalars['String'];
+  UID: Scalars['ID'];
+  VendorsId: Scalars['ID'];
+};
+
+export type SimplePatients = {
+  __typename?: 'SimplePatients';
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  Name?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
 };
 
@@ -10034,6 +8993,52 @@ export type SimpleProducts = {
   LastModifiedDate: Scalars['Instant'];
   Name: Scalars['String'];
   ProductCode?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type SimpleProjects = {
+  __typename?: 'SimpleProjects';
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  Name?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type SimplePublicPageSetting = {
+  __typename?: 'SimplePublicPageSetting';
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  Link?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type SimplePublicPageTemplate = {
+  __typename?: 'SimplePublicPageTemplate';
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  Description?: Maybe<Scalars['String']>;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  Name?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type SimplePublicSchedule = {
+  __typename?: 'SimplePublicSchedule';
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  IsInactivated?: Maybe<Scalars['Boolean']>;
+  JobId?: Maybe<Scalars['ID']>;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  Name?: Maybe<Scalars['String']>;
+  Note?: Maybe<Scalars['String']>;
+  PublicPageTemplateId?: Maybe<Scalars['ID']>;
+  Status?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
 };
 
@@ -10211,19 +9216,18 @@ export type SimpleResources = {
   __typename?: 'SimpleResources';
   Alias?: Maybe<Scalars['String']>;
   AutoSchedule: Scalars['Boolean'];
-  CareConnectUserID?: Maybe<Scalars['BigDecimal']>;
+  Birthday?: Maybe<Scalars['LocalDate']>;
   Category?: Maybe<Scalars['String']>;
   CountryCode?: Maybe<Scalars['String']>;
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
-  EffectiveTerminationDate?: Maybe<Scalars['Instant']>;
   Email?: Maybe<Scalars['String']>;
   EmploymentType?: Maybe<Scalars['String']>;
-  FSM?: Maybe<Scalars['String']>;
   GeoLatitude?: Maybe<Scalars['BigDecimal']>;
   GeoLongitude?: Maybe<Scalars['BigDecimal']>;
   HomeAddress?: Maybe<Scalars['String']>;
   IsActive: Scalars['Boolean'];
+  Language?: Maybe<Scalars['String']>;
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
   MobilePhone?: Maybe<Scalars['String']>;
@@ -10233,29 +9237,12 @@ export type SimpleResources = {
   PrimaryPhone?: Maybe<Scalars['String']>;
   PrimaryRegionId: Scalars['ID'];
   Rating?: Maybe<Scalars['Int']>;
-  ReportsTo?: Maybe<Scalars['String']>;
-  RequestedWorkingHoursPerWeek?: Maybe<Scalars['BigDecimal']>;
   ResourceType?: Maybe<Scalars['String']>;
-  TotalUtilizedHours?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
   UserId?: Maybe<Scalars['ID']>;
+  VehicleID?: Maybe<Scalars['String']>;
   WeeklyHours?: Maybe<Scalars['BigDecimal']>;
   WorkingHourType?: Maybe<Scalars['WorkingHourType']>;
-  amsuserstatus?: Maybe<Scalars['String']>;
-  city?: Maybe<Scalars['String']>;
-  complianceissue?: Maybe<Scalars['String']>;
-  degreetypelab?: Maybe<Scalars['String']>;
-  estimatedactivationtimestamp?: Maybe<Scalars['String']>;
-  gender?: Maybe<Scalars['String']>;
-  homephone?: Maybe<Scalars['String']>;
-  middleInitial?: Maybe<Scalars['String']>;
-  npi?: Maybe<Scalars['String']>;
-  onboardingstatuslabel?: Maybe<Scalars['String']>;
-  personalemail?: Maybe<Scalars['String']>;
-  state?: Maybe<Scalars['String']>;
-  uniqueeid?: Maybe<Scalars['String']>;
-  worksfor?: Maybe<Scalars['String']>;
-  zip?: Maybe<Scalars['String']>;
 };
 
 export type SimpleScheduleTemplates = {
@@ -10324,19 +9311,6 @@ export type SimpleShifts = {
   ScheduleTemplateId?: Maybe<Scalars['ID']>;
   Start: Scalars['Instant'];
   TemplatedShiftId?: Maybe<Scalars['ID']>;
-  UID: Scalars['ID'];
-};
-
-export type SimpleStarterTest = {
-  __typename?: 'SimpleStarterTest';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  ResourceId: Scalars['ID'];
-  StarterTestBooleanField: Scalars['Boolean'];
-  StarterTestDecimalField?: Maybe<Scalars['BigDecimal']>;
-  StarterTestPicklistField?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
 };
 
@@ -10634,6 +9608,91 @@ export type SimpleTemplatedShifts = {
   UID: Scalars['ID'];
 };
 
+export type SimpleTestPerObj = {
+  __typename?: 'SimpleTestPerObj';
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  Field1?: Maybe<Scalars['String']>;
+  Field2?: Maybe<Scalars['String']>;
+  JobId?: Maybe<Scalars['ID']>;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  UID: Scalars['ID'];
+};
+
+export type SimpleTestPerObject2 = {
+  __typename?: 'SimpleTestPerObject2';
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  FieldA?: Maybe<Scalars['BigDecimal']>;
+  FieldB?: Maybe<Scalars['BigDecimal']>;
+  JobId?: Maybe<Scalars['ID']>;
+  JobTestPer2Id?: Maybe<Scalars['ID']>;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  UID: Scalars['ID'];
+};
+
+export type SimpleTimesheet = {
+  __typename?: 'SimpleTimesheet';
+  ApprovedById?: Maybe<Scalars['ID']>;
+  ApprovedDate?: Maybe<Scalars['LocalDate']>;
+  ApproverComments?: Maybe<Scalars['String']>;
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  EndDate?: Maybe<Scalars['LocalDate']>;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  ResourceId?: Maybe<Scalars['ID']>;
+  StartDate?: Maybe<Scalars['LocalDate']>;
+  Status?: Maybe<Scalars['String']>;
+  SubmitterComments?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type SimpleTimesheetEntry = {
+  __typename?: 'SimpleTimesheetEntry';
+  ActivityId?: Maybe<Scalars['ID']>;
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  Description?: Maybe<Scalars['String']>;
+  Distance?: Maybe<Scalars['BigDecimal']>;
+  EndDate?: Maybe<Scalars['LocalDate']>;
+  EndTime?: Maybe<Scalars['LocalTime']>;
+  EntryType?: Maybe<Scalars['String']>;
+  JobId?: Maybe<Scalars['ID']>;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  ShiftId?: Maybe<Scalars['ID']>;
+  StartDate?: Maybe<Scalars['LocalDate']>;
+  StartTime?: Maybe<Scalars['LocalTime']>;
+  TimesheetId?: Maybe<Scalars['ID']>;
+  UID: Scalars['ID'];
+  UnavailabilityId?: Maybe<Scalars['ID']>;
+};
+
+export type SimpleTraining = {
+  __typename?: 'SimpleTraining';
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  PL?: Maybe<Scalars['String']>;
+  TextA?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type SimpleTuanTest = {
+  __typename?: 'SimpleTuanTest';
+  Age?: Maybe<Scalars['BigDecimal']>;
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  Name?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
 export type SimpleUserRegions = {
   __typename?: 'SimpleUserRegions';
   CreatedById: Scalars['ID'];
@@ -10645,193 +9704,42 @@ export type SimpleUserRegions = {
   UserId: Scalars['ID'];
 };
 
-export type SimpleUser_Ext = {
-  __typename?: 'SimpleUser_Ext';
-  CareConnectUserID?: Maybe<Scalars['String']>;
+export type SimpleVendorTag = {
+  __typename?: 'SimpleVendorTag';
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
+  TagsId: Scalars['ID'];
   UID: Scalars['ID'];
-  uniqueeid?: Maybe<Scalars['String']>;
-  userId?: Maybe<Scalars['ID']>;
+  VendorsId: Scalars['ID'];
 };
 
-export type SimpleclientAvailabilityTemplateEntry = {
-  __typename?: 'SimpleclientAvailabilityTemplateEntry';
-  AllDay: Scalars['Boolean'];
-  ClientAvailabilityTemplateId?: Maybe<Scalars['ID']>;
+export type SimpleVendors = {
+  __typename?: 'SimpleVendors';
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
-  EndTime?: Maybe<Scalars['LocalTime']>;
+  Description?: Maybe<Scalars['String']>;
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
-  LocationId?: Maybe<Scalars['ID']>;
   Name?: Maybe<Scalars['String']>;
-  StartTime?: Maybe<Scalars['LocalTime']>;
+  TenantId?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
-  Weekday?: Maybe<Scalars['String']>;
-};
-
-export type Simplesked_BroadcastRecipients = {
-  __typename?: 'Simplesked_BroadcastRecipients';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  UID: Scalars['ID'];
-  sked_BroadcastId: Scalars['ID'];
-  sked_ContactId?: Maybe<Scalars['ID']>;
-  sked_Date?: Maybe<Scalars['LocalDate']>;
-  sked_ErrorInformation?: Maybe<Scalars['String']>;
-  sked_NotificationMethod?: Maybe<Scalars['String']>;
-  sked_Phone?: Maybe<Scalars['String']>;
-  sked_ResourceId?: Maybe<Scalars['ID']>;
-  sked_Status?: Maybe<Scalars['String']>;
-  sked_Timestamp?: Maybe<Scalars['String']>;
-};
-
-export type Simplesked_Broadcasts = {
-  __typename?: 'Simplesked_Broadcasts';
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  UID: Scalars['ID'];
-  sked_Broadcast?: Maybe<Scalars['String']>;
-  sked_Date?: Maybe<Scalars['LocalDate']>;
-  sked_NotSent?: Maybe<Scalars['BigDecimal']>;
-  sked_NotificationMethod?: Maybe<Scalars['String']>;
-  sked_RecipientType?: Maybe<Scalars['String']>;
-  sked_Sent?: Maybe<Scalars['BigDecimal']>;
-  sked_Timestamp?: Maybe<Scalars['String']>;
-  sked_TotalRecipients?: Maybe<Scalars['BigDecimal']>;
-};
-
-export type StarterTest = {
-  __typename?: 'StarterTest';
-  CreatedBy: Users;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedBy: Users;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  Resource: Resources;
-  ResourceId: Scalars['ID'];
-  StarterTestBooleanField: Scalars['Boolean'];
-  StarterTestDecimalField?: Maybe<Scalars['BigDecimal']>;
-  StarterTestPicklistField?: Maybe<Scalars['String']>;
-  UID: Scalars['ID'];
-};
-
-export type StarterTestConnection = {
-  __typename?: 'StarterTestConnection';
-  edges: Array<StarterTestEdge>;
-  pageInfo: PageInfo;
-  totalCount: Scalars['Int'];
-};
-
-export type StarterTestEdge = {
-  __typename?: 'StarterTestEdge';
-  cursor: Scalars['Base64'];
-  node: StarterTest;
-  offset: Scalars['Int'];
 };
 
 export type Subscription = {
   __typename?: 'Subscription';
-  schemaAccountResourceScores: SchemaSubscriptionNotificationAccountResourceScores;
-  schemaAccountTags: SchemaSubscriptionNotificationAccountTags;
   schemaAccounts: SchemaSubscriptionNotificationAccounts;
   schemaActivities: SchemaSubscriptionNotificationActivities;
-  schemaActivityResources: SchemaSubscriptionNotificationActivityResources;
-  schemaAdminSetting: SchemaSubscriptionNotificationAdminSetting;
-  schemaAttendees: SchemaSubscriptionNotificationAttendees;
   schemaAvailabilities: SchemaSubscriptionNotificationAvailabilities;
-  schemaAvailabilityPatternResources: SchemaSubscriptionNotificationAvailabilityPatternResources;
-  schemaAvailabilityPatterns: SchemaSubscriptionNotificationAvailabilityPatterns;
-  schemaAvailabilityTemplateEntries: SchemaSubscriptionNotificationAvailabilityTemplateEntries;
-  schemaAvailabilityTemplateResources: SchemaSubscriptionNotificationAvailabilityTemplateResources;
-  schemaAvailabilityTemplates: SchemaSubscriptionNotificationAvailabilityTemplates;
-  schemaClientAuthorization: SchemaSubscriptionNotificationClientAuthorization;
-  schemaClientAuthorizationServices: SchemaSubscriptionNotificationClientAuthorizationServices;
-  schemaClientAvailabilities: SchemaSubscriptionNotificationClientAvailabilities;
-  schemaClientAvailabilityTemplate: SchemaSubscriptionNotificationClientAvailabilityTemplate;
-  schemaContactTags: SchemaSubscriptionNotificationContactTags;
   schemaContacts: SchemaSubscriptionNotificationContacts;
-  schemaExceptionRecord: SchemaSubscriptionNotificationExceptionRecord;
-  schemaExceptionType: SchemaSubscriptionNotificationExceptionType;
-  schemaHolidayRegions: SchemaSubscriptionNotificationHolidayRegions;
-  schemaHolidays: SchemaSubscriptionNotificationHolidays;
   schemaJobAllocations: SchemaSubscriptionNotificationJobAllocations;
-  schemaJobDependencies: SchemaSubscriptionNotificationJobDependencies;
-  schemaJobOffers: SchemaSubscriptionNotificationJobOffers;
-  schemaJobProducts: SchemaSubscriptionNotificationJobProducts;
-  schemaJobTags: SchemaSubscriptionNotificationJobTags;
-  schemaJobTasks: SchemaSubscriptionNotificationJobTasks;
-  schemaJobTimeConstraints: SchemaSubscriptionNotificationJobTimeConstraints;
   schemaJobs: SchemaSubscriptionNotificationJobs;
-  schemaLocationResourceScores: SchemaSubscriptionNotificationLocationResourceScores;
-  schemaLocations: SchemaSubscriptionNotificationLocations;
-  schemaLogger: SchemaSubscriptionNotificationLogger;
-  schemaProducts: SchemaSubscriptionNotificationProducts;
-  schemaRecurringSchedules: SchemaSubscriptionNotificationRecurringSchedules;
-  schemaRegions: SchemaSubscriptionNotificationRegions;
-  schemaResourceJobOffers: SchemaSubscriptionNotificationResourceJobOffers;
-  schemaResourceOverrideRegions: SchemaSubscriptionNotificationResourceOverrideRegions;
-  schemaResourceOverrides: SchemaSubscriptionNotificationResourceOverrides;
-  schemaResourceRegions: SchemaSubscriptionNotificationResourceRegions;
-  schemaResourceRequirementTags: SchemaSubscriptionNotificationResourceRequirementTags;
-  schemaResourceRequirements: SchemaSubscriptionNotificationResourceRequirements;
-  schemaResourceShiftBreaks: SchemaSubscriptionNotificationResourceShiftBreaks;
-  schemaResourceShiftOffers: SchemaSubscriptionNotificationResourceShiftOffers;
-  schemaResourceShifts: SchemaSubscriptionNotificationResourceShifts;
-  schemaResourceTags: SchemaSubscriptionNotificationResourceTags;
-  schemaResources: SchemaSubscriptionNotificationResources;
-  schemaScheduleTemplates: SchemaSubscriptionNotificationScheduleTemplates;
-  schemaShiftOfferShifts: SchemaSubscriptionNotificationShiftOfferShifts;
-  schemaShiftOffers: SchemaSubscriptionNotificationShiftOffers;
-  schemaShiftTags: SchemaSubscriptionNotificationShiftTags;
+  schemaMonitorLogs: SchemaSubscriptionNotificationMonitorLogs;
   schemaShifts: SchemaSubscriptionNotificationShifts;
-  schemaStarterTest: SchemaSubscriptionNotificationStarterTest;
   schemaTagManagerSettings: SchemaSubscriptionNotificationTagManagerSettings;
-  schemaTagRequest: SchemaSubscriptionNotificationTagRequest;
-  schemaTags: SchemaSubscriptionNotificationTags;
-  schemaTemplatedActivities: SchemaSubscriptionNotificationTemplatedActivities;
-  schemaTemplatedActivityResources: SchemaSubscriptionNotificationTemplatedActivityResources;
-  schemaTemplatedAttendees: SchemaSubscriptionNotificationTemplatedAttendees;
-  schemaTemplatedJobAllocations: SchemaSubscriptionNotificationTemplatedJobAllocations;
-  schemaTemplatedJobDependencies: SchemaSubscriptionNotificationTemplatedJobDependencies;
-  schemaTemplatedJobProducts: SchemaSubscriptionNotificationTemplatedJobProducts;
-  schemaTemplatedJobTags: SchemaSubscriptionNotificationTemplatedJobTags;
-  schemaTemplatedJobTasks: SchemaSubscriptionNotificationTemplatedJobTasks;
-  schemaTemplatedJobTimeConstraints: SchemaSubscriptionNotificationTemplatedJobTimeConstraints;
-  schemaTemplatedJobs: SchemaSubscriptionNotificationTemplatedJobs;
-  schemaTemplatedResourceRequirementTags: SchemaSubscriptionNotificationTemplatedResourceRequirementTags;
-  schemaTemplatedResourceRequirements: SchemaSubscriptionNotificationTemplatedResourceRequirements;
-  schemaTemplatedResourceShifts: SchemaSubscriptionNotificationTemplatedResourceShifts;
-  schemaTemplatedShiftTags: SchemaSubscriptionNotificationTemplatedShiftTags;
-  schemaTemplatedShifts: SchemaSubscriptionNotificationTemplatedShifts;
-  schemaUserRegions: SchemaSubscriptionNotificationUserRegions;
-  schemaUser_Ext: SchemaSubscriptionNotificationUser_Ext;
-  schemaUsers: SchemaSubscriptionNotificationUsers;
-  schemaclientAvailabilityTemplateEntry: SchemaSubscriptionNotificationclientAvailabilityTemplateEntry;
-  schemasked_BroadcastRecipients: SchemaSubscriptionNotificationsked_BroadcastRecipients;
-  schemasked_Broadcasts: SchemaSubscriptionNotificationsked_Broadcasts;
-};
-
-
-export type SubscriptionSchemaAccountResourceScoresArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterAccountResourceScores']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterAccountResourceScores']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaAccountTagsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterAccountTags']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterAccountTags']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
+  schemaTimesheet: SchemaSubscriptionNotificationTimesheet;
+  schemaTimesheetEntry: SchemaSubscriptionNotificationTimesheetEntry;
 };
 
 
@@ -10849,100 +9757,9 @@ export type SubscriptionSchemaActivitiesArgs = {
 };
 
 
-export type SubscriptionSchemaActivityResourcesArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterActivityResources']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterActivityResources']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaAdminSettingArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterAdminSetting']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterAdminSetting']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaAttendeesArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterAttendees']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterAttendees']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
 export type SubscriptionSchemaAvailabilitiesArgs = {
   extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterAvailabilities']>;
   filter?: InputMaybe<Scalars['EQLRecordFilterAvailabilities']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaAvailabilityPatternResourcesArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterAvailabilityPatternResources']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterAvailabilityPatternResources']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaAvailabilityPatternsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterAvailabilityPatterns']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterAvailabilityPatterns']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaAvailabilityTemplateEntriesArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterAvailabilityTemplateEntries']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterAvailabilityTemplateEntries']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaAvailabilityTemplateResourcesArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterAvailabilityTemplateResources']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterAvailabilityTemplateResources']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaAvailabilityTemplatesArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterAvailabilityTemplates']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterAvailabilityTemplates']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaClientAuthorizationArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterClientAuthorization']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterClientAuthorization']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaClientAuthorizationServicesArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterClientAuthorizationServices']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterClientAuthorizationServices']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaClientAvailabilitiesArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterClientAvailabilities']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterClientAvailabilities']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaClientAvailabilityTemplateArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterClientAvailabilityTemplate']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterClientAvailabilityTemplate']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaContactTagsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterContactTags']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterContactTags']>;
   operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
 };
 
@@ -10954,79 +9771,9 @@ export type SubscriptionSchemaContactsArgs = {
 };
 
 
-export type SubscriptionSchemaExceptionRecordArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterExceptionRecord']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterExceptionRecord']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaExceptionTypeArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterExceptionType']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterExceptionType']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaHolidayRegionsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterHolidayRegions']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterHolidayRegions']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaHolidaysArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterHolidays']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterHolidays']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
 export type SubscriptionSchemaJobAllocationsArgs = {
   extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterJobAllocations']>;
   filter?: InputMaybe<Scalars['EQLRecordFilterJobAllocations']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaJobDependenciesArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterJobDependencies']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterJobDependencies']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaJobOffersArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterJobOffers']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterJobOffers']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaJobProductsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterJobProducts']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterJobProducts']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaJobTagsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterJobTags']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterJobTags']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaJobTasksArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterJobTasks']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterJobTasks']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaJobTimeConstraintsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterJobTimeConstraints']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterJobTimeConstraints']>;
   operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
 };
 
@@ -11038,149 +9785,9 @@ export type SubscriptionSchemaJobsArgs = {
 };
 
 
-export type SubscriptionSchemaLocationResourceScoresArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterLocationResourceScores']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterLocationResourceScores']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaLocationsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterLocations']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterLocations']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaLoggerArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterLogger']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterLogger']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaProductsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterProducts']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterProducts']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaRecurringSchedulesArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterRecurringSchedules']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterRecurringSchedules']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaRegionsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterRegions']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterRegions']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaResourceJobOffersArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterResourceJobOffers']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterResourceJobOffers']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaResourceOverrideRegionsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterResourceOverrideRegions']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterResourceOverrideRegions']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaResourceOverridesArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterResourceOverrides']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterResourceOverrides']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaResourceRegionsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterResourceRegions']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterResourceRegions']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaResourceRequirementTagsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterResourceRequirementTags']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterResourceRequirementTags']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaResourceRequirementsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterResourceRequirements']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterResourceRequirements']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaResourceShiftBreaksArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterResourceShiftBreaks']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterResourceShiftBreaks']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaResourceShiftOffersArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterResourceShiftOffers']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterResourceShiftOffers']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaResourceShiftsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterResourceShifts']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterResourceShifts']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaResourceTagsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterResourceTags']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterResourceTags']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaResourcesArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterResources']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterResources']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaScheduleTemplatesArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterScheduleTemplates']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterScheduleTemplates']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaShiftOfferShiftsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterShiftOfferShifts']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterShiftOfferShifts']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaShiftOffersArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterShiftOffers']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterShiftOffers']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaShiftTagsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterShiftTags']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterShiftTags']>;
+export type SubscriptionSchemaMonitorLogsArgs = {
+  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterMonitorLogs']>;
+  filter?: InputMaybe<Scalars['EQLRecordFilterMonitorLogs']>;
   operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
 };
 
@@ -11192,13 +9799,6 @@ export type SubscriptionSchemaShiftsArgs = {
 };
 
 
-export type SubscriptionSchemaStarterTestArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterStarterTest']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterStarterTest']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
 export type SubscriptionSchemaTagManagerSettingsArgs = {
   extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterTagManagerSettings']>;
   filter?: InputMaybe<Scalars['EQLRecordFilterTagManagerSettings']>;
@@ -11206,163 +9806,16 @@ export type SubscriptionSchemaTagManagerSettingsArgs = {
 };
 
 
-export type SubscriptionSchemaTagRequestArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterTagRequest']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterTagRequest']>;
+export type SubscriptionSchemaTimesheetArgs = {
+  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterTimesheet']>;
+  filter?: InputMaybe<Scalars['EQLRecordFilterTimesheet']>;
   operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
 };
 
 
-export type SubscriptionSchemaTagsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterTags']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterTags']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaTemplatedActivitiesArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterTemplatedActivities']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterTemplatedActivities']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaTemplatedActivityResourcesArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterTemplatedActivityResources']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterTemplatedActivityResources']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaTemplatedAttendeesArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterTemplatedAttendees']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterTemplatedAttendees']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaTemplatedJobAllocationsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterTemplatedJobAllocations']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterTemplatedJobAllocations']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaTemplatedJobDependenciesArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterTemplatedJobDependencies']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterTemplatedJobDependencies']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaTemplatedJobProductsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterTemplatedJobProducts']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterTemplatedJobProducts']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaTemplatedJobTagsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterTemplatedJobTags']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterTemplatedJobTags']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaTemplatedJobTasksArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterTemplatedJobTasks']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterTemplatedJobTasks']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaTemplatedJobTimeConstraintsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterTemplatedJobTimeConstraints']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterTemplatedJobTimeConstraints']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaTemplatedJobsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterTemplatedJobs']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterTemplatedJobs']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaTemplatedResourceRequirementTagsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterTemplatedResourceRequirementTags']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterTemplatedResourceRequirementTags']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaTemplatedResourceRequirementsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterTemplatedResourceRequirements']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterTemplatedResourceRequirements']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaTemplatedResourceShiftsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterTemplatedResourceShifts']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterTemplatedResourceShifts']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaTemplatedShiftTagsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterTemplatedShiftTags']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterTemplatedShiftTags']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaTemplatedShiftsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterTemplatedShifts']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterTemplatedShifts']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaUserRegionsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterUserRegions']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterUserRegions']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaUser_ExtArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterUser_Ext']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterUser_Ext']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaUsersArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterUsers']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterUsers']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemaclientAvailabilityTemplateEntryArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterclientAvailabilityTemplateEntry']>;
-  filter?: InputMaybe<Scalars['EQLRecordFilterclientAvailabilityTemplateEntry']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemasked_BroadcastRecipientsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFiltersked_BroadcastRecipients']>;
-  filter?: InputMaybe<Scalars['EQLRecordFiltersked_BroadcastRecipients']>;
-  operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
-};
-
-
-export type SubscriptionSchemasked_BroadcastsArgs = {
-  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFiltersked_Broadcasts']>;
-  filter?: InputMaybe<Scalars['EQLRecordFiltersked_Broadcasts']>;
+export type SubscriptionSchemaTimesheetEntryArgs = {
+  extendedFilter?: InputMaybe<Scalars['EQLRecordChangeFilterTimesheetEntry']>;
+  filter?: InputMaybe<Scalars['EQLRecordFilterTimesheetEntry']>;
   operation?: InputMaybe<Array<SchemaSubscriptionOp>>;
 };
 
@@ -12110,6 +10563,204 @@ export type TemplatedShiftsEdge = {
   offset: Scalars['Int'];
 };
 
+export type TestPerObj = {
+  __typename?: 'TestPerObj';
+  CreatedBy: Users;
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  Field1?: Maybe<Scalars['String']>;
+  Field2?: Maybe<Scalars['String']>;
+  Job?: Maybe<Jobs>;
+  JobId?: Maybe<Scalars['ID']>;
+  LastModifiedBy: Users;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  UID: Scalars['ID'];
+};
+
+export type TestPerObjConnection = {
+  __typename?: 'TestPerObjConnection';
+  edges: Array<TestPerObjEdge>;
+  pageInfo: PageInfo;
+  totalCount: Scalars['Int'];
+};
+
+export type TestPerObjEdge = {
+  __typename?: 'TestPerObjEdge';
+  cursor: Scalars['Base64'];
+  node: TestPerObj;
+  offset: Scalars['Int'];
+};
+
+export type TestPerObject2 = {
+  __typename?: 'TestPerObject2';
+  CreatedBy: Users;
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  FieldA?: Maybe<Scalars['BigDecimal']>;
+  FieldB?: Maybe<Scalars['BigDecimal']>;
+  Job?: Maybe<Jobs>;
+  JobId?: Maybe<Scalars['ID']>;
+  JobTestPer2?: Maybe<Jobs>;
+  JobTestPer2Id?: Maybe<Scalars['ID']>;
+  LastModifiedBy: Users;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  UID: Scalars['ID'];
+};
+
+export type TestPerObject2Connection = {
+  __typename?: 'TestPerObject2Connection';
+  edges: Array<TestPerObject2Edge>;
+  pageInfo: PageInfo;
+  totalCount: Scalars['Int'];
+};
+
+export type TestPerObject2Edge = {
+  __typename?: 'TestPerObject2Edge';
+  cursor: Scalars['Base64'];
+  node: TestPerObject2;
+  offset: Scalars['Int'];
+};
+
+export type Timesheet = {
+  __typename?: 'Timesheet';
+  ApprovedBy?: Maybe<Users>;
+  ApprovedById?: Maybe<Scalars['ID']>;
+  ApprovedDate?: Maybe<Scalars['LocalDate']>;
+  ApproverComments?: Maybe<Scalars['String']>;
+  CreatedBy: Users;
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  EndDate?: Maybe<Scalars['LocalDate']>;
+  LastModifiedBy: Users;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  Resource?: Maybe<Resources>;
+  ResourceId?: Maybe<Scalars['ID']>;
+  StartDate?: Maybe<Scalars['LocalDate']>;
+  Status?: Maybe<Scalars['String']>;
+  SubmitterComments?: Maybe<Scalars['String']>;
+  Timesheet: Array<TimesheetEntry>;
+  UID: Scalars['ID'];
+};
+
+
+export type TimesheetTimesheetArgs = {
+  filter?: InputMaybe<Scalars['EQLQueryFilterTimesheetEntry']>;
+  orderBy?: InputMaybe<Scalars['EQLOrderByClauseTimesheetEntry']>;
+};
+
+export type TimesheetConnection = {
+  __typename?: 'TimesheetConnection';
+  edges: Array<TimesheetEdge>;
+  pageInfo: PageInfo;
+  totalCount: Scalars['Int'];
+};
+
+export type TimesheetEdge = {
+  __typename?: 'TimesheetEdge';
+  cursor: Scalars['Base64'];
+  node: Timesheet;
+  offset: Scalars['Int'];
+};
+
+export type TimesheetEntry = {
+  __typename?: 'TimesheetEntry';
+  Activity?: Maybe<Activities>;
+  ActivityId?: Maybe<Scalars['ID']>;
+  CreatedBy: Users;
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  Description?: Maybe<Scalars['String']>;
+  Distance?: Maybe<Scalars['BigDecimal']>;
+  EndDate?: Maybe<Scalars['LocalDate']>;
+  EndTime?: Maybe<Scalars['LocalTime']>;
+  EntryType?: Maybe<Scalars['String']>;
+  Job?: Maybe<Jobs>;
+  JobId?: Maybe<Scalars['ID']>;
+  LastModifiedBy: Users;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  Shift?: Maybe<Shifts>;
+  ShiftId?: Maybe<Scalars['ID']>;
+  StartDate?: Maybe<Scalars['LocalDate']>;
+  StartTime?: Maybe<Scalars['LocalTime']>;
+  Timesheet?: Maybe<Timesheet>;
+  TimesheetId?: Maybe<Scalars['ID']>;
+  UID: Scalars['ID'];
+  Unavailability?: Maybe<Availabilities>;
+  UnavailabilityId?: Maybe<Scalars['ID']>;
+};
+
+export type TimesheetEntryConnection = {
+  __typename?: 'TimesheetEntryConnection';
+  edges: Array<TimesheetEntryEdge>;
+  pageInfo: PageInfo;
+  totalCount: Scalars['Int'];
+};
+
+export type TimesheetEntryEdge = {
+  __typename?: 'TimesheetEntryEdge';
+  cursor: Scalars['Base64'];
+  node: TimesheetEntry;
+  offset: Scalars['Int'];
+};
+
+export type Training = {
+  __typename?: 'Training';
+  CreatedBy: Users;
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  LastModifiedBy: Users;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  PL?: Maybe<Scalars['String']>;
+  TextA?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type TrainingConnection = {
+  __typename?: 'TrainingConnection';
+  edges: Array<TrainingEdge>;
+  pageInfo: PageInfo;
+  totalCount: Scalars['Int'];
+};
+
+export type TrainingEdge = {
+  __typename?: 'TrainingEdge';
+  cursor: Scalars['Base64'];
+  node: Training;
+  offset: Scalars['Int'];
+};
+
+export type TuanTest = {
+  __typename?: 'TuanTest';
+  Age?: Maybe<Scalars['BigDecimal']>;
+  CreatedBy: Users;
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  LastModifiedBy: Users;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
+  Name?: Maybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type TuanTestConnection = {
+  __typename?: 'TuanTestConnection';
+  edges: Array<TuanTestEdge>;
+  pageInfo: PageInfo;
+  totalCount: Scalars['Int'];
+};
+
+export type TuanTestEdge = {
+  __typename?: 'TuanTestEdge';
+  cursor: Scalars['Base64'];
+  node: TuanTest;
+  offset: Scalars['Int'];
+};
+
 export type UpdateAccountResourceScores = {
   AccountId?: InputMaybe<Scalars['ID']>;
   Blacklisted?: InputMaybe<Scalars['Boolean']>;
@@ -12127,45 +10778,20 @@ export type UpdateAccountTags = {
 };
 
 export type UpdateAccounts = {
-  ACId?: InputMaybe<Scalars['ID']>;
-  AVPId?: InputMaybe<Scalars['ID']>;
-  ActiveFromDate?: InputMaybe<Scalars['LocalDate']>;
-  ActiveThruDate?: InputMaybe<Scalars['LocalDate']>;
-  ActualStartOfCareDate?: InputMaybe<Scalars['LocalDate']>;
   BillingCity?: InputMaybe<Scalars['String']>;
   BillingPostalCode?: InputMaybe<Scalars['String']>;
   BillingState?: InputMaybe<Scalars['String']>;
   BillingStreet?: InputMaybe<Scalars['String']>;
-  CaseID?: InputMaybe<Scalars['String']>;
-  CaseProgressionStatus?: InputMaybe<Scalars['String']>;
-  DateOfBirth?: InputMaybe<Scalars['LocalDate']>;
-  DefaultLocationId?: InputMaybe<Scalars['ID']>;
-  DischargeDate?: InputMaybe<Scalars['Instant']>;
-  Division?: InputMaybe<Scalars['String']>;
-  ExternalClientID?: InputMaybe<Scalars['String']>;
-  FSMId?: InputMaybe<Scalars['ID']>;
   Fax?: InputMaybe<Scalars['String']>;
-  Gender?: InputMaybe<Scalars['String']>;
-  HoldDate?: InputMaybe<Scalars['LocalDate']>;
-  MRNumber?: InputMaybe<Scalars['String']>;
+  Level?: InputMaybe<Scalars['String']>;
   Name?: InputMaybe<Scalars['String']>;
-  NeedToRecalculateJobsLocation?: InputMaybe<Scalars['Boolean']>;
-  ODId?: InputMaybe<Scalars['ID']>;
-  PayerLabel?: InputMaybe<Scalars['String']>;
   Phone?: InputMaybe<Scalars['String']>;
-  PlannedStartOfCareDate?: InputMaybe<Scalars['LocalDate']>;
-  PreferredTechnician?: InputMaybe<Scalars['String']>;
-  RCDId?: InputMaybe<Scalars['ID']>;
-  Rank?: InputMaybe<Scalars['BigDecimal']>;
-  RegionId?: InputMaybe<Scalars['ID']>;
+  Rank?: InputMaybe<Scalars['Int']>;
   RequiresWhitelist?: InputMaybe<Scalars['Boolean']>;
-  ResumeServiceDate?: InputMaybe<Scalars['LocalDate']>;
-  SCId?: InputMaybe<Scalars['ID']>;
   ShippingCity?: InputMaybe<Scalars['String']>;
   ShippingPostalCode?: InputMaybe<Scalars['String']>;
   ShippingState?: InputMaybe<Scalars['String']>;
   ShippingStreet?: InputMaybe<Scalars['String']>;
-  Status?: InputMaybe<Scalars['String']>;
   UID: Scalars['ID'];
 };
 
@@ -12183,6 +10809,7 @@ export type UpdateActivities = {
   Start?: InputMaybe<Scalars['Instant']>;
   TemplatedActivityId?: InputMaybe<Scalars['ID']>;
   Timezone?: InputMaybe<Scalars['String']>;
+  TuanTest?: InputMaybe<Scalars['String']>;
   Type?: InputMaybe<Scalars['String']>;
   UID: Scalars['ID'];
 };
@@ -12193,10 +10820,22 @@ export type UpdateActivityResources = {
   UID: Scalars['ID'];
 };
 
-export type UpdateAdminSetting = {
-  AllDayEndTime?: InputMaybe<Scalars['String']>;
-  AllDayStartTime?: InputMaybe<Scalars['String']>;
-  ReadOnlyAvailabilityForm?: InputMaybe<Scalars['Boolean']>;
+export type UpdateArcadeGames = {
+  UID: Scalars['ID'];
+  active?: InputMaybe<Scalars['Boolean']>;
+  type?: InputMaybe<Scalars['String']>;
+  verbiage?: InputMaybe<Scalars['String']>;
+};
+
+export type UpdateAttendee = {
+  GroupEventId?: InputMaybe<Scalars['ID']>;
+  TestAttendee?: InputMaybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type UpdateAttendee1 = {
+  GroupEventId?: InputMaybe<Scalars['ID']>;
+  Name?: InputMaybe<Scalars['String']>;
   UID: Scalars['ID'];
 };
 
@@ -12223,7 +10862,6 @@ export type UpdateAvailabilities = {
 export type UpdateAvailabilityPatternResources = {
   AvailabilityPatternId?: InputMaybe<Scalars['ID']>;
   End?: InputMaybe<Scalars['Instant']>;
-  RepeatEvery?: InputMaybe<Scalars['String']>;
   ResourceId?: InputMaybe<Scalars['ID']>;
   Start?: InputMaybe<Scalars['Instant']>;
   Status?: InputMaybe<Scalars['AvailabilityStatus']>;
@@ -12259,41 +10897,14 @@ export type UpdateAvailabilityTemplates = {
   Finish?: InputMaybe<Scalars['LocalDate']>;
   Global?: InputMaybe<Scalars['Boolean']>;
   Name?: InputMaybe<Scalars['String']>;
-  RepeatEvery?: InputMaybe<Scalars['String']>;
   Start?: InputMaybe<Scalars['LocalDate']>;
   UID: Scalars['ID'];
 };
 
-export type UpdateClientAuthorization = {
-  AccountId?: InputMaybe<Scalars['ID']>;
-  AuthorizationEffectiveDate?: InputMaybe<Scalars['LocalDate']>;
-  AuthorizationExpirationDate?: InputMaybe<Scalars['LocalDate']>;
-  AuthorizationNotes?: InputMaybe<Scalars['String']>;
-  AuthorizationStatus?: InputMaybe<Scalars['String']>;
-  CaseProgressionStatus?: InputMaybe<Scalars['String']>;
-  DummyTestingField?: InputMaybe<Scalars['BigDecimal']>;
-  ExternalID?: InputMaybe<Scalars['String']>;
+export type UpdateClass = {
   Name?: InputMaybe<Scalars['String']>;
-  RegionId?: InputMaybe<Scalars['ID']>;
-  TotalAuthorizedHours?: InputMaybe<Scalars['BigDecimal']>;
-  TotalScheduledAuthorizedHours?: InputMaybe<Scalars['BigDecimal']>;
-  TotalUsedAuthorizedHours?: InputMaybe<Scalars['BigDecimal']>;
   UID: Scalars['ID'];
-};
-
-export type UpdateClientAuthorizationServices = {
-  AuthorizedHoursPerWeek?: InputMaybe<Scalars['BigDecimal']>;
-  ClientAuthorizationId?: InputMaybe<Scalars['ID']>;
-  DummyField?: InputMaybe<Scalars['BigDecimal']>;
-  ExternalID?: InputMaybe<Scalars['String']>;
-  FamilyAgreedUpon?: InputMaybe<Scalars['BigDecimal']>;
-  HoursRemainingAfterChargeCreation?: InputMaybe<Scalars['BigDecimal']>;
-  Name?: InputMaybe<Scalars['String']>;
-  ServiceType?: InputMaybe<Scalars['String']>;
-  TotalAuthorizedServiceHours?: InputMaybe<Scalars['BigDecimal']>;
-  TotalScheduledServiceHours?: InputMaybe<Scalars['BigDecimal']>;
-  TotalUsedServiceHours?: InputMaybe<Scalars['BigDecimal']>;
-  UID: Scalars['ID'];
+  isActive?: InputMaybe<Scalars['Boolean']>;
 };
 
 export type UpdateClientAvailabilities = {
@@ -12305,27 +10916,6 @@ export type UpdateClientAvailabilities = {
   PreferredStart?: InputMaybe<Scalars['Instant']>;
   RecurringScheduleId?: InputMaybe<Scalars['ID']>;
   Start?: InputMaybe<Scalars['Instant']>;
-  UID: Scalars['ID'];
-};
-
-export type UpdateClientAvailabilityTemplate = {
-  AccountId?: InputMaybe<Scalars['ID']>;
-  AdjustmentType?: InputMaybe<Scalars['String']>;
-  AllDay?: InputMaybe<Scalars['Boolean']>;
-  DatesOfMonth?: InputMaybe<Array<Scalars['String']>>;
-  DaysOfMonth?: InputMaybe<Array<Scalars['String']>>;
-  DaysOfWeek?: InputMaybe<Scalars['String']>;
-  DaysOfYear?: InputMaybe<Scalars['String']>;
-  EndDate?: InputMaybe<Scalars['LocalDate']>;
-  EndTime?: InputMaybe<Scalars['LocalTime']>;
-  Label?: InputMaybe<Scalars['String']>;
-  LocationId?: InputMaybe<Scalars['ID']>;
-  MonthsOfYear?: InputMaybe<Array<Scalars['String']>>;
-  Note?: InputMaybe<Scalars['String']>;
-  Pattern?: InputMaybe<Scalars['String']>;
-  StartDate?: InputMaybe<Scalars['LocalDate']>;
-  StartTime?: InputMaybe<Scalars['LocalTime']>;
-  Type?: InputMaybe<Scalars['String']>;
   UID: Scalars['ID'];
 };
 
@@ -12354,26 +10944,31 @@ export type UpdateContacts = {
   Phone?: InputMaybe<Scalars['String']>;
   RegionId?: InputMaybe<Scalars['ID']>;
   Title?: InputMaybe<Scalars['String']>;
+  TuanTest?: InputMaybe<Scalars['BigDecimal']>;
   UID: Scalars['ID'];
 };
 
-export type UpdateExceptionRecord = {
-  ExceptionId?: InputMaybe<Scalars['String']>;
-  RuleId?: InputMaybe<Scalars['String']>;
-  SourceId?: InputMaybe<Scalars['String']>;
-  SourceType?: InputMaybe<Scalars['String']>;
-  TargetId?: InputMaybe<Scalars['String']>;
-  TargetType?: InputMaybe<Scalars['String']>;
-  UID: Scalars['ID'];
-};
-
-export type UpdateExceptionType = {
-  Description?: InputMaybe<Scalars['String']>;
-  DescriptionTwo?: InputMaybe<Scalars['String']>;
-  ExceptionType?: InputMaybe<Scalars['String']>;
-  ExceptionType2?: InputMaybe<Scalars['String']>;
+export type UpdateDefaultAutoOffer = {
+  AutoOffer?: InputMaybe<Scalars['String']>;
+  AutoOfferOffset?: InputMaybe<Scalars['BigDecimal']>;
+  AutoOfferRespectJobRegion?: InputMaybe<Scalars['Boolean']>;
+  AutoOfferRespectJobTags?: InputMaybe<Scalars['Boolean']>;
+  AutoOfferRespectPreviousOfferStatus?: InputMaybe<Scalars['Boolean']>;
+  AutoOfferRespectResourceAvailability?: InputMaybe<Scalars['Boolean']>;
   Name?: InputMaybe<Scalars['String']>;
   UID: Scalars['ID'];
+};
+
+export type UpdateGroupEvent = {
+  JobId?: InputMaybe<Scalars['ID']>;
+  Name?: InputMaybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type UpdateGroupEvent1 = {
+  JobId?: InputMaybe<Scalars['ID']>;
+  UID: Scalars['ID'];
+  name?: InputMaybe<Scalars['String']>;
 };
 
 export type UpdateHolidayRegions = {
@@ -12482,13 +11077,17 @@ export type UpdateJobs = {
   ActualEnd?: InputMaybe<Scalars['Instant']>;
   ActualStart?: InputMaybe<Scalars['Instant']>;
   Address?: InputMaybe<Scalars['String']>;
-  AuthorizationServiceId?: InputMaybe<Scalars['ID']>;
-  AuthorizedHoursPerWeek?: InputMaybe<Scalars['BigDecimal']>;
+  AutoOffer?: InputMaybe<Scalars['String']>;
+  AutoOfferDate?: InputMaybe<Scalars['String']>;
+  AutoOfferOffset?: InputMaybe<Scalars['BigDecimal']>;
+  AutoOfferRespectJobRegion?: InputMaybe<Scalars['Boolean']>;
+  AutoOfferRespectJobTags?: InputMaybe<Scalars['Boolean']>;
+  AutoOfferRespectPreviousOfferStatus?: InputMaybe<Scalars['Boolean']>;
+  AutoOfferRespectResourceAvailability?: InputMaybe<Scalars['Boolean']>;
   AutoSchedule?: InputMaybe<Scalars['Boolean']>;
   CanBeDeclined?: InputMaybe<Scalars['Boolean']>;
-  ClearOfExceptions?: InputMaybe<Scalars['Boolean']>;
-  ClientAuthorizationId?: InputMaybe<Scalars['ID']>;
   CompletionNotes?: InputMaybe<Scalars['String']>;
+  Confirmed?: InputMaybe<Scalars['Boolean']>;
   ContactId?: InputMaybe<Scalars['ID']>;
   CopiedFromId?: InputMaybe<Scalars['ID']>;
   CustomerConfirmationStatus?: InputMaybe<Scalars['CustomerConfirmationStatus']>;
@@ -12497,15 +11096,14 @@ export type UpdateJobs = {
   End?: InputMaybe<Scalars['Instant']>;
   EstimatedEnd?: InputMaybe<Scalars['Instant']>;
   EstimatedStart?: InputMaybe<Scalars['Instant']>;
-  FamilyAgreedUpon?: InputMaybe<Scalars['BigDecimal']>;
   FollowupReason?: InputMaybe<Scalars['String']>;
   GeoLatitude?: InputMaybe<Scalars['BigDecimal']>;
   GeoLongitude?: InputMaybe<Scalars['BigDecimal']>;
   IsGroupEvent?: InputMaybe<Scalars['Boolean']>;
   JobAllocationTimeSource?: InputMaybe<Scalars['Boolean']>;
+  JobStartDefer?: InputMaybe<Scalars['BigDecimal']>;
   JobStatus?: InputMaybe<Scalars['JobStatus']>;
   LocationId?: InputMaybe<Scalars['ID']>;
-  LocationType?: InputMaybe<Scalars['String']>;
   Locked?: InputMaybe<Scalars['Boolean']>;
   MaxAttendees?: InputMaybe<Scalars['Int']>;
   MinAttendees?: InputMaybe<Scalars['Int']>;
@@ -12517,10 +11115,10 @@ export type UpdateJobs = {
   Quantity?: InputMaybe<Scalars['Int']>;
   RecurringScheduleId?: InputMaybe<Scalars['ID']>;
   RegionId?: InputMaybe<Scalars['ID']>;
+  RequiredKit?: InputMaybe<Scalars['BigDecimal']>;
   ScheduleTemplateId?: InputMaybe<Scalars['ID']>;
   Start?: InputMaybe<Scalars['Instant']>;
   TemplatedJobId?: InputMaybe<Scalars['ID']>;
-  TotalAuthorizedServiceHours?: InputMaybe<Scalars['BigDecimal']>;
   Type?: InputMaybe<Scalars['String']>;
   UID: Scalars['ID'];
   Urgency?: InputMaybe<Scalars['String']>;
@@ -12540,7 +11138,6 @@ export type UpdateLocationResourceScores = {
 export type UpdateLocations = {
   AccountId?: InputMaybe<Scalars['ID']>;
   Address?: InputMaybe<Scalars['String']>;
-  Default?: InputMaybe<Scalars['Boolean']>;
   GeoLatitude?: InputMaybe<Scalars['BigDecimal']>;
   GeoLongitude?: InputMaybe<Scalars['BigDecimal']>;
   Name?: InputMaybe<Scalars['String']>;
@@ -12551,8 +11148,27 @@ export type UpdateLocations = {
 };
 
 export type UpdateLogger = {
-  Message?: InputMaybe<Scalars['String']>;
+  Description?: InputMaybe<Scalars['String']>;
+  UID: Scalars['ID'];
+  jobhistoryId?: InputMaybe<Scalars['ID']>;
+};
+
+export type UpdateMonitorLogs = {
+  Description?: InputMaybe<Scalars['String']>;
+  MonitorsId?: InputMaybe<Scalars['ID']>;
+  Name?: InputMaybe<Scalars['String']>;
   Type?: InputMaybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type UpdateMonitors = {
+  Name?: InputMaybe<Scalars['String']>;
+  UID: Scalars['ID'];
+  VendorsId?: InputMaybe<Scalars['ID']>;
+};
+
+export type UpdatePatients = {
+  Name?: InputMaybe<Scalars['String']>;
   UID: Scalars['ID'];
 };
 
@@ -12562,6 +11178,32 @@ export type UpdateProducts = {
   IsActive?: InputMaybe<Scalars['Boolean']>;
   Name?: InputMaybe<Scalars['String']>;
   ProductCode?: InputMaybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type UpdateProjects = {
+  Name?: InputMaybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type UpdatePublicPageSetting = {
+  Link?: InputMaybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type UpdatePublicPageTemplate = {
+  Description?: InputMaybe<Scalars['String']>;
+  Name?: InputMaybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type UpdatePublicSchedule = {
+  IsInactivated?: InputMaybe<Scalars['Boolean']>;
+  JobId?: InputMaybe<Scalars['ID']>;
+  Name?: InputMaybe<Scalars['String']>;
+  Note?: InputMaybe<Scalars['String']>;
+  PublicPageTemplateId?: InputMaybe<Scalars['ID']>;
+  Status?: InputMaybe<Scalars['String']>;
   UID: Scalars['ID'];
 };
 
@@ -12675,17 +11317,16 @@ export type UpdateResourceTags = {
 export type UpdateResources = {
   Alias?: InputMaybe<Scalars['String']>;
   AutoSchedule?: InputMaybe<Scalars['Boolean']>;
-  CareConnectUserID?: InputMaybe<Scalars['BigDecimal']>;
+  Birthday?: InputMaybe<Scalars['LocalDate']>;
   Category?: InputMaybe<Scalars['String']>;
   CountryCode?: InputMaybe<Scalars['String']>;
-  EffectiveTerminationDate?: InputMaybe<Scalars['Instant']>;
   Email?: InputMaybe<Scalars['String']>;
   EmploymentType?: InputMaybe<Scalars['String']>;
-  FSM?: InputMaybe<Scalars['String']>;
   GeoLatitude?: InputMaybe<Scalars['BigDecimal']>;
   GeoLongitude?: InputMaybe<Scalars['BigDecimal']>;
   HomeAddress?: InputMaybe<Scalars['String']>;
   IsActive?: InputMaybe<Scalars['Boolean']>;
+  Language?: InputMaybe<Scalars['String']>;
   MobilePhone?: InputMaybe<Scalars['String']>;
   Name?: InputMaybe<Scalars['String']>;
   Notes?: InputMaybe<Scalars['String']>;
@@ -12693,29 +11334,12 @@ export type UpdateResources = {
   PrimaryPhone?: InputMaybe<Scalars['String']>;
   PrimaryRegionId?: InputMaybe<Scalars['ID']>;
   Rating?: InputMaybe<Scalars['Int']>;
-  ReportsTo?: InputMaybe<Scalars['String']>;
-  RequestedWorkingHoursPerWeek?: InputMaybe<Scalars['BigDecimal']>;
   ResourceType?: InputMaybe<Scalars['String']>;
-  TotalUtilizedHours?: InputMaybe<Scalars['String']>;
   UID: Scalars['ID'];
   UserId?: InputMaybe<Scalars['ID']>;
+  VehicleID?: InputMaybe<Scalars['String']>;
   WeeklyHours?: InputMaybe<Scalars['BigDecimal']>;
   WorkingHourType?: InputMaybe<Scalars['WorkingHourType']>;
-  amsuserstatus?: InputMaybe<Scalars['String']>;
-  city?: InputMaybe<Scalars['String']>;
-  complianceissue?: InputMaybe<Scalars['String']>;
-  degreetypelab?: InputMaybe<Scalars['String']>;
-  estimatedactivationtimestamp?: InputMaybe<Scalars['String']>;
-  gender?: InputMaybe<Scalars['String']>;
-  homephone?: InputMaybe<Scalars['String']>;
-  middleInitial?: InputMaybe<Scalars['String']>;
-  npi?: InputMaybe<Scalars['String']>;
-  onboardingstatuslabel?: InputMaybe<Scalars['String']>;
-  personalemail?: InputMaybe<Scalars['String']>;
-  state?: InputMaybe<Scalars['String']>;
-  uniqueeid?: InputMaybe<Scalars['String']>;
-  worksfor?: InputMaybe<Scalars['String']>;
-  zip?: InputMaybe<Scalars['String']>;
 };
 
 export type UpdateScheduleTemplates = {
@@ -12758,14 +11382,6 @@ export type UpdateShifts = {
   ScheduleTemplateId?: InputMaybe<Scalars['ID']>;
   Start?: InputMaybe<Scalars['Instant']>;
   TemplatedShiftId?: InputMaybe<Scalars['ID']>;
-  UID: Scalars['ID'];
-};
-
-export type UpdateStarterTest = {
-  ResourceId?: InputMaybe<Scalars['ID']>;
-  StarterTestBooleanField?: InputMaybe<Scalars['Boolean']>;
-  StarterTestDecimalField?: InputMaybe<Scalars['BigDecimal']>;
-  StarterTestPicklistField?: InputMaybe<Scalars['String']>;
   UID: Scalars['ID'];
 };
 
@@ -12973,53 +11589,78 @@ export type UpdateTemplatedShifts = {
   UID: Scalars['ID'];
 };
 
+export type UpdateTestPerObj = {
+  Field1?: InputMaybe<Scalars['String']>;
+  Field2?: InputMaybe<Scalars['String']>;
+  JobId?: InputMaybe<Scalars['ID']>;
+  UID: Scalars['ID'];
+};
+
+export type UpdateTestPerObject2 = {
+  FieldA?: InputMaybe<Scalars['BigDecimal']>;
+  FieldB?: InputMaybe<Scalars['BigDecimal']>;
+  JobId?: InputMaybe<Scalars['ID']>;
+  JobTestPer2Id?: InputMaybe<Scalars['ID']>;
+  UID: Scalars['ID'];
+};
+
+export type UpdateTimesheet = {
+  ApprovedById?: InputMaybe<Scalars['ID']>;
+  ApprovedDate?: InputMaybe<Scalars['LocalDate']>;
+  ApproverComments?: InputMaybe<Scalars['String']>;
+  EndDate?: InputMaybe<Scalars['LocalDate']>;
+  ResourceId?: InputMaybe<Scalars['ID']>;
+  StartDate?: InputMaybe<Scalars['LocalDate']>;
+  Status?: InputMaybe<Scalars['String']>;
+  SubmitterComments?: InputMaybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type UpdateTimesheetEntry = {
+  ActivityId?: InputMaybe<Scalars['ID']>;
+  Description?: InputMaybe<Scalars['String']>;
+  Distance?: InputMaybe<Scalars['BigDecimal']>;
+  EndDate?: InputMaybe<Scalars['LocalDate']>;
+  EndTime?: InputMaybe<Scalars['LocalTime']>;
+  EntryType?: InputMaybe<Scalars['String']>;
+  JobId?: InputMaybe<Scalars['ID']>;
+  ShiftId?: InputMaybe<Scalars['ID']>;
+  StartDate?: InputMaybe<Scalars['LocalDate']>;
+  StartTime?: InputMaybe<Scalars['LocalTime']>;
+  TimesheetId?: InputMaybe<Scalars['ID']>;
+  UID: Scalars['ID'];
+  UnavailabilityId?: InputMaybe<Scalars['ID']>;
+};
+
+export type UpdateTraining = {
+  PL?: InputMaybe<Scalars['String']>;
+  TextA?: InputMaybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
+export type UpdateTuanTest = {
+  Age?: InputMaybe<Scalars['BigDecimal']>;
+  Name?: InputMaybe<Scalars['String']>;
+  UID: Scalars['ID'];
+};
+
 export type UpdateUserRegions = {
   RegionId?: InputMaybe<Scalars['ID']>;
   UID: Scalars['ID'];
   UserId?: InputMaybe<Scalars['ID']>;
 };
 
-export type UpdateUser_Ext = {
-  CareConnectUserID?: InputMaybe<Scalars['String']>;
+export type UpdateVendorTag = {
+  TagsId?: InputMaybe<Scalars['ID']>;
   UID: Scalars['ID'];
-  uniqueeid?: InputMaybe<Scalars['String']>;
-  userId?: InputMaybe<Scalars['ID']>;
+  VendorsId?: InputMaybe<Scalars['ID']>;
 };
 
-export type UpdateclientAvailabilityTemplateEntry = {
-  AllDay?: InputMaybe<Scalars['Boolean']>;
-  ClientAvailabilityTemplateId?: InputMaybe<Scalars['ID']>;
-  EndTime?: InputMaybe<Scalars['LocalTime']>;
-  LocationId?: InputMaybe<Scalars['ID']>;
+export type UpdateVendors = {
+  Description?: InputMaybe<Scalars['String']>;
   Name?: InputMaybe<Scalars['String']>;
-  StartTime?: InputMaybe<Scalars['LocalTime']>;
+  TenantId?: InputMaybe<Scalars['String']>;
   UID: Scalars['ID'];
-  Weekday?: InputMaybe<Scalars['String']>;
-};
-
-export type Updatesked_BroadcastRecipients = {
-  UID: Scalars['ID'];
-  sked_BroadcastId?: InputMaybe<Scalars['ID']>;
-  sked_ContactId?: InputMaybe<Scalars['ID']>;
-  sked_Date?: InputMaybe<Scalars['LocalDate']>;
-  sked_ErrorInformation?: InputMaybe<Scalars['String']>;
-  sked_NotificationMethod?: InputMaybe<Scalars['String']>;
-  sked_Phone?: InputMaybe<Scalars['String']>;
-  sked_ResourceId?: InputMaybe<Scalars['ID']>;
-  sked_Status?: InputMaybe<Scalars['String']>;
-  sked_Timestamp?: InputMaybe<Scalars['String']>;
-};
-
-export type Updatesked_Broadcasts = {
-  UID: Scalars['ID'];
-  sked_Broadcast?: InputMaybe<Scalars['String']>;
-  sked_Date?: InputMaybe<Scalars['LocalDate']>;
-  sked_NotSent?: InputMaybe<Scalars['BigDecimal']>;
-  sked_NotificationMethod?: InputMaybe<Scalars['String']>;
-  sked_RecipientType?: InputMaybe<Scalars['String']>;
-  sked_Sent?: InputMaybe<Scalars['BigDecimal']>;
-  sked_Timestamp?: InputMaybe<Scalars['String']>;
-  sked_TotalRecipients?: InputMaybe<Scalars['BigDecimal']>;
 };
 
 export type UpsertAccountResourceScores = {
@@ -13039,45 +11680,20 @@ export type UpsertAccountTags = {
 };
 
 export type UpsertAccounts = {
-  ACId?: InputMaybe<Scalars['ID']>;
-  AVPId?: InputMaybe<Scalars['ID']>;
-  ActiveFromDate?: InputMaybe<Scalars['LocalDate']>;
-  ActiveThruDate?: InputMaybe<Scalars['LocalDate']>;
-  ActualStartOfCareDate?: InputMaybe<Scalars['LocalDate']>;
   BillingCity?: InputMaybe<Scalars['String']>;
   BillingPostalCode?: InputMaybe<Scalars['String']>;
   BillingState?: InputMaybe<Scalars['String']>;
   BillingStreet?: InputMaybe<Scalars['String']>;
-  CaseID?: InputMaybe<Scalars['String']>;
-  CaseProgressionStatus?: InputMaybe<Scalars['String']>;
-  DateOfBirth?: InputMaybe<Scalars['LocalDate']>;
-  DefaultLocationId?: InputMaybe<Scalars['ID']>;
-  DischargeDate?: InputMaybe<Scalars['Instant']>;
-  Division?: InputMaybe<Scalars['String']>;
-  ExternalClientID?: InputMaybe<Scalars['String']>;
-  FSMId?: InputMaybe<Scalars['ID']>;
   Fax?: InputMaybe<Scalars['String']>;
-  Gender?: InputMaybe<Scalars['String']>;
-  HoldDate?: InputMaybe<Scalars['LocalDate']>;
-  MRNumber?: InputMaybe<Scalars['String']>;
+  Level?: InputMaybe<Scalars['String']>;
   Name: Scalars['String'];
-  NeedToRecalculateJobsLocation?: InputMaybe<Scalars['Boolean']>;
-  ODId?: InputMaybe<Scalars['ID']>;
-  PayerLabel?: InputMaybe<Scalars['String']>;
   Phone?: InputMaybe<Scalars['String']>;
-  PlannedStartOfCareDate?: InputMaybe<Scalars['LocalDate']>;
-  PreferredTechnician?: InputMaybe<Scalars['String']>;
-  RCDId?: InputMaybe<Scalars['ID']>;
-  Rank?: InputMaybe<Scalars['BigDecimal']>;
-  RegionId?: InputMaybe<Scalars['ID']>;
+  Rank?: InputMaybe<Scalars['Int']>;
   RequiresWhitelist?: InputMaybe<Scalars['Boolean']>;
-  ResumeServiceDate?: InputMaybe<Scalars['LocalDate']>;
-  SCId?: InputMaybe<Scalars['ID']>;
   ShippingCity?: InputMaybe<Scalars['String']>;
   ShippingPostalCode?: InputMaybe<Scalars['String']>;
   ShippingState?: InputMaybe<Scalars['String']>;
   ShippingStreet?: InputMaybe<Scalars['String']>;
-  Status?: InputMaybe<Scalars['String']>;
   UID?: InputMaybe<Scalars['ID']>;
 };
 
@@ -13095,6 +11711,7 @@ export type UpsertActivities = {
   Start: Scalars['Instant'];
   TemplatedActivityId?: InputMaybe<Scalars['ID']>;
   Timezone?: InputMaybe<Scalars['String']>;
+  TuanTest?: InputMaybe<Scalars['String']>;
   Type?: InputMaybe<Scalars['String']>;
   UID?: InputMaybe<Scalars['ID']>;
 };
@@ -13105,10 +11722,22 @@ export type UpsertActivityResources = {
   UID?: InputMaybe<Scalars['ID']>;
 };
 
-export type UpsertAdminSetting = {
-  AllDayEndTime?: InputMaybe<Scalars['String']>;
-  AllDayStartTime?: InputMaybe<Scalars['String']>;
-  ReadOnlyAvailabilityForm?: InputMaybe<Scalars['Boolean']>;
+export type UpsertArcadeGames = {
+  UID?: InputMaybe<Scalars['ID']>;
+  active?: InputMaybe<Scalars['Boolean']>;
+  type?: InputMaybe<Scalars['String']>;
+  verbiage?: InputMaybe<Scalars['String']>;
+};
+
+export type UpsertAttendee = {
+  GroupEventId?: InputMaybe<Scalars['ID']>;
+  TestAttendee?: InputMaybe<Scalars['String']>;
+  UID?: InputMaybe<Scalars['ID']>;
+};
+
+export type UpsertAttendee1 = {
+  GroupEventId?: InputMaybe<Scalars['ID']>;
+  Name?: InputMaybe<Scalars['String']>;
   UID?: InputMaybe<Scalars['ID']>;
 };
 
@@ -13135,7 +11764,6 @@ export type UpsertAvailabilities = {
 export type UpsertAvailabilityPatternResources = {
   AvailabilityPatternId: Scalars['ID'];
   End?: InputMaybe<Scalars['Instant']>;
-  RepeatEvery?: InputMaybe<Scalars['String']>;
   ResourceId: Scalars['ID'];
   Start: Scalars['Instant'];
   Status?: InputMaybe<Scalars['AvailabilityStatus']>;
@@ -13171,41 +11799,14 @@ export type UpsertAvailabilityTemplates = {
   Finish?: InputMaybe<Scalars['LocalDate']>;
   Global?: InputMaybe<Scalars['Boolean']>;
   Name?: InputMaybe<Scalars['String']>;
-  RepeatEvery?: InputMaybe<Scalars['String']>;
   Start?: InputMaybe<Scalars['LocalDate']>;
   UID?: InputMaybe<Scalars['ID']>;
 };
 
-export type UpsertClientAuthorization = {
-  AccountId?: InputMaybe<Scalars['ID']>;
-  AuthorizationEffectiveDate?: InputMaybe<Scalars['LocalDate']>;
-  AuthorizationExpirationDate?: InputMaybe<Scalars['LocalDate']>;
-  AuthorizationNotes?: InputMaybe<Scalars['String']>;
-  AuthorizationStatus?: InputMaybe<Scalars['String']>;
-  CaseProgressionStatus?: InputMaybe<Scalars['String']>;
-  DummyTestingField?: InputMaybe<Scalars['BigDecimal']>;
-  ExternalID?: InputMaybe<Scalars['String']>;
+export type UpsertClass = {
   Name?: InputMaybe<Scalars['String']>;
-  RegionId?: InputMaybe<Scalars['ID']>;
-  TotalAuthorizedHours?: InputMaybe<Scalars['BigDecimal']>;
-  TotalScheduledAuthorizedHours?: InputMaybe<Scalars['BigDecimal']>;
-  TotalUsedAuthorizedHours?: InputMaybe<Scalars['BigDecimal']>;
   UID?: InputMaybe<Scalars['ID']>;
-};
-
-export type UpsertClientAuthorizationServices = {
-  AuthorizedHoursPerWeek?: InputMaybe<Scalars['BigDecimal']>;
-  ClientAuthorizationId?: InputMaybe<Scalars['ID']>;
-  DummyField?: InputMaybe<Scalars['BigDecimal']>;
-  ExternalID?: InputMaybe<Scalars['String']>;
-  FamilyAgreedUpon?: InputMaybe<Scalars['BigDecimal']>;
-  HoursRemainingAfterChargeCreation?: InputMaybe<Scalars['BigDecimal']>;
-  Name?: InputMaybe<Scalars['String']>;
-  ServiceType?: InputMaybe<Scalars['String']>;
-  TotalAuthorizedServiceHours?: InputMaybe<Scalars['BigDecimal']>;
-  TotalScheduledServiceHours?: InputMaybe<Scalars['BigDecimal']>;
-  TotalUsedServiceHours?: InputMaybe<Scalars['BigDecimal']>;
-  UID?: InputMaybe<Scalars['ID']>;
+  isActive?: InputMaybe<Scalars['Boolean']>;
 };
 
 export type UpsertClientAvailabilities = {
@@ -13217,27 +11818,6 @@ export type UpsertClientAvailabilities = {
   PreferredStart?: InputMaybe<Scalars['Instant']>;
   RecurringScheduleId?: InputMaybe<Scalars['ID']>;
   Start: Scalars['Instant'];
-  UID?: InputMaybe<Scalars['ID']>;
-};
-
-export type UpsertClientAvailabilityTemplate = {
-  AccountId?: InputMaybe<Scalars['ID']>;
-  AdjustmentType?: InputMaybe<Scalars['String']>;
-  AllDay?: InputMaybe<Scalars['Boolean']>;
-  DatesOfMonth?: InputMaybe<Array<Scalars['String']>>;
-  DaysOfMonth?: InputMaybe<Array<Scalars['String']>>;
-  DaysOfWeek?: InputMaybe<Scalars['String']>;
-  DaysOfYear?: InputMaybe<Scalars['String']>;
-  EndDate?: InputMaybe<Scalars['LocalDate']>;
-  EndTime?: InputMaybe<Scalars['LocalTime']>;
-  Label?: InputMaybe<Scalars['String']>;
-  LocationId?: InputMaybe<Scalars['ID']>;
-  MonthsOfYear?: InputMaybe<Array<Scalars['String']>>;
-  Note?: InputMaybe<Scalars['String']>;
-  Pattern?: InputMaybe<Scalars['String']>;
-  StartDate?: InputMaybe<Scalars['LocalDate']>;
-  StartTime?: InputMaybe<Scalars['LocalTime']>;
-  Type?: InputMaybe<Scalars['String']>;
   UID?: InputMaybe<Scalars['ID']>;
 };
 
@@ -13266,26 +11846,31 @@ export type UpsertContacts = {
   Phone?: InputMaybe<Scalars['String']>;
   RegionId?: InputMaybe<Scalars['ID']>;
   Title?: InputMaybe<Scalars['String']>;
+  TuanTest?: InputMaybe<Scalars['BigDecimal']>;
   UID?: InputMaybe<Scalars['ID']>;
 };
 
-export type UpsertExceptionRecord = {
-  ExceptionId?: InputMaybe<Scalars['String']>;
-  RuleId?: InputMaybe<Scalars['String']>;
-  SourceId?: InputMaybe<Scalars['String']>;
-  SourceType?: InputMaybe<Scalars['String']>;
-  TargetId?: InputMaybe<Scalars['String']>;
-  TargetType?: InputMaybe<Scalars['String']>;
-  UID?: InputMaybe<Scalars['ID']>;
-};
-
-export type UpsertExceptionType = {
-  Description?: InputMaybe<Scalars['String']>;
-  DescriptionTwo?: InputMaybe<Scalars['String']>;
-  ExceptionType: Scalars['String'];
-  ExceptionType2: Scalars['String'];
+export type UpsertDefaultAutoOffer = {
+  AutoOffer?: InputMaybe<Scalars['String']>;
+  AutoOfferOffset?: InputMaybe<Scalars['BigDecimal']>;
+  AutoOfferRespectJobRegion?: InputMaybe<Scalars['Boolean']>;
+  AutoOfferRespectJobTags?: InputMaybe<Scalars['Boolean']>;
+  AutoOfferRespectPreviousOfferStatus?: InputMaybe<Scalars['Boolean']>;
+  AutoOfferRespectResourceAvailability?: InputMaybe<Scalars['Boolean']>;
   Name?: InputMaybe<Scalars['String']>;
   UID?: InputMaybe<Scalars['ID']>;
+};
+
+export type UpsertGroupEvent = {
+  JobId?: InputMaybe<Scalars['ID']>;
+  Name?: InputMaybe<Scalars['String']>;
+  UID?: InputMaybe<Scalars['ID']>;
+};
+
+export type UpsertGroupEvent1 = {
+  JobId?: InputMaybe<Scalars['ID']>;
+  UID?: InputMaybe<Scalars['ID']>;
+  name?: InputMaybe<Scalars['String']>;
 };
 
 export type UpsertHolidayRegions = {
@@ -13394,13 +11979,17 @@ export type UpsertJobs = {
   ActualEnd?: InputMaybe<Scalars['Instant']>;
   ActualStart?: InputMaybe<Scalars['Instant']>;
   Address?: InputMaybe<Scalars['String']>;
-  AuthorizationServiceId?: InputMaybe<Scalars['ID']>;
-  AuthorizedHoursPerWeek?: InputMaybe<Scalars['BigDecimal']>;
+  AutoOffer?: InputMaybe<Scalars['String']>;
+  AutoOfferDate?: InputMaybe<Scalars['String']>;
+  AutoOfferOffset?: InputMaybe<Scalars['BigDecimal']>;
+  AutoOfferRespectJobRegion?: InputMaybe<Scalars['Boolean']>;
+  AutoOfferRespectJobTags?: InputMaybe<Scalars['Boolean']>;
+  AutoOfferRespectPreviousOfferStatus?: InputMaybe<Scalars['Boolean']>;
+  AutoOfferRespectResourceAvailability?: InputMaybe<Scalars['Boolean']>;
   AutoSchedule?: InputMaybe<Scalars['Boolean']>;
   CanBeDeclined?: InputMaybe<Scalars['Boolean']>;
-  ClearOfExceptions?: InputMaybe<Scalars['Boolean']>;
-  ClientAuthorizationId?: InputMaybe<Scalars['ID']>;
   CompletionNotes?: InputMaybe<Scalars['String']>;
+  Confirmed?: InputMaybe<Scalars['Boolean']>;
   ContactId?: InputMaybe<Scalars['ID']>;
   CopiedFromId?: InputMaybe<Scalars['ID']>;
   CustomerConfirmationStatus?: InputMaybe<Scalars['CustomerConfirmationStatus']>;
@@ -13409,15 +11998,14 @@ export type UpsertJobs = {
   End?: InputMaybe<Scalars['Instant']>;
   EstimatedEnd?: InputMaybe<Scalars['Instant']>;
   EstimatedStart?: InputMaybe<Scalars['Instant']>;
-  FamilyAgreedUpon?: InputMaybe<Scalars['BigDecimal']>;
   FollowupReason?: InputMaybe<Scalars['String']>;
   GeoLatitude?: InputMaybe<Scalars['BigDecimal']>;
   GeoLongitude?: InputMaybe<Scalars['BigDecimal']>;
   IsGroupEvent?: InputMaybe<Scalars['Boolean']>;
   JobAllocationTimeSource?: InputMaybe<Scalars['Boolean']>;
+  JobStartDefer?: InputMaybe<Scalars['BigDecimal']>;
   JobStatus?: InputMaybe<Scalars['JobStatus']>;
   LocationId?: InputMaybe<Scalars['ID']>;
-  LocationType?: InputMaybe<Scalars['String']>;
   Locked?: InputMaybe<Scalars['Boolean']>;
   MaxAttendees?: InputMaybe<Scalars['Int']>;
   MinAttendees?: InputMaybe<Scalars['Int']>;
@@ -13429,10 +12017,10 @@ export type UpsertJobs = {
   Quantity?: InputMaybe<Scalars['Int']>;
   RecurringScheduleId?: InputMaybe<Scalars['ID']>;
   RegionId: Scalars['ID'];
+  RequiredKit?: InputMaybe<Scalars['BigDecimal']>;
   ScheduleTemplateId?: InputMaybe<Scalars['ID']>;
   Start?: InputMaybe<Scalars['Instant']>;
   TemplatedJobId?: InputMaybe<Scalars['ID']>;
-  TotalAuthorizedServiceHours?: InputMaybe<Scalars['BigDecimal']>;
   Type?: InputMaybe<Scalars['String']>;
   UID?: InputMaybe<Scalars['ID']>;
   Urgency?: InputMaybe<Scalars['String']>;
@@ -13452,7 +12040,6 @@ export type UpsertLocationResourceScores = {
 export type UpsertLocations = {
   AccountId?: InputMaybe<Scalars['ID']>;
   Address?: InputMaybe<Scalars['String']>;
-  Default?: InputMaybe<Scalars['Boolean']>;
   GeoLatitude?: InputMaybe<Scalars['BigDecimal']>;
   GeoLongitude?: InputMaybe<Scalars['BigDecimal']>;
   Name: Scalars['String'];
@@ -13463,8 +12050,27 @@ export type UpsertLocations = {
 };
 
 export type UpsertLogger = {
-  Message?: InputMaybe<Scalars['String']>;
+  Description?: InputMaybe<Scalars['String']>;
+  UID?: InputMaybe<Scalars['ID']>;
+  jobhistoryId?: InputMaybe<Scalars['ID']>;
+};
+
+export type UpsertMonitorLogs = {
+  Description: Scalars['String'];
+  MonitorsId: Scalars['ID'];
+  Name: Scalars['String'];
   Type?: InputMaybe<Scalars['String']>;
+  UID?: InputMaybe<Scalars['ID']>;
+};
+
+export type UpsertMonitors = {
+  Name: Scalars['String'];
+  UID?: InputMaybe<Scalars['ID']>;
+  VendorsId: Scalars['ID'];
+};
+
+export type UpsertPatients = {
+  Name?: InputMaybe<Scalars['String']>;
   UID?: InputMaybe<Scalars['ID']>;
 };
 
@@ -13474,6 +12080,32 @@ export type UpsertProducts = {
   IsActive?: InputMaybe<Scalars['Boolean']>;
   Name: Scalars['String'];
   ProductCode?: InputMaybe<Scalars['String']>;
+  UID?: InputMaybe<Scalars['ID']>;
+};
+
+export type UpsertProjects = {
+  Name?: InputMaybe<Scalars['String']>;
+  UID?: InputMaybe<Scalars['ID']>;
+};
+
+export type UpsertPublicPageSetting = {
+  Link?: InputMaybe<Scalars['String']>;
+  UID?: InputMaybe<Scalars['ID']>;
+};
+
+export type UpsertPublicPageTemplate = {
+  Description?: InputMaybe<Scalars['String']>;
+  Name?: InputMaybe<Scalars['String']>;
+  UID?: InputMaybe<Scalars['ID']>;
+};
+
+export type UpsertPublicSchedule = {
+  IsInactivated?: InputMaybe<Scalars['Boolean']>;
+  JobId?: InputMaybe<Scalars['ID']>;
+  Name?: InputMaybe<Scalars['String']>;
+  Note?: InputMaybe<Scalars['String']>;
+  PublicPageTemplateId?: InputMaybe<Scalars['ID']>;
+  Status?: InputMaybe<Scalars['String']>;
   UID?: InputMaybe<Scalars['ID']>;
 };
 
@@ -13587,17 +12219,16 @@ export type UpsertResourceTags = {
 export type UpsertResources = {
   Alias?: InputMaybe<Scalars['String']>;
   AutoSchedule?: InputMaybe<Scalars['Boolean']>;
-  CareConnectUserID?: InputMaybe<Scalars['BigDecimal']>;
+  Birthday?: InputMaybe<Scalars['LocalDate']>;
   Category?: InputMaybe<Scalars['String']>;
   CountryCode?: InputMaybe<Scalars['String']>;
-  EffectiveTerminationDate?: InputMaybe<Scalars['Instant']>;
   Email?: InputMaybe<Scalars['String']>;
   EmploymentType?: InputMaybe<Scalars['String']>;
-  FSM?: InputMaybe<Scalars['String']>;
   GeoLatitude?: InputMaybe<Scalars['BigDecimal']>;
   GeoLongitude?: InputMaybe<Scalars['BigDecimal']>;
   HomeAddress?: InputMaybe<Scalars['String']>;
   IsActive?: InputMaybe<Scalars['Boolean']>;
+  Language?: InputMaybe<Scalars['String']>;
   MobilePhone?: InputMaybe<Scalars['String']>;
   Name: Scalars['String'];
   Notes?: InputMaybe<Scalars['String']>;
@@ -13605,29 +12236,12 @@ export type UpsertResources = {
   PrimaryPhone?: InputMaybe<Scalars['String']>;
   PrimaryRegionId: Scalars['ID'];
   Rating?: InputMaybe<Scalars['Int']>;
-  ReportsTo?: InputMaybe<Scalars['String']>;
-  RequestedWorkingHoursPerWeek?: InputMaybe<Scalars['BigDecimal']>;
   ResourceType?: InputMaybe<Scalars['String']>;
-  TotalUtilizedHours?: InputMaybe<Scalars['String']>;
   UID?: InputMaybe<Scalars['ID']>;
   UserId?: InputMaybe<Scalars['ID']>;
+  VehicleID?: InputMaybe<Scalars['String']>;
   WeeklyHours?: InputMaybe<Scalars['BigDecimal']>;
   WorkingHourType?: InputMaybe<Scalars['WorkingHourType']>;
-  amsuserstatus?: InputMaybe<Scalars['String']>;
-  city?: InputMaybe<Scalars['String']>;
-  complianceissue?: InputMaybe<Scalars['String']>;
-  degreetypelab?: InputMaybe<Scalars['String']>;
-  estimatedactivationtimestamp?: InputMaybe<Scalars['String']>;
-  gender?: InputMaybe<Scalars['String']>;
-  homephone?: InputMaybe<Scalars['String']>;
-  middleInitial?: InputMaybe<Scalars['String']>;
-  npi?: InputMaybe<Scalars['String']>;
-  onboardingstatuslabel?: InputMaybe<Scalars['String']>;
-  personalemail?: InputMaybe<Scalars['String']>;
-  state?: InputMaybe<Scalars['String']>;
-  uniqueeid?: InputMaybe<Scalars['String']>;
-  worksfor?: InputMaybe<Scalars['String']>;
-  zip?: InputMaybe<Scalars['String']>;
 };
 
 export type UpsertScheduleTemplates = {
@@ -13670,14 +12284,6 @@ export type UpsertShifts = {
   ScheduleTemplateId?: InputMaybe<Scalars['ID']>;
   Start?: InputMaybe<Scalars['Instant']>;
   TemplatedShiftId?: InputMaybe<Scalars['ID']>;
-  UID?: InputMaybe<Scalars['ID']>;
-};
-
-export type UpsertStarterTest = {
-  ResourceId: Scalars['ID'];
-  StarterTestBooleanField?: InputMaybe<Scalars['Boolean']>;
-  StarterTestDecimalField?: InputMaybe<Scalars['BigDecimal']>;
-  StarterTestPicklistField?: InputMaybe<Scalars['String']>;
   UID?: InputMaybe<Scalars['ID']>;
 };
 
@@ -13885,53 +12491,78 @@ export type UpsertTemplatedShifts = {
   UID?: InputMaybe<Scalars['ID']>;
 };
 
+export type UpsertTestPerObj = {
+  Field1?: InputMaybe<Scalars['String']>;
+  Field2?: InputMaybe<Scalars['String']>;
+  JobId?: InputMaybe<Scalars['ID']>;
+  UID?: InputMaybe<Scalars['ID']>;
+};
+
+export type UpsertTestPerObject2 = {
+  FieldA?: InputMaybe<Scalars['BigDecimal']>;
+  FieldB?: InputMaybe<Scalars['BigDecimal']>;
+  JobId?: InputMaybe<Scalars['ID']>;
+  JobTestPer2Id?: InputMaybe<Scalars['ID']>;
+  UID?: InputMaybe<Scalars['ID']>;
+};
+
+export type UpsertTimesheet = {
+  ApprovedById?: InputMaybe<Scalars['ID']>;
+  ApprovedDate?: InputMaybe<Scalars['LocalDate']>;
+  ApproverComments?: InputMaybe<Scalars['String']>;
+  EndDate?: InputMaybe<Scalars['LocalDate']>;
+  ResourceId?: InputMaybe<Scalars['ID']>;
+  StartDate?: InputMaybe<Scalars['LocalDate']>;
+  Status?: InputMaybe<Scalars['String']>;
+  SubmitterComments?: InputMaybe<Scalars['String']>;
+  UID?: InputMaybe<Scalars['ID']>;
+};
+
+export type UpsertTimesheetEntry = {
+  ActivityId?: InputMaybe<Scalars['ID']>;
+  Description?: InputMaybe<Scalars['String']>;
+  Distance?: InputMaybe<Scalars['BigDecimal']>;
+  EndDate?: InputMaybe<Scalars['LocalDate']>;
+  EndTime?: InputMaybe<Scalars['LocalTime']>;
+  EntryType?: InputMaybe<Scalars['String']>;
+  JobId?: InputMaybe<Scalars['ID']>;
+  ShiftId?: InputMaybe<Scalars['ID']>;
+  StartDate?: InputMaybe<Scalars['LocalDate']>;
+  StartTime?: InputMaybe<Scalars['LocalTime']>;
+  TimesheetId?: InputMaybe<Scalars['ID']>;
+  UID?: InputMaybe<Scalars['ID']>;
+  UnavailabilityId?: InputMaybe<Scalars['ID']>;
+};
+
+export type UpsertTraining = {
+  PL?: InputMaybe<Scalars['String']>;
+  TextA?: InputMaybe<Scalars['String']>;
+  UID?: InputMaybe<Scalars['ID']>;
+};
+
+export type UpsertTuanTest = {
+  Age?: InputMaybe<Scalars['BigDecimal']>;
+  Name?: InputMaybe<Scalars['String']>;
+  UID?: InputMaybe<Scalars['ID']>;
+};
+
 export type UpsertUserRegions = {
   RegionId: Scalars['ID'];
   UID?: InputMaybe<Scalars['ID']>;
   UserId: Scalars['ID'];
 };
 
-export type UpsertUser_Ext = {
-  CareConnectUserID?: InputMaybe<Scalars['String']>;
+export type UpsertVendorTag = {
+  TagsId: Scalars['ID'];
   UID?: InputMaybe<Scalars['ID']>;
-  uniqueeid?: InputMaybe<Scalars['String']>;
-  userId?: InputMaybe<Scalars['ID']>;
+  VendorsId: Scalars['ID'];
 };
 
-export type UpsertclientAvailabilityTemplateEntry = {
-  AllDay?: InputMaybe<Scalars['Boolean']>;
-  ClientAvailabilityTemplateId?: InputMaybe<Scalars['ID']>;
-  EndTime?: InputMaybe<Scalars['LocalTime']>;
-  LocationId?: InputMaybe<Scalars['ID']>;
+export type UpsertVendors = {
+  Description?: InputMaybe<Scalars['String']>;
   Name?: InputMaybe<Scalars['String']>;
-  StartTime?: InputMaybe<Scalars['LocalTime']>;
+  TenantId?: InputMaybe<Scalars['String']>;
   UID?: InputMaybe<Scalars['ID']>;
-  Weekday?: InputMaybe<Scalars['String']>;
-};
-
-export type Upsertsked_BroadcastRecipients = {
-  UID?: InputMaybe<Scalars['ID']>;
-  sked_BroadcastId: Scalars['ID'];
-  sked_ContactId?: InputMaybe<Scalars['ID']>;
-  sked_Date?: InputMaybe<Scalars['LocalDate']>;
-  sked_ErrorInformation?: InputMaybe<Scalars['String']>;
-  sked_NotificationMethod?: InputMaybe<Scalars['String']>;
-  sked_Phone?: InputMaybe<Scalars['String']>;
-  sked_ResourceId?: InputMaybe<Scalars['ID']>;
-  sked_Status?: InputMaybe<Scalars['String']>;
-  sked_Timestamp?: InputMaybe<Scalars['String']>;
-};
-
-export type Upsertsked_Broadcasts = {
-  UID?: InputMaybe<Scalars['ID']>;
-  sked_Broadcast?: InputMaybe<Scalars['String']>;
-  sked_Date?: InputMaybe<Scalars['LocalDate']>;
-  sked_NotSent?: InputMaybe<Scalars['BigDecimal']>;
-  sked_NotificationMethod?: InputMaybe<Scalars['String']>;
-  sked_RecipientType?: InputMaybe<Scalars['String']>;
-  sked_Sent?: InputMaybe<Scalars['BigDecimal']>;
-  sked_Timestamp?: InputMaybe<Scalars['String']>;
-  sked_TotalRecipients?: InputMaybe<Scalars['BigDecimal']>;
 };
 
 export type UserRegions = {
@@ -13963,35 +12594,6 @@ export type UserRegionsEdge = {
   offset: Scalars['Int'];
 };
 
-export type User_Ext = {
-  __typename?: 'User_Ext';
-  CareConnectUserID?: Maybe<Scalars['String']>;
-  CreatedBy: Users;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedBy: Users;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  UID: Scalars['ID'];
-  uniqueeid?: Maybe<Scalars['String']>;
-  user?: Maybe<Users>;
-  userId?: Maybe<Scalars['ID']>;
-};
-
-export type User_ExtConnection = {
-  __typename?: 'User_ExtConnection';
-  edges: Array<User_ExtEdge>;
-  pageInfo: PageInfo;
-  totalCount: Scalars['Int'];
-};
-
-export type User_ExtEdge = {
-  __typename?: 'User_ExtEdge';
-  cursor: Scalars['Base64'];
-  node: User_Ext;
-  offset: Scalars['Int'];
-};
-
 export type Users = {
   __typename?: 'Users';
   City?: Maybe<Scalars['String']>;
@@ -14017,7 +12619,6 @@ export type Users = {
   UID: Scalars['ID'];
   UserRegions: Array<UserRegions>;
   UserTypes?: Maybe<Array<Scalars['String']>>;
-  user: Array<User_Ext>;
 };
 
 
@@ -14030,12 +12631,6 @@ export type UsersResourcesArgs = {
 export type UsersUserRegionsArgs = {
   filter?: InputMaybe<Scalars['EQLQueryFilterUserRegions']>;
   orderBy?: InputMaybe<Scalars['EQLOrderByClauseUserRegions']>;
-};
-
-
-export type UsersUserArgs = {
-  filter?: InputMaybe<Scalars['EQLQueryFilterUser_Ext']>;
-  orderBy?: InputMaybe<Scalars['EQLOrderByClauseUser_Ext']>;
 };
 
 export type UsersConnection = {
@@ -14052,107 +12647,60 @@ export type UsersEdge = {
   offset: Scalars['Int'];
 };
 
-export type ClientAvailabilityTemplateEntry = {
-  __typename?: 'clientAvailabilityTemplateEntry';
-  AllDay: Scalars['Boolean'];
-  ClientAvailabilityTemplate?: Maybe<ClientAvailabilityTemplate>;
-  ClientAvailabilityTemplateId?: Maybe<Scalars['ID']>;
+export type VendorTag = {
+  __typename?: 'VendorTag';
   CreatedBy: Users;
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
-  EndTime?: Maybe<Scalars['LocalTime']>;
   LastModifiedBy: Users;
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
-  Location?: Maybe<Locations>;
-  LocationId?: Maybe<Scalars['ID']>;
+  Tags: Tags;
+  TagsId: Scalars['ID'];
+  UID: Scalars['ID'];
+  Vendors: Vendors;
+  VendorsId: Scalars['ID'];
+};
+
+export type VendorTagConnection = {
+  __typename?: 'VendorTagConnection';
+  edges: Array<VendorTagEdge>;
+  pageInfo: PageInfo;
+  totalCount: Scalars['Int'];
+};
+
+export type VendorTagEdge = {
+  __typename?: 'VendorTagEdge';
+  cursor: Scalars['Base64'];
+  node: VendorTag;
+  offset: Scalars['Int'];
+};
+
+export type Vendors = {
+  __typename?: 'Vendors';
+  CreatedBy: Users;
+  CreatedById: Scalars['ID'];
+  CreatedDate: Scalars['Instant'];
+  Description?: Maybe<Scalars['String']>;
+  LastModifiedBy: Users;
+  LastModifiedById: Scalars['ID'];
+  LastModifiedDate: Scalars['Instant'];
   Name?: Maybe<Scalars['String']>;
-  StartTime?: Maybe<Scalars['LocalTime']>;
+  TenantId?: Maybe<Scalars['String']>;
   UID: Scalars['ID'];
-  Weekday?: Maybe<Scalars['String']>;
 };
 
-export type ClientAvailabilityTemplateEntryConnection = {
-  __typename?: 'clientAvailabilityTemplateEntryConnection';
-  edges: Array<ClientAvailabilityTemplateEntryEdge>;
+export type VendorsConnection = {
+  __typename?: 'VendorsConnection';
+  edges: Array<VendorsEdge>;
   pageInfo: PageInfo;
   totalCount: Scalars['Int'];
 };
 
-export type ClientAvailabilityTemplateEntryEdge = {
-  __typename?: 'clientAvailabilityTemplateEntryEdge';
+export type VendorsEdge = {
+  __typename?: 'VendorsEdge';
   cursor: Scalars['Base64'];
-  node: ClientAvailabilityTemplateEntry;
-  offset: Scalars['Int'];
-};
-
-export type Sked_BroadcastRecipients = {
-  __typename?: 'sked_BroadcastRecipients';
-  CreatedBy: Users;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedBy: Users;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  UID: Scalars['ID'];
-  sked_Broadcast: Sked_Broadcasts;
-  sked_BroadcastId: Scalars['ID'];
-  sked_Contact?: Maybe<Contacts>;
-  sked_ContactId?: Maybe<Scalars['ID']>;
-  sked_Date?: Maybe<Scalars['LocalDate']>;
-  sked_ErrorInformation?: Maybe<Scalars['String']>;
-  sked_NotificationMethod?: Maybe<Scalars['String']>;
-  sked_Phone?: Maybe<Scalars['String']>;
-  sked_Resource?: Maybe<Resources>;
-  sked_ResourceId?: Maybe<Scalars['ID']>;
-  sked_Status?: Maybe<Scalars['String']>;
-  sked_Timestamp?: Maybe<Scalars['String']>;
-};
-
-export type Sked_BroadcastRecipientsConnection = {
-  __typename?: 'sked_BroadcastRecipientsConnection';
-  edges: Array<Sked_BroadcastRecipientsEdge>;
-  pageInfo: PageInfo;
-  totalCount: Scalars['Int'];
-};
-
-export type Sked_BroadcastRecipientsEdge = {
-  __typename?: 'sked_BroadcastRecipientsEdge';
-  cursor: Scalars['Base64'];
-  node: Sked_BroadcastRecipients;
-  offset: Scalars['Int'];
-};
-
-export type Sked_Broadcasts = {
-  __typename?: 'sked_Broadcasts';
-  CreatedBy: Users;
-  CreatedById: Scalars['ID'];
-  CreatedDate: Scalars['Instant'];
-  LastModifiedBy: Users;
-  LastModifiedById: Scalars['ID'];
-  LastModifiedDate: Scalars['Instant'];
-  UID: Scalars['ID'];
-  sked_Broadcast?: Maybe<Scalars['String']>;
-  sked_Date?: Maybe<Scalars['LocalDate']>;
-  sked_NotSent?: Maybe<Scalars['BigDecimal']>;
-  sked_NotificationMethod?: Maybe<Scalars['String']>;
-  sked_RecipientType?: Maybe<Scalars['String']>;
-  sked_Sent?: Maybe<Scalars['BigDecimal']>;
-  sked_Timestamp?: Maybe<Scalars['String']>;
-  sked_TotalRecipients?: Maybe<Scalars['BigDecimal']>;
-};
-
-export type Sked_BroadcastsConnection = {
-  __typename?: 'sked_BroadcastsConnection';
-  edges: Array<Sked_BroadcastsEdge>;
-  pageInfo: PageInfo;
-  totalCount: Scalars['Int'];
-};
-
-export type Sked_BroadcastsEdge = {
-  __typename?: 'sked_BroadcastsEdge';
-  cursor: Scalars['Base64'];
-  node: Sked_Broadcasts;
+  node: Vendors;
   offset: Scalars['Int'];
 };
 
@@ -14162,6 +12710,75 @@ export type FetchJobsQueryVariables = Exact<{
 
 
 export type FetchJobsQuery = { __typename?: 'Query', jobs: { __typename?: 'JobsConnection', edges: Array<{ __typename?: 'JobsEdge', node: { __typename?: 'Jobs', UID: string, Name: string } }> } };
+
+export type FetchVendorsQueryVariables = Exact<{ [key: string]: never; }>;
+
+
+export type FetchVendorsQuery = { __typename?: 'Query', vendors: { __typename?: 'VendorsConnection', edges: Array<{ __typename?: 'VendorsEdge', node: { __typename?: 'Vendors', UID: string, Name?: string | null, TenantId?: string | null, Description?: string | null } }> } };
+
+export type FetchVendorByIdQueryVariables = Exact<{
+  UID: Scalars['ID'];
+}>;
+
+
+export type FetchVendorByIdQuery = { __typename?: 'Query', vendorsById?: { __typename?: 'Vendors', UID: string, Name?: string | null, TenantId?: string | null, Description?: string | null } | null };
+
+export type InsertVendorMutationVariables = Exact<{
+  input: NewVendors;
+}>;
+
+
+export type InsertVendorMutation = { __typename?: 'Mutation', schema: { __typename?: 'SchemaMutation', insertVendors: string } };
+
+export type InsertMonitorMutationVariables = Exact<{
+  input: NewMonitors;
+}>;
+
+
+export type InsertMonitorMutation = { __typename?: 'Mutation', schema: { __typename?: 'SchemaMutation', insertMonitors: string } };
+
+export type MonitorLogsMutationVariables = Exact<{
+  input: NewMonitorLogs;
+}>;
+
+
+export type MonitorLogsMutation = { __typename?: 'Mutation', schema: { __typename?: 'SchemaMutation', insertMonitorLogs: string } };
+
+export type FetchMonitorQueryVariables = Exact<{
+  filter?: InputMaybe<Scalars['EQLQueryFilterMonitors']>;
+}>;
+
+
+export type FetchMonitorQuery = { __typename?: 'Query', monitors: { __typename?: 'MonitorsConnection', edges: Array<{ __typename?: 'MonitorsEdge', node: { __typename?: 'Monitors', UID: string, Name: string, VendorsId: string } }> } };
+
+export type FetchVendorTagsQueryVariables = Exact<{
+  filter?: InputMaybe<Scalars['EQLQueryFilterVendorTag']>;
+}>;
+
+
+export type FetchVendorTagsQuery = { __typename?: 'Query', vendorTag: { __typename?: 'VendorTagConnection', edges: Array<{ __typename?: 'VendorTagEdge', node: { __typename?: 'VendorTag', UID: string, VendorsId: string, TagsId: string } }> } };
+
+export type FetchTagsQueryVariables = Exact<{
+  filter?: InputMaybe<Scalars['EQLQueryFilterTags']>;
+}>;
+
+
+export type FetchTagsQuery = { __typename?: 'Query', tags: { __typename?: 'TagsConnection', edges: Array<{ __typename?: 'TagsEdge', node: { __typename?: 'Tags', UID: string, Name: string } }> } };
+
+export type FetchMonitorLogsQueryVariables = Exact<{
+  filter?: InputMaybe<Scalars['EQLQueryFilterMonitorLogs']>;
+}>;
+
+
+export type FetchMonitorLogsQuery = { __typename?: 'Query', monitorLogs: { __typename?: 'MonitorLogsConnection', edges: Array<{ __typename?: 'MonitorLogsEdge', node: { __typename?: 'MonitorLogs', CreatedDate: any, UID: string, Name: string, Description: string, Type?: string | null, MonitorsId: string } }> } };
+
+export type SubLogSubscriptionVariables = Exact<{
+  filter?: InputMaybe<Scalars['EQLRecordFilterMonitorLogs']>;
+  operation?: InputMaybe<Array<SchemaSubscriptionOp> | SchemaSubscriptionOp>;
+}>;
+
+
+export type SubLogSubscription = { __typename?: 'Subscription', schemaMonitorLogs: { __typename?: 'SchemaSubscriptionNotificationMonitorLogs', data: { __typename?: 'SchemaSubscriptionMonitorLogs', CreatedDate: any, UID: string, Name: string, Description: string, Type?: string | null } } };
 
 
 export const FetchJobsDocument = gql`
@@ -14204,3 +12821,384 @@ export function useFetchJobsLazyQuery(baseOptions?: Apollo.LazyQueryHookOptions<
 export type FetchJobsQueryHookResult = ReturnType<typeof useFetchJobsQuery>;
 export type FetchJobsLazyQueryHookResult = ReturnType<typeof useFetchJobsLazyQuery>;
 export type FetchJobsQueryResult = Apollo.QueryResult<FetchJobsQuery, FetchJobsQueryVariables>;
+export const FetchVendorsDocument = gql`
+    query fetchVendors {
+  vendors {
+    edges {
+      node {
+        UID
+        Name
+        TenantId
+        Description
+      }
+    }
+  }
+}
+    `;
+
+/**
+ * __useFetchVendorsQuery__
+ *
+ * To run a query within a React component, call `useFetchVendorsQuery` and pass it any options that fit your needs.
+ * When your component renders, `useFetchVendorsQuery` returns an object from Apollo Client that contains loading, error, and data properties
+ * you can use to render your UI.
+ *
+ * @param baseOptions options that will be passed into the query, supported options are listed on: https://www.apollographql.com/docs/react/api/react-hooks/#options;
+ *
+ * @example
+ * const { data, loading, error } = useFetchVendorsQuery({
+ *   variables: {
+ *   },
+ * });
+ */
+export function useFetchVendorsQuery(baseOptions?: Apollo.QueryHookOptions<FetchVendorsQuery, FetchVendorsQueryVariables>) {
+        const options = {...defaultOptions, ...baseOptions}
+        return Apollo.useQuery<FetchVendorsQuery, FetchVendorsQueryVariables>(FetchVendorsDocument, options);
+      }
+export function useFetchVendorsLazyQuery(baseOptions?: Apollo.LazyQueryHookOptions<FetchVendorsQuery, FetchVendorsQueryVariables>) {
+          const options = {...defaultOptions, ...baseOptions}
+          return Apollo.useLazyQuery<FetchVendorsQuery, FetchVendorsQueryVariables>(FetchVendorsDocument, options);
+        }
+export type FetchVendorsQueryHookResult = ReturnType<typeof useFetchVendorsQuery>;
+export type FetchVendorsLazyQueryHookResult = ReturnType<typeof useFetchVendorsLazyQuery>;
+export type FetchVendorsQueryResult = Apollo.QueryResult<FetchVendorsQuery, FetchVendorsQueryVariables>;
+export const FetchVendorByIdDocument = gql`
+    query fetchVendorById($UID: ID!) {
+  vendorsById(UID: $UID) {
+    UID
+    Name
+    TenantId
+    Description
+  }
+}
+    `;
+
+/**
+ * __useFetchVendorByIdQuery__
+ *
+ * To run a query within a React component, call `useFetchVendorByIdQuery` and pass it any options that fit your needs.
+ * When your component renders, `useFetchVendorByIdQuery` returns an object from Apollo Client that contains loading, error, and data properties
+ * you can use to render your UI.
+ *
+ * @param baseOptions options that will be passed into the query, supported options are listed on: https://www.apollographql.com/docs/react/api/react-hooks/#options;
+ *
+ * @example
+ * const { data, loading, error } = useFetchVendorByIdQuery({
+ *   variables: {
+ *      UID: // value for 'UID'
+ *   },
+ * });
+ */
+export function useFetchVendorByIdQuery(baseOptions: Apollo.QueryHookOptions<FetchVendorByIdQuery, FetchVendorByIdQueryVariables>) {
+        const options = {...defaultOptions, ...baseOptions}
+        return Apollo.useQuery<FetchVendorByIdQuery, FetchVendorByIdQueryVariables>(FetchVendorByIdDocument, options);
+      }
+export function useFetchVendorByIdLazyQuery(baseOptions?: Apollo.LazyQueryHookOptions<FetchVendorByIdQuery, FetchVendorByIdQueryVariables>) {
+          const options = {...defaultOptions, ...baseOptions}
+          return Apollo.useLazyQuery<FetchVendorByIdQuery, FetchVendorByIdQueryVariables>(FetchVendorByIdDocument, options);
+        }
+export type FetchVendorByIdQueryHookResult = ReturnType<typeof useFetchVendorByIdQuery>;
+export type FetchVendorByIdLazyQueryHookResult = ReturnType<typeof useFetchVendorByIdLazyQuery>;
+export type FetchVendorByIdQueryResult = Apollo.QueryResult<FetchVendorByIdQuery, FetchVendorByIdQueryVariables>;
+export const InsertVendorDocument = gql`
+    mutation insertVendor($input: NewVendors!) {
+  schema {
+    insertVendors(input: $input)
+  }
+}
+    `;
+export type InsertVendorMutationFn = Apollo.MutationFunction<InsertVendorMutation, InsertVendorMutationVariables>;
+
+/**
+ * __useInsertVendorMutation__
+ *
+ * To run a mutation, you first call `useInsertVendorMutation` within a React component and pass it any options that fit your needs.
+ * When your component renders, `useInsertVendorMutation` returns a tuple that includes:
+ * - A mutate function that you can call at any time to execute the mutation
+ * - An object with fields that represent the current status of the mutation's execution
+ *
+ * @param baseOptions options that will be passed into the mutation, supported options are listed on: https://www.apollographql.com/docs/react/api/react-hooks/#options-2;
+ *
+ * @example
+ * const [insertVendorMutation, { data, loading, error }] = useInsertVendorMutation({
+ *   variables: {
+ *      input: // value for 'input'
+ *   },
+ * });
+ */
+export function useInsertVendorMutation(baseOptions?: Apollo.MutationHookOptions<InsertVendorMutation, InsertVendorMutationVariables>) {
+        const options = {...defaultOptions, ...baseOptions}
+        return Apollo.useMutation<InsertVendorMutation, InsertVendorMutationVariables>(InsertVendorDocument, options);
+      }
+export type InsertVendorMutationHookResult = ReturnType<typeof useInsertVendorMutation>;
+export type InsertVendorMutationResult = Apollo.MutationResult<InsertVendorMutation>;
+export type InsertVendorMutationOptions = Apollo.BaseMutationOptions<InsertVendorMutation, InsertVendorMutationVariables>;
+export const InsertMonitorDocument = gql`
+    mutation insertMonitor($input: NewMonitors!) {
+  schema {
+    insertMonitors(input: $input)
+  }
+}
+    `;
+export type InsertMonitorMutationFn = Apollo.MutationFunction<InsertMonitorMutation, InsertMonitorMutationVariables>;
+
+/**
+ * __useInsertMonitorMutation__
+ *
+ * To run a mutation, you first call `useInsertMonitorMutation` within a React component and pass it any options that fit your needs.
+ * When your component renders, `useInsertMonitorMutation` returns a tuple that includes:
+ * - A mutate function that you can call at any time to execute the mutation
+ * - An object with fields that represent the current status of the mutation's execution
+ *
+ * @param baseOptions options that will be passed into the mutation, supported options are listed on: https://www.apollographql.com/docs/react/api/react-hooks/#options-2;
+ *
+ * @example
+ * const [insertMonitorMutation, { data, loading, error }] = useInsertMonitorMutation({
+ *   variables: {
+ *      input: // value for 'input'
+ *   },
+ * });
+ */
+export function useInsertMonitorMutation(baseOptions?: Apollo.MutationHookOptions<InsertMonitorMutation, InsertMonitorMutationVariables>) {
+        const options = {...defaultOptions, ...baseOptions}
+        return Apollo.useMutation<InsertMonitorMutation, InsertMonitorMutationVariables>(InsertMonitorDocument, options);
+      }
+export type InsertMonitorMutationHookResult = ReturnType<typeof useInsertMonitorMutation>;
+export type InsertMonitorMutationResult = Apollo.MutationResult<InsertMonitorMutation>;
+export type InsertMonitorMutationOptions = Apollo.BaseMutationOptions<InsertMonitorMutation, InsertMonitorMutationVariables>;
+export const MonitorLogsDocument = gql`
+    mutation monitorLogs($input: NewMonitorLogs!) {
+  schema {
+    insertMonitorLogs(input: $input)
+  }
+}
+    `;
+export type MonitorLogsMutationFn = Apollo.MutationFunction<MonitorLogsMutation, MonitorLogsMutationVariables>;
+
+/**
+ * __useMonitorLogsMutation__
+ *
+ * To run a mutation, you first call `useMonitorLogsMutation` within a React component and pass it any options that fit your needs.
+ * When your component renders, `useMonitorLogsMutation` returns a tuple that includes:
+ * - A mutate function that you can call at any time to execute the mutation
+ * - An object with fields that represent the current status of the mutation's execution
+ *
+ * @param baseOptions options that will be passed into the mutation, supported options are listed on: https://www.apollographql.com/docs/react/api/react-hooks/#options-2;
+ *
+ * @example
+ * const [monitorLogsMutation, { data, loading, error }] = useMonitorLogsMutation({
+ *   variables: {
+ *      input: // value for 'input'
+ *   },
+ * });
+ */
+export function useMonitorLogsMutation(baseOptions?: Apollo.MutationHookOptions<MonitorLogsMutation, MonitorLogsMutationVariables>) {
+        const options = {...defaultOptions, ...baseOptions}
+        return Apollo.useMutation<MonitorLogsMutation, MonitorLogsMutationVariables>(MonitorLogsDocument, options);
+      }
+export type MonitorLogsMutationHookResult = ReturnType<typeof useMonitorLogsMutation>;
+export type MonitorLogsMutationResult = Apollo.MutationResult<MonitorLogsMutation>;
+export type MonitorLogsMutationOptions = Apollo.BaseMutationOptions<MonitorLogsMutation, MonitorLogsMutationVariables>;
+export const FetchMonitorDocument = gql`
+    query fetchMonitor($filter: EQLQueryFilterMonitors) {
+  monitors(filter: $filter) {
+    edges {
+      node {
+        UID
+        Name
+        VendorsId
+      }
+    }
+  }
+}
+    `;
+
+/**
+ * __useFetchMonitorQuery__
+ *
+ * To run a query within a React component, call `useFetchMonitorQuery` and pass it any options that fit your needs.
+ * When your component renders, `useFetchMonitorQuery` returns an object from Apollo Client that contains loading, error, and data properties
+ * you can use to render your UI.
+ *
+ * @param baseOptions options that will be passed into the query, supported options are listed on: https://www.apollographql.com/docs/react/api/react-hooks/#options;
+ *
+ * @example
+ * const { data, loading, error } = useFetchMonitorQuery({
+ *   variables: {
+ *      filter: // value for 'filter'
+ *   },
+ * });
+ */
+export function useFetchMonitorQuery(baseOptions?: Apollo.QueryHookOptions<FetchMonitorQuery, FetchMonitorQueryVariables>) {
+        const options = {...defaultOptions, ...baseOptions}
+        return Apollo.useQuery<FetchMonitorQuery, FetchMonitorQueryVariables>(FetchMonitorDocument, options);
+      }
+export function useFetchMonitorLazyQuery(baseOptions?: Apollo.LazyQueryHookOptions<FetchMonitorQuery, FetchMonitorQueryVariables>) {
+          const options = {...defaultOptions, ...baseOptions}
+          return Apollo.useLazyQuery<FetchMonitorQuery, FetchMonitorQueryVariables>(FetchMonitorDocument, options);
+        }
+export type FetchMonitorQueryHookResult = ReturnType<typeof useFetchMonitorQuery>;
+export type FetchMonitorLazyQueryHookResult = ReturnType<typeof useFetchMonitorLazyQuery>;
+export type FetchMonitorQueryResult = Apollo.QueryResult<FetchMonitorQuery, FetchMonitorQueryVariables>;
+export const FetchVendorTagsDocument = gql`
+    query fetchVendorTags($filter: EQLQueryFilterVendorTag) {
+  vendorTag(filter: $filter) {
+    edges {
+      node {
+        UID
+        VendorsId
+        TagsId
+      }
+    }
+  }
+}
+    `;
+
+/**
+ * __useFetchVendorTagsQuery__
+ *
+ * To run a query within a React component, call `useFetchVendorTagsQuery` and pass it any options that fit your needs.
+ * When your component renders, `useFetchVendorTagsQuery` returns an object from Apollo Client that contains loading, error, and data properties
+ * you can use to render your UI.
+ *
+ * @param baseOptions options that will be passed into the query, supported options are listed on: https://www.apollographql.com/docs/react/api/react-hooks/#options;
+ *
+ * @example
+ * const { data, loading, error } = useFetchVendorTagsQuery({
+ *   variables: {
+ *      filter: // value for 'filter'
+ *   },
+ * });
+ */
+export function useFetchVendorTagsQuery(baseOptions?: Apollo.QueryHookOptions<FetchVendorTagsQuery, FetchVendorTagsQueryVariables>) {
+        const options = {...defaultOptions, ...baseOptions}
+        return Apollo.useQuery<FetchVendorTagsQuery, FetchVendorTagsQueryVariables>(FetchVendorTagsDocument, options);
+      }
+export function useFetchVendorTagsLazyQuery(baseOptions?: Apollo.LazyQueryHookOptions<FetchVendorTagsQuery, FetchVendorTagsQueryVariables>) {
+          const options = {...defaultOptions, ...baseOptions}
+          return Apollo.useLazyQuery<FetchVendorTagsQuery, FetchVendorTagsQueryVariables>(FetchVendorTagsDocument, options);
+        }
+export type FetchVendorTagsQueryHookResult = ReturnType<typeof useFetchVendorTagsQuery>;
+export type FetchVendorTagsLazyQueryHookResult = ReturnType<typeof useFetchVendorTagsLazyQuery>;
+export type FetchVendorTagsQueryResult = Apollo.QueryResult<FetchVendorTagsQuery, FetchVendorTagsQueryVariables>;
+export const FetchTagsDocument = gql`
+    query fetchTags($filter: EQLQueryFilterTags) {
+  tags(filter: $filter) {
+    edges {
+      node {
+        UID
+        Name
+      }
+    }
+  }
+}
+    `;
+
+/**
+ * __useFetchTagsQuery__
+ *
+ * To run a query within a React component, call `useFetchTagsQuery` and pass it any options that fit your needs.
+ * When your component renders, `useFetchTagsQuery` returns an object from Apollo Client that contains loading, error, and data properties
+ * you can use to render your UI.
+ *
+ * @param baseOptions options that will be passed into the query, supported options are listed on: https://www.apollographql.com/docs/react/api/react-hooks/#options;
+ *
+ * @example
+ * const { data, loading, error } = useFetchTagsQuery({
+ *   variables: {
+ *      filter: // value for 'filter'
+ *   },
+ * });
+ */
+export function useFetchTagsQuery(baseOptions?: Apollo.QueryHookOptions<FetchTagsQuery, FetchTagsQueryVariables>) {
+        const options = {...defaultOptions, ...baseOptions}
+        return Apollo.useQuery<FetchTagsQuery, FetchTagsQueryVariables>(FetchTagsDocument, options);
+      }
+export function useFetchTagsLazyQuery(baseOptions?: Apollo.LazyQueryHookOptions<FetchTagsQuery, FetchTagsQueryVariables>) {
+          const options = {...defaultOptions, ...baseOptions}
+          return Apollo.useLazyQuery<FetchTagsQuery, FetchTagsQueryVariables>(FetchTagsDocument, options);
+        }
+export type FetchTagsQueryHookResult = ReturnType<typeof useFetchTagsQuery>;
+export type FetchTagsLazyQueryHookResult = ReturnType<typeof useFetchTagsLazyQuery>;
+export type FetchTagsQueryResult = Apollo.QueryResult<FetchTagsQuery, FetchTagsQueryVariables>;
+export const FetchMonitorLogsDocument = gql`
+    query fetchMonitorLogs($filter: EQLQueryFilterMonitorLogs) {
+  monitorLogs(filter: $filter, orderBy: "CreatedDate ASC") {
+    edges {
+      node {
+        CreatedDate
+        UID
+        Name
+        Description
+        Type
+        MonitorsId
+      }
+    }
+  }
+}
+    `;
+
+/**
+ * __useFetchMonitorLogsQuery__
+ *
+ * To run a query within a React component, call `useFetchMonitorLogsQuery` and pass it any options that fit your needs.
+ * When your component renders, `useFetchMonitorLogsQuery` returns an object from Apollo Client that contains loading, error, and data properties
+ * you can use to render your UI.
+ *
+ * @param baseOptions options that will be passed into the query, supported options are listed on: https://www.apollographql.com/docs/react/api/react-hooks/#options;
+ *
+ * @example
+ * const { data, loading, error } = useFetchMonitorLogsQuery({
+ *   variables: {
+ *      filter: // value for 'filter'
+ *   },
+ * });
+ */
+export function useFetchMonitorLogsQuery(baseOptions?: Apollo.QueryHookOptions<FetchMonitorLogsQuery, FetchMonitorLogsQueryVariables>) {
+        const options = {...defaultOptions, ...baseOptions}
+        return Apollo.useQuery<FetchMonitorLogsQuery, FetchMonitorLogsQueryVariables>(FetchMonitorLogsDocument, options);
+      }
+export function useFetchMonitorLogsLazyQuery(baseOptions?: Apollo.LazyQueryHookOptions<FetchMonitorLogsQuery, FetchMonitorLogsQueryVariables>) {
+          const options = {...defaultOptions, ...baseOptions}
+          return Apollo.useLazyQuery<FetchMonitorLogsQuery, FetchMonitorLogsQueryVariables>(FetchMonitorLogsDocument, options);
+        }
+export type FetchMonitorLogsQueryHookResult = ReturnType<typeof useFetchMonitorLogsQuery>;
+export type FetchMonitorLogsLazyQueryHookResult = ReturnType<typeof useFetchMonitorLogsLazyQuery>;
+export type FetchMonitorLogsQueryResult = Apollo.QueryResult<FetchMonitorLogsQuery, FetchMonitorLogsQueryVariables>;
+export const SubLogDocument = gql`
+    subscription SubLog($filter: EQLRecordFilterMonitorLogs, $operation: [SchemaSubscriptionOp!]) {
+  schemaMonitorLogs(operation: $operation, filter: $filter) {
+    data {
+      CreatedDate
+      UID
+      Name
+      Description
+      Type
+    }
+  }
+}
+    `;
+
+/**
+ * __useSubLogSubscription__
+ *
+ * To run a query within a React component, call `useSubLogSubscription` and pass it any options that fit your needs.
+ * When your component renders, `useSubLogSubscription` returns an object from Apollo Client that contains loading, error, and data properties
+ * you can use to render your UI.
+ *
+ * @param baseOptions options that will be passed into the subscription, supported options are listed on: https://www.apollographql.com/docs/react/api/react-hooks/#options;
+ *
+ * @example
+ * const { data, loading, error } = useSubLogSubscription({
+ *   variables: {
+ *      filter: // value for 'filter'
+ *      operation: // value for 'operation'
+ *   },
+ * });
+ */
+export function useSubLogSubscription(baseOptions?: Apollo.SubscriptionHookOptions<SubLogSubscription, SubLogSubscriptionVariables>) {
+        const options = {...defaultOptions, ...baseOptions}
+        return Apollo.useSubscription<SubLogSubscription, SubLogSubscriptionVariables>(SubLogDocument, options);
+      }
+export type SubLogSubscriptionHookResult = ReturnType<typeof useSubLogSubscription>;
+export type SubLogSubscriptionResult = Apollo.SubscriptionResult<SubLogSubscription>;
