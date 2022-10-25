@@ -1666,7 +1666,7 @@ export type MonitorLogs = {
   CreatedBy: Users;
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
-  Description: Scalars['String'];
+  Description?: Maybe<Scalars['String']>;
   LastModifiedBy: Users;
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
@@ -2082,7 +2082,7 @@ export type NewLogger = {
 };
 
 export type NewMonitorLogs = {
-  Description: Scalars['String'];
+  Description?: InputMaybe<Scalars['String']>;
   MonitorsId: Scalars['ID'];
   Name: Scalars['String'];
   Type?: InputMaybe<Scalars['String']>;
@@ -8025,7 +8025,7 @@ export type SchemaSubscriptionMonitorLogs = {
   __typename?: 'SchemaSubscriptionMonitorLogs';
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
-  Description: Scalars['String'];
+  Description?: Maybe<Scalars['String']>;
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
   MonitorsId: Scalars['ID'];
@@ -8952,7 +8952,7 @@ export type SimpleMonitorLogs = {
   __typename?: 'SimpleMonitorLogs';
   CreatedById: Scalars['ID'];
   CreatedDate: Scalars['Instant'];
-  Description: Scalars['String'];
+  Description?: Maybe<Scalars['String']>;
   LastModifiedById: Scalars['ID'];
   LastModifiedDate: Scalars['Instant'];
   MonitorsId: Scalars['ID'];
@@ -12056,7 +12056,7 @@ export type UpsertLogger = {
 };
 
 export type UpsertMonitorLogs = {
-  Description: Scalars['String'];
+  Description?: InputMaybe<Scalars['String']>;
   MonitorsId: Scalars['ID'];
   Name: Scalars['String'];
   Type?: InputMaybe<Scalars['String']>;
@@ -12770,7 +12770,7 @@ export type FetchMonitorLogsQueryVariables = Exact<{
 }>;
 
 
-export type FetchMonitorLogsQuery = { __typename?: 'Query', monitorLogs: { __typename?: 'MonitorLogsConnection', edges: Array<{ __typename?: 'MonitorLogsEdge', node: { __typename?: 'MonitorLogs', CreatedDate: any, UID: string, Name: string, Description: string, Type?: string | null, MonitorsId: string } }> } };
+export type FetchMonitorLogsQuery = { __typename?: 'Query', monitorLogs: { __typename?: 'MonitorLogsConnection', edges: Array<{ __typename?: 'MonitorLogsEdge', node: { __typename?: 'MonitorLogs', CreatedDate: any, UID: string, Name: string, Description?: string | null, Type?: string | null, MonitorsId: string } }> } };
 
 export type SubLogSubscriptionVariables = Exact<{
   filter?: InputMaybe<Scalars['EQLRecordFilterMonitorLogs']>;
@@ -12778,7 +12778,7 @@ export type SubLogSubscriptionVariables = Exact<{
 }>;
 
 
-export type SubLogSubscription = { __typename?: 'Subscription', schemaMonitorLogs: { __typename?: 'SchemaSubscriptionNotificationMonitorLogs', data: { __typename?: 'SchemaSubscriptionMonitorLogs', CreatedDate: any, UID: string, Name: string, Description: string, Type?: string | null } } };
+export type SubLogSubscription = { __typename?: 'Subscription', schemaMonitorLogs: { __typename?: 'SchemaSubscriptionNotificationMonitorLogs', data: { __typename?: 'SchemaSubscriptionMonitorLogs', CreatedDate: any, UID: string, Name: string, Description?: string | null, Type?: string | null } } };
 
 
 export const FetchJobsDocument = gql`
@@ -13123,7 +13123,7 @@ export type FetchTagsLazyQueryHookResult = ReturnType<typeof useFetchTagsLazyQue
 export type FetchTagsQueryResult = Apollo.QueryResult<FetchTagsQuery, FetchTagsQueryVariables>;
 export const FetchMonitorLogsDocument = gql`
     query fetchMonitorLogs($filter: EQLQueryFilterMonitorLogs) {
-  monitorLogs(filter: $filter, orderBy: "CreatedDate ASC") {
+  monitorLogs(filter: $filter, orderBy: "CreatedDate DESC") {
     edges {
       node {
         CreatedDate

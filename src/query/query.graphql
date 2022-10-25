@@ -85,7 +85,7 @@ query fetchTags($filter: EQLQueryFilterTags) {
 }
 
 query fetchMonitorLogs($filter: EQLQueryFilterMonitorLogs) {
-  monitorLogs(filter: $filter, orderBy: "CreatedDate ASC") {
+  monitorLogs(filter: $filter, orderBy: "CreatedDate DESC") {
     edges {
       node {
         CreatedDate

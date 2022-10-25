@@ -46,6 +46,7 @@ const Aside: React.FC<Props> = ({ className, onSelect }) => {
         <div>
           {(data?.vendors.edges || []).map((vendor) => (
             <VendorItem
+              key={vendor.node.UID}
               vendor={vendor.node as Vendors}
               onSelectMonitor={onSelect}
             />

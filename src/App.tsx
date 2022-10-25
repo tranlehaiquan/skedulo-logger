@@ -9,8 +9,13 @@ function App() {
   return (
     <div className="min-h-screen">
       <div className="min-h-screen flex p-2">
-        <Aside className="w-80 p-4" onSelect={setSelectedMonitor} />
-        {selectedMonitor && <Monitor monitorId={selectedMonitor} />}
+        <Aside className="w-80 h-screen overflow-auto" onSelect={setSelectedMonitor} />
+        {selectedMonitor && (
+          <Monitor
+            monitorId={selectedMonitor}
+            className="w-full overflow-auto"
+          />
+        )}
       </div>
     </div>
   );

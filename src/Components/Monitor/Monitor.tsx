@@ -1,5 +1,5 @@
 import { Loading } from "@skedulo/sked-ui";
-import React, { useEffect } from "react";
+import React, { useCallback, useEffect, useRef } from "react";
 import format from "date-fns/format";
 
 import {
@@ -29,6 +29,17 @@ const Monitor: React.FC<Props> = ({ monitorId, className }) => {
       filter: `MonitorsId == '${monitorId}'`,
     },
   });
+  const codeElement = useRef<HTMLElement>(null);
+  const callBackObserver: MutationCallback = useCallback(
+    (mutationsList, observer) => {
+      if (codeElement.current) {
+        codeElement.current.scrollTop = codeElement.current.scrollHeight;
+      }
+    },
+    [codeElement.current]
+  );
+
+  const observer = useRef(new MutationObserver(callBackObserver));
 
   useEffect(() => {
     if (subscriptionInsertedLog.data) {
@@ -41,28 +52,42 @@ const Monitor: React.FC<Props> = ({ monitorId, className }) => {
     monitorLogs.refetch();
   }, []);
 
+  useEffect(() => {
+    if (codeElement.current) {
+      observer.current.observe(codeElement.current, { childList: true });
+    }
+
+    return () => {
+      observer.current.disconnect();
+    };
+  }, []);
+
   return (
     <code
-      style={{ backgroundColor: '#0f172a' }}
-      className={clsx(
-        className,
-        "overflow-auto rounded-md p-2 w-full text-slate-200"
-      )}
+      ref={codeElement}
+      style={{ backgroundColor: "#0f172a", height: `calc(99vh)` }}
+      className={clsx(className, "rounded-md p-2 text-slate-200")}
     >
-      {monitorLogs.data?.monitorLogs.edges.map(({ node }) => (
-        <p key={node.UID} className="leading-5">
-          {format(new Date(node.CreatedDate), "dd/MM/yyyy HH:mm:ss")}{" "}
-          {node.Description}
-        </p>
-      ))}
+      {[...(monitorLogs.data?.monitorLogs.edges || [])]
+        .reverse()
+        .map(({ node }) => (
+          <p key={node.UID} className="leading-5">
+            {" "}
+            <span className="text-pink-400">
+              {format(new Date(node.CreatedDate), "dd/MM/yyyy HH:mm:ss ")}{" "}
+            </span>
+            {node.Description}
+          </p>
+        ))}
 
       {newLogs.map((node) => (
         <p key={node.UID} className="leading-5">
-          {format(new Date(node.CreatedDate), "dd/MM/yyyy HH:mm:ss ")}{" "}
+          <span className="text-pink-400">
+            {format(new Date(node.CreatedDate), "dd/MM/yyyy HH:mm:ss ")}{" "}
+          </span>
           {node.Description}
         </p>
       ))}
-
       {monitorLogs.loading && <Loading />}
     </code>
   );
