@@ -3,8 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {},
-  "workspaces": ["packages/*"],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "gen": "graphql-codegen -r dotenv/config --config codegen.yml"
+  },
   "dependencies": {
     "@apollo/client": "^3.6.9",
     "@headlessui/react": "^1.7.2",
